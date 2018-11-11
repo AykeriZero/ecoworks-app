@@ -4,5 +4,3 @@
 # node_modules folder
 Ecoworks/node_modules
 
-#linter configs
-.eslintrc
