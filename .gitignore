@@ -4,3 +4,6 @@
 # node_modules folder
 Ecoworks/node_modules
 
+# Just in case we use API keys
+Ecoworks/src/config.js
+
