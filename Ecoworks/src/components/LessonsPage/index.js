@@ -14,7 +14,7 @@ class LessonsPage extends Component {
       <LessonsItem item={item} />
     );
   }
-//comment
+
   render() {
     return (
         <Card style={{ flex: 1 }}>
