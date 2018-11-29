@@ -1,7 +1,6 @@
 import { combineReducers } from 'redux';
+import LessonPageReducer from './LessonPageReducer';
 
 export default combineReducers({
-  // combine reducers needs at least one reducer,
-  // delete this once we have actual reducers
-  HOLDER_DELETE_THIS: () => []
+  lessonItem: LessonPageReducer
 });

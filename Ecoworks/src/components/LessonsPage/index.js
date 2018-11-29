@@ -1,26 +1,32 @@
 import React, { Component } from 'react';
-import { View, FlatList } from 'react-native';
+import { SafeAreaView, FlatList } from 'react-native';
+import { connect } from 'react-redux';
+import data from './Lessons.json';
 
-import LessonsItem from './LessonsItem';
+import { Card } from '../common';
+
+import LessonsItem from './LessonsListItem';
 
 class LessonsPage extends Component {
 
-  renderLessonsItem = () => {
+  renderLessonsItem = ({ item }) => {
     return (
-      <LessonsItem />
+      <LessonsItem item={item} />
     );
   }
 
   render() {
     return (
-      <View>
-        <FlatList
-          data={[{ key: 'a' }, { key: 'b' }]}
-          renderItem={this.renderLessonsItem}
-        />
-      </View>
+        <Card style={{ flex: 1 }}>
+          <FlatList
+            data={data}
+            renderItem={this.renderLessonsItem}
+            keyExtractor={(library) => library.id.toString()}
+          />
+        </Card>
     );
   }
 }
+
 
 export default LessonsPage;
