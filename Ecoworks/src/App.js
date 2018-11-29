@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
+import LessonsPage from './components/LessonsPage';
+
 import reducers from './reducers';
 import Router from './Router';
 
