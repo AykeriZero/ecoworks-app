@@ -28,5 +28,4 @@ class LessonsPage extends Component {
   }
 }
 
-
 export default LessonsPage;
