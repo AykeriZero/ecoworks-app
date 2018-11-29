@@ -24,9 +24,8 @@ class LessonsPage extends Component {
             keyExtractor={(library) => library.id.toString()}
           />
         </Card>
-    );
+     );
   }
 }
-
 
 export default LessonsPage;
