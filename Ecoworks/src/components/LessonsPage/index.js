@@ -10,7 +10,7 @@ class LessonsPage extends Component {
       <LessonsItem />
     );
   }
-
+//comment
   render() {
     return (
       <View>
