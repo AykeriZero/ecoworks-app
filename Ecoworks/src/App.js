@@ -3,6 +3,8 @@ import { Text } from 'react-native';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
+import LessonsPage from './components/LessonsPage';
+
 import reducers from './reducers';
 
 class App extends Component {
@@ -12,7 +14,7 @@ class App extends Component {
 
     return (
       <Provider store={store}>
-        <Text>Hello World</Text>
+        <LessonsPage />
       </Provider>
     );
   }
