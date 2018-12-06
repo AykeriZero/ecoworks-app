@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { Text } from 'react-native';
+//import { Text } from 'react-native';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
 import reducers from './reducers';
+import Router from './Router';
 
 class App extends Component {
 
@@ -12,7 +13,7 @@ class App extends Component {
 
     return (
       <Provider store={store}>
-        <Text>Hello World</Text>
+        <Router />
       </Provider>
     );
   }
