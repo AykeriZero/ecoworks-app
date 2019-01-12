@@ -10,6 +10,7 @@ class PageofButtons extends Component {
     return (
       <View style={{ flex: 1 }}>
         <Button onPress={() => { Actions.pageOfButtons(); }}>Test Text</Button>
+        <Button onPress={() => { Actions.lessonsList(); }}>Lessons</Button>
       </View>
     );
   }
