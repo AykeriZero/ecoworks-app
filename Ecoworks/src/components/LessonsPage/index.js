@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import { SafeAreaView, FlatList } from 'react-native';
-import { connect } from 'react-redux';
+//import { connect } from 'react-redux';
 import data from './Lessons.json';
 
 import { Card } from '../common';
 
-import LessonsItem from './LessonsListItem';
+// Only displays the title right now, (add picture?)
+import LessonsListItem from './LessonsListItem';
 
 class LessonsPage extends Component {
 
-  renderLessonsItem = ({ item }) => {
+  renderLessonsListItem = ({ item }) => {
     return (
-      <LessonsItem item={item} />
+      <LessonsListItem item={item} />
     );
   }
 
@@ -20,7 +21,7 @@ class LessonsPage extends Component {
         <Card style={{ flex: 1 }}>
           <FlatList
             data={data}
-            renderItem={this.renderLessonsItem}
+            renderItem={this.renderLessonsListItem}
             keyExtractor={(library) => library.id.toString()}
           />
         </Card>
