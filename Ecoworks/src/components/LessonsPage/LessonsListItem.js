@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import { View, Text, TouchableWithoutFeedback } from 'react-native';
+import { Actions } from 'react-native-router-flux';
 
 import { CardSection } from '../common';
 
 class LessonListItem extends Component {
 
   onRowPress() {
+    // probably some redux thing to set the current lesson
+    // then a router flux to change the page
 
+    Actions.lessonsPage({ id: this.props.item.id });
   }
 
   render() {
