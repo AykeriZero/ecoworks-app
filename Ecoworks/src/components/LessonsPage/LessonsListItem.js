@@ -10,7 +10,7 @@ class LessonListItem extends Component {
     // probably some redux thing to set the current lesson
     // then a router flux to change the page
 
-    Actions.lessonsPage({ id: this.props.item.id });
+    Actions.lessonsPage({ lesson: this.props.item });
   }
 
   render() {

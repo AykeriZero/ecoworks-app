@@ -8,8 +8,11 @@ import LessonPage1 from './LessonPage1';
 class LessonPage extends Component {
 
   render() {
-    if (this.props.id === 1) {
-      return <LessonPage1 />;
+    switch (this.props.lesson.id) {
+      case 1:
+        return <LessonPage1 lesson={this.props.lesson} />;
+      default:
+        return <LessonPage1 lesson={this.props.lesson} />;
     }
   }
 
