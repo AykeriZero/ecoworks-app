@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { ScrollView, Image, Text, View, StyleSheet } from 'react-native';
 import { Header, Checkbox } from './common';
+import LessonIcon from './lessonIcon';
 
 
 
@@ -29,18 +30,13 @@ class HomePage extends React.Component {
                         {
                             // TODO: change image to a card component with picture of lesson and title of lesson}
                         }
-                        <Image source={{uri: "https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420", width: 150, height: 150}} />
-                        <Image source={{uri: "https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420", width: 150, height: 150}} />
-                        <Image source={{uri: "https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420", width: 150, height: 150}} />
-                        <Image source={{uri: "https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420", width: 150, height: 150}} />
-                        <Image source={{uri: "https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420", width: 150, height: 150}} />
-                        <Image source={{uri: "https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420", width: 150, height: 150}} />
-                        <Image source={{uri: "https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420", width: 150, height: 150}} />
-                        <Image source={{uri: "https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420", width: 150, height: 150}} />
-                        <Image source={{uri: "https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420", width: 150, height: 150}} />
-                        <Image source={{uri: "https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420", width: 150, height: 150}} />
-                        <Image source={{uri: "https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420", width: 150, height: 150}} />
-                        <Image source={{uri: "https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420", width: 150, height: 150}} />
+                        <LessonIcon title="Lesson 1" image="https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420"/>
+                        <LessonIcon title="Lesson 2" image="https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420"/>
+                        <LessonIcon title="Lesson 3" image="https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420"/>
+                        <LessonIcon title="Lesson 4" image="https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420"/>
+                        <LessonIcon title="Lesson 5" image="https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420"/>
+                        <LessonIcon title="Lesson 6" image="https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420"/>
+                        <LessonIcon title="Lesson 7" image="https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420"/>
 
 
                     </ScrollView>
@@ -79,7 +75,6 @@ const styles = {
   textStyle: {
     fontSize: 30,
     color: 'black'
-
   },
   scrollStyle: {
     margin: 20,
