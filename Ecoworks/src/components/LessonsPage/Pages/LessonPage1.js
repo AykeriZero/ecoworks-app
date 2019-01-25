@@ -2,12 +2,11 @@ import React, { Component } from 'react';
 import { ScrollView, Text, Image } from 'react-native';
 
 import { Card, CardSection, TitleFont } from '../../common';
+import getImage from './Pictures';
 import data from './Lesson1.json';
 
-const chessImg = require('./lp1-chess.png');
-
 class LessonPage1 extends Component {
-  
+
   render() {
     return (
       <ScrollView>
@@ -31,7 +30,7 @@ class LessonPage1 extends Component {
         <CardSection>
           <Image
             style={styles.imageStyle}
-            source={chessImg}
+            source={getImage(data.chess_image)}
             resizeMode={'contain'}
           />
         </CardSection>
