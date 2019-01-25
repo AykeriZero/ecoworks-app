@@ -52,22 +52,7 @@ class HomePage extends React.Component {
                     {
                         // TODO: DON'T USE CHECKBOX, USE SWITCH
                     }
-                    <CheckBox
-                        isChecked={this.state.checked0}
-                        onClick={() => this.setState({checked0: !this.state.checked0})}
-                        rightText="This is a task"
-                    />
-                    <CheckBox
-                        isChecked={this.state.checked1}
-                        onClick={() => this.setState({checked1: !this.state.checked1})}
-                        rightText="This is also a task"
-                    />
-                    <CheckBox
-                        isChecked={this.state.checked2}
-                        onClick={() => this.setState({checked2: !this.state.checked2})}
-                        rightText="This is the most important task"
-                    />
-                    
+
                 </View>
 
             </View>
