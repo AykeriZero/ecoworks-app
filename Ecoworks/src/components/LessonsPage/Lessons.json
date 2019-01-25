@@ -5,30 +5,18 @@
   },
   {
     "id": 2,
-    "title": "Redux"
+    "title": "Reducing Your Energy Bill"
   },
   {
     "id": 3,
-    "title": "React-Redux"
+    "title": "Air Leaks"
   },
   {
     "id": 4,
-    "title": "Lodash"
+    "title": "House Systems"
   },
   {
     "id": 5,
-    "title": "Redux-Thunk"
+    "title": "Water Systems"
   },
-  {
-    "id": 6,
-    "title": "ESLint"
-  },
-  {
-    "id": 7,
-    "title": "Babel"
-  },
-  {
-    "id": 8,
-    "title": "Axios"
-  }
 ]
