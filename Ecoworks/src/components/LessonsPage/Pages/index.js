@@ -11,6 +11,14 @@ class LessonPage extends Component {
     switch (this.props.lesson.id) {
       case 1:
         return <LessonPage1 lesson={this.props.lesson} />;
+      case 2:
+        return <LessonPage1 lesson={this.props.lesson} />;
+      case 3:
+        return <LessonPage1 lesson={this.props.lesson} />;
+      case 4:
+        return <LessonPage1 lesson={this.props.lesson} />;
+      case 5:
+        return <LessonPage1 lesson={this.props.lesson} />;
       default:
         return <LessonPage1 lesson={this.props.lesson} />;
     }
