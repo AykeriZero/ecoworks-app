@@ -2,8 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { ScrollView, Image, Text, View, StyleSheet } from 'react-native';
 import { Header, Checkbox } from './common';
-// import { CheckBox } from 'react-native-elements'
-// import CheckBox from 'react-native-check-box'
+
 
 
 
