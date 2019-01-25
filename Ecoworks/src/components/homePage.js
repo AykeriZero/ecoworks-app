@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { ScrollView, Image, Text, View, StyleSheet } from 'react-native';
-import { Header } from './common';
-import { CheckBox } from 'react-native-elements'
+import { Header, Checkbox } from './common';
+// import { CheckBox } from 'react-native-elements'
+// import CheckBox from 'react-native-check-box'
 
 
 
@@ -11,7 +12,7 @@ class HomePage extends React.Component {
     constructor(props) {
         // Initialize mutable state
         super(props);
-        this.state = {checked: true};
+        this.state = {checked0: false, checked1: false, checked2: false};
     }
     render() {
         return (
@@ -48,14 +49,25 @@ class HomePage extends React.Component {
                 </View>
                 <View>
                     <Text style={styles.textStyle}> Tasks </Text>
-                    // TODO: DON'T USE CHECKBOX, USE SWITCH
+                    {
+                        // TODO: DON'T USE CHECKBOX, USE SWITCH
+                    }
                     <CheckBox
-                        center
-                        title='Click Here'
-                        checkedIcon='gear'
-                        uncheckedIcon='arrows'
-                        checked={this.state.checked}
-                        onPress={() => this.setState({checked: !this.state.checked})}/>
+                        isChecked={this.state.checked0}
+                        onClick={() => this.setState({checked0: !this.state.checked0})}
+                        rightText="This is a task"
+                    />
+                    <CheckBox
+                        isChecked={this.state.checked1}
+                        onClick={() => this.setState({checked1: !this.state.checked1})}
+                        rightText="This is also a task"
+                    />
+                    <CheckBox
+                        isChecked={this.state.checked2}
+                        onClick={() => this.setState({checked2: !this.state.checked2})}
+                        rightText="This is the most important task"
+                    />
+                    
                 </View>
 
             </View>
