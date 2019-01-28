@@ -4,6 +4,8 @@
 import React, { Component } from 'react';
 
 import LessonPage1 from './LessonPage1';
+import LessonPage4 from './LessonPage4';
+
 
 class LessonPage extends Component {
 
@@ -16,7 +18,7 @@ class LessonPage extends Component {
       case 3:
         return <LessonPage1 lesson={this.props.lesson} />;
       case 4:
-        return <LessonPage1 lesson={this.props.lesson} />;
+        return <LessonPage4 lesson={this.props.lesson} />;
       case 5:
         return <LessonPage1 lesson={this.props.lesson} />;
       default:
