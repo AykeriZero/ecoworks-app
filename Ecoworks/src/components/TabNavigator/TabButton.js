@@ -2,7 +2,6 @@ import React from 'react';
 import { View, Text, TouchableWithoutFeedback } from 'react-native';
 
 const TabButton = ({ onPress, page, selected }) => {
-  console.log(selected);
   if (selected) {
     return (
       <TouchableWithoutFeedback
