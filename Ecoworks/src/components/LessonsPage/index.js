@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { SafeAreaView, FlatList } from 'react-native';
+import { FlatList } from 'react-native';
 //import { connect } from 'react-redux';
 import data from './Lessons.json';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, TouchableWithoutFeedback } from 'react-native';
+import { SafeAreaView, View, Text, TouchableWithoutFeedback } from 'react-native';
 
 const TabButton = ({ onPress, page, selected }) => {
   if (selected) {
@@ -8,9 +8,9 @@ const TabButton = ({ onPress, page, selected }) => {
         onPress={onPress}
         style={styles.buttonStyle}
       >
-        <View style={styles.selected}>
+        <SafeAreaView style={styles.selected}>
           <Text style={styles.buttonTextStyle}>{ page }</Text>
-        </View>
+        </SafeAreaView>
       </TouchableWithoutFeedback>
     );
   }
@@ -19,9 +19,9 @@ const TabButton = ({ onPress, page, selected }) => {
       onPress={onPress}
       style={styles.buttonStyle}
     >
-      <View>
+      <SafeAreaView>
         <Text style={styles.buttonTextStyle}>{ page }</Text>
-      </View>
+      </SafeAreaView>
     </TouchableWithoutFeedback>
   );
 };
