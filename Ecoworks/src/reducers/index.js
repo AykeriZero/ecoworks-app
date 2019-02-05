@@ -1,6 +1,7 @@
 import { combineReducers } from 'redux';
-import LessonPageReducer from './LessonPageReducer';
+
+import TabNavigatorReducer from './TabNavigatorReducer';
 
 export default combineReducers({
-  lessonItem: LessonPageReducer
+  tabNavigatorPage: TabNavigatorReducer
 });

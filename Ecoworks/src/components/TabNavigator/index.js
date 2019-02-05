@@ -3,44 +3,38 @@ import { View } from 'react-native';
 
 import { Actions } from 'react-native-router-flux';
 
+import { connect } from 'react-redux';
+
 import { TabButton } from './TabButton';
 
 class TabNavigator extends Component {
-  state = { selected: 'home' }
 
-  componentWillMount() {
-    this.setState({ selected: 'home' });
-  }
-
-  home() {
-    if (this.state.selected !== 'home') {
-      this.setState({ selected: 'home' });
-      Actions.start();
-    }
-  }
-
-  lessons() {
-    if (this.state.selected !== 'lessons') {
-      this.setState({ selected: 'lessons' });
+  lesson() {
+    if (this.props.page !== 'lessons') {
       Actions.lessons();
     }
   }
 
+  home() {
+    if (this.props.page !== 'home') {
+      Actions.start();
+    }
+  }
+
   render() {
-    console.log(this.state);
     return (
       <View style={styles.navigatorStyle}>
 
         <TabButton
-          onPress={this.lessons.bind(this)}
-          page={'lesson'}
-          selected={this.state.selected === 'lessons'}
+          onPress={this.lesson.bind(this)}
+          page={'lessons'}
+          selected={this.props.page === 'lessons'}
         />
 
         <TabButton
           onPress={this.home.bind(this)}
           page={'home'}
-          selected={this.state.selected === 'home'}
+          selected={this.props.page === 'home'}
         />
 
       </ View>
@@ -55,4 +49,10 @@ const styles = {
   }
 };
 
-export default TabNavigator;
+const mapStateToProps = (state) => {
+  return {
+    page: state.tabNavigatorPage.page
+  };
+};
+
+export default connect(mapStateToProps, {})(TabNavigator);
