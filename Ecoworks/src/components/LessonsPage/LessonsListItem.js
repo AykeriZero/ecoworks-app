@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { View, Text, TouchableWithoutFeedback } from 'react-native';
+import { Image, Text, TouchableWithoutFeedback, View } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 
-import { CardSection } from '../common';
+import { Card, CardSection } from '../common';
+import getImage from './Pictures';
 
 class LessonListItem extends Component {
 
@@ -10,6 +11,7 @@ class LessonListItem extends Component {
     // probably some redux thing to set the current lesson
     // then a router flux to change the page
 
+    console.log('hello');
     Actions.lessonsPage({ lesson: this.props.item });
   }
 
@@ -17,13 +19,26 @@ class LessonListItem extends Component {
     return (
       <TouchableWithoutFeedback onPress={this.onRowPress.bind(this)}>
         <View>
-          <CardSection>
-            <Text style={styles.titleStyle}>
-              {this.props.item.title}
-            </Text>
-          </CardSection>
+          <Card>
+
+            <CardSection>
+              <Text style={styles.titleStyle}>
+                {this.props.item.title}
+              </Text>
+            </CardSection>
+
+            <CardSection>
+              <Image
+                style={styles.imageStyle}
+                source={getImage(this.props.item.img)}
+                resizeMode={'contain'}
+              />
+            </CardSection>
+
+          </Card>
         </View>
       </TouchableWithoutFeedback>
+
     );
   }
 }
@@ -32,6 +47,11 @@ const styles = {
   titleStyle: {
     fontSize: 18,
     paddingLeft: 15
+  },
+  imageStyle: {
+    height: 300,
+    flex: 1,
+    width: null
   }
 };
 
