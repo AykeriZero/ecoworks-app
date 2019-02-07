@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 
+import TabNavigatorReducer from './TabNavigatorReducer';
+
 export default combineReducers({
-  // combine reducers needs at least one reducer,
-  // delete this once we have actual reducers
-  HOLDER_DELETE_THIS: () => []
+  tabNavigatorPage: TabNavigatorReducer
 });
