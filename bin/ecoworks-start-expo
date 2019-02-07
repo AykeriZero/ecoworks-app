@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+# Copy src folder from Base RN App to expo
+cp -R Ecoworks/src Ecoworks-expo/src
+
+# start expo
+cd Ecoworks-expo
+expo start
