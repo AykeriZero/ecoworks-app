@@ -8,7 +8,7 @@
         
         "title2": "Benefits of changing your furnace filter regularly",
         "body5": "1. Reduce Energy Bill: Decrease your heating and cooling cost by 5-15% -EPA \n",
-        "body6": "2. Save Money: Prvevent costly repairs to your heating and cooling system \n",
+        "body6": "2. Save Money: Prvevent costly repairs to your heating andgin cooling system \n",
         "body7": "3. Breathe Cleaner Air: Improve your home's air quality by removing harmful toxins \n",
         
         "title3": "Energy Efficiency Assistance Program",
@@ -17,6 +17,6 @@
         
         
     },
-    "Furnace_img": "Furnace.png"
+    "Furnace_img" : 2
 }
 
