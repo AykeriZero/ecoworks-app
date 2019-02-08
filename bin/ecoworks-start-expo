@@ -1,9 +1,14 @@
 #!/bin/bash
 
-
-# Copy src folder from Base RN App to expo
-cp -R Ecoworks/src Ecoworks-expo/src
+# Move Source Code over
+printf "\e[1;34m Moving source code from Ecoworks/ to Ecoworks-expo/ \e[0m\n\n"
+mv Ecoworks/src/ Ecoworks-expo/src/
 
 # start expo
 cd Ecoworks-expo
 expo start
+
+# save Source Code back
+printf "\e[1;34m\n\n Moving source code back from Ecoworks-expo/ Ecoworks/\e[0m\n"
+cd ..
+mv Ecoworks-expo/src/ Ecoworks/src/
