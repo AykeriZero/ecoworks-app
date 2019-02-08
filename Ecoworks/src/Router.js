@@ -2,6 +2,7 @@ import React from 'react';
 //import { View } from 'react-native';
 import { Scene, Router } from 'react-native-router-flux';
 import PageofButtons from './components';
+import HomePage from './components/homePage';
 import LessonsList from './components/LessonsPage';
 import LessonsPage from './components/LessonsPage/Pages';
 
@@ -10,7 +11,7 @@ const RouterComponent = () => (
     <Scene key="root" hideNavBar>
 
       <Scene key="start">
-        <Scene key="pageOfButtons" component={PageofButtons} title="Page of Buttons" />
+        <Scene key="homePage" component={HomePage} title="Home Page" />
       </Scene>
 
       <Scene key="lessons">
