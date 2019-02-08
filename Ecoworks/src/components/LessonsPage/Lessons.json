@@ -1,22 +1,27 @@
 [
   {
     "id": 1,
-    "title": "Energy Smart"
+    "title": "Energy Smart",
+    "img": 1
   },
   {
     "id": 2,
-    "title": "Reducing Your Energy Bill"
+    "title": "Reducing Your Energy Bill",
+    "img": 2
   },
   {
     "id": 3,
-    "title": "Air Leaks"
+    "title": "Air Leaks",
+    "img": 3
   },
   {
     "id": 4,
-    "title": "House Systems"
+    "title": "House Systems",
+    "img": 4
   },
   {
     "id": 5,
-    "title": "Water Systems"
+    "title": "Water Systems",
+    "img": 5
   },
 ]

@@ -8,4 +8,5 @@ function getImage(image) {
       return img1;
   }
 }
+
 export default getImage;
