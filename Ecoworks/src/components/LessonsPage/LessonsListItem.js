@@ -3,7 +3,7 @@ import { Image, Text, TouchableWithoutFeedback, View } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 
 import { Card, CardSection } from '../common';
-import getImage from './Pictures';
+import getImage from '../../pictures';
 
 class LessonListItem extends Component {
 
