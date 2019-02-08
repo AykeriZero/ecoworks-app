@@ -7,3 +7,8 @@ Ecoworks/node_modules
 # Just in case we use API keys
 Ecoworks/src/config.js
 
+# src in Expo project
+# should always be the same as in 
+# vanilla RN, ecoworks-expo-start script will create 
+# it if it does not already exist
+Ecoworks-expo/src
