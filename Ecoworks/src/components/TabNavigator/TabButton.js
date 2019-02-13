@@ -1,8 +1,12 @@
 import React from 'react';
 import { SafeAreaView, Text, TouchableWithoutFeedback } from 'react-native';
 
-const TabButton = ({ onPress, page, selected }) => {
-  if (selected) {
+const TabIcon = (prop) => {
+  const { onPress, focused } = prop;
+  const page = "hello";
+  console.log(prop);
+
+  if (focused) {
     return (
       <TouchableWithoutFeedback
         onPress={onPress}
@@ -52,4 +56,4 @@ const styles = {
   }
 };
 
-export { TabButton };
+export { TabIcon };

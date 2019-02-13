@@ -5,7 +5,6 @@ import { createStore } from 'redux';
 
 import reducers from './reducers';
 import Router from './Router';
-import TabNavigator from './components/TabNavigator';
 
 class App extends Component {
 
@@ -16,7 +15,6 @@ class App extends Component {
       <Provider store={store}>
         <View style={{ flex: 1 }} >
           <Router />
-          <TabNavigator />
         </View>
       </Provider>
     );

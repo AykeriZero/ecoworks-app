@@ -13,13 +13,6 @@ class LessonPage4 extends Component {
         <ScrollView>
 
         <Card>
-            <CardSection style={styles.titleCardStyle}>
-                <TitleFont>Lesson {this.props.lesson.id}:
-                    {this.props.lesson.title}</TitleFont>
-            </CardSection>
-        </Card>
-
-        <Card>
             <CardSection>
                 <TitleFont>{data.description.title}</TitleFont>
             </CardSection>
@@ -65,4 +58,4 @@ const styles = {
 };
 
 
-export default LessonPage4;
+export { LessonPage4 };
