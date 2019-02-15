@@ -2,7 +2,9 @@ import React from 'react';
 import { Image } from 'react-native';
 
 const homeIcon = require('./homeIcon.png');
+const homeIconUnfocused = require('./homeIconUnfocused.png');
 const lessonsIcon = require('./lessonsIcon.png');
+const lessonsIconUnfocused = require('./lessonsIconUnfocused.png');
 
 const styles = {
   iconStyle: {
@@ -33,12 +35,12 @@ const getIcon = (page) => {
 
     case 'home':
       return (({ focused }) => {
-        return getImages(homeIcon, homeIcon, focused);
+        return getImages(homeIcon, homeIconUnfocused, focused);
       });
 
     case 'lessons':
       return (({ focused }) => {
-        return getImages(lessonsIcon, lessonsIcon, focused);
+        return getImages(lessonsIcon, lessonsIconUnfocused, focused);
       });
 
     default:

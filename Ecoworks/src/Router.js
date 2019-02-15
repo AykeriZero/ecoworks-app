@@ -2,7 +2,7 @@ import React from 'react';
 import { Scene, Router } from 'react-native-router-flux';
 
 import HomePage from './components/homePage';
-import getIcon from './components/TabNavigator/TabButton';
+import getIcon from './components/TabIcon';
 import LessonsList from './components/LessonsPage';
 
 import {
