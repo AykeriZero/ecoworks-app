@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, FlatList } from 'react-native';
+import { FlatList } from 'react-native';
 
 import { connect } from 'react-redux';
 import { tabNavigatorUpdate } from '../../actions';
@@ -9,10 +9,6 @@ import data from './Lessons.json';
 import LessonsListItem from './LessonsListItem';
 
 class LessonsPage extends Component {
-
-  componentWillMount() {
-    this.props.tabNavigatorUpdate('lessons');
-  }
 
   renderLessonsListItem = ({ item }) => {
     return (
