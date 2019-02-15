@@ -6,11 +6,11 @@ Cross-Platform Mobile Application using React Native
 
 # Pages
 
-## Lessons
+### Lessons
 
 List of lessons from Ecoworks' workshops on energy and water conservation.
 
-## Home
+### Home
 
 Base page with links to other pages.
 
@@ -18,4 +18,8 @@ Base page with links to other pages.
 
 source code is located in Ecoworks directory with vanilla React Native and android and ios configurations.
 
-Configurations to run the app is located in Ecoworks-expo. /bin/ecoworks-start-expo is a bash script that will copy the src from Ecoworks and run the app using expo.
+# Expo 
+
+Configurations to run the app through expo is located in Ecoworks-expo. 
+/bin/ecoworks-start-expo is a bash script that will copy the src from Ecoworks and run the app using expo.
+/bin/save-expo is a script that will copy the src from the Ecoworks-expo directory back to Ecoworks if /bin/ecoworks-start-expo is interupted.

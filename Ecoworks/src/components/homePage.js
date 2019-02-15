@@ -1,11 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { ScrollView, Image, Text, View, StyleSheet } from 'react-native';
+
+import { ScrollView, Image, Text, View, StyleSheet, TouchableOpacity } from 'react-native';
 import { Header, Checkbox } from './common';
 import LessonIcon from './lessonIcon';
-
-
-
 
 class HomePage extends React.Component {
     /* Display home page */
@@ -14,12 +11,11 @@ class HomePage extends React.Component {
         super(props);
         this.state = {checked0: false, checked1: false, checked2: false};
     }
+
     render() {
         return (
-            <View>
-                <View>
-                    <Header headerText={"Home Page"}/>
-                </View>
+            <View style={{ flex: 1 }}>
+
                 <View>
                     <Text style={styles.textStyle}> Lessons </Text>
                     <ScrollView
@@ -38,7 +34,6 @@ class HomePage extends React.Component {
                         <LessonIcon title="Lesson 6" image="https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420"/>
                         <LessonIcon title="Lesson 7" image="https://vignette.wikia.nocookie.net/king-harkinian/images/7/76/Taco-bell-logo.jpeg/revision/latest?cb=20151121220420"/>
 
-
                     </ScrollView>
                     <View style={styles.blackLine}></View>
                 </View>
@@ -47,14 +42,11 @@ class HomePage extends React.Component {
                     {
                         // TODO: DON'T USE CHECKBOX, USE SWITCH
                     }
-
                 </View>
-
             </View>
+
         )
-
     }
-
 }
 
 //style of header
