@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import { FlatList } from 'react-native';
+import { View, FlatList } from 'react-native';
 
 import { connect } from 'react-redux';
 import { tabNavigatorUpdate } from '../../actions';
 
 import data from './Lessons.json';
-
-import { Card } from '../common';
 
 import LessonsListItem from './LessonsListItem';
 
@@ -24,13 +22,11 @@ class LessonsPage extends Component {
 
   render() {
     return (
-        <Card style={{ flex: 1 }}>
-          <FlatList
-            data={data}
-            renderItem={this.renderLessonsListItem}
-            keyExtractor={(library) => library.id.toString()}
-          />
-        </Card>
+      <FlatList
+        data={data}
+        renderItem={this.renderLessonsListItem}
+        keyExtractor={(library) => library.id.toString()}
+      />
      );
   }
 }
