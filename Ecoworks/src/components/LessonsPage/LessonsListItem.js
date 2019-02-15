@@ -3,16 +3,21 @@ import { Image, Text, TouchableWithoutFeedback, View } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 
 import { Card, CardSection } from '../common';
-import getImage from './Pictures';
+import getImage from '../../pictures';
 
 class LessonListItem extends Component {
 
   onRowPress() {
-    // probably some redux thing to set the current lesson
-    // then a router flux to change the page
-
-    console.log('hello');
-    Actions.lessonsPage({ lesson: this.props.item });
+    switch (this.props.item.id) {
+      case 1:
+        Actions.lessonPage1();
+        break;
+      case 4:
+        Actions.lessonPage4();
+        break;
+      default:
+        Actions.lessonPage1();
+    }
   }
 
   render() {

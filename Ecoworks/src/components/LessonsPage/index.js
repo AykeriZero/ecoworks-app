@@ -6,16 +6,9 @@ import { tabNavigatorUpdate } from '../../actions';
 
 import data from './Lessons.json';
 
-import { Card } from '../common';
-
-// Only displays the title right now, (add picture?)
 import LessonsListItem from './LessonsListItem';
 
 class LessonsPage extends Component {
-
-  componentWillMount() {
-    this.props.tabNavigatorUpdate('lessons');
-  }
 
   renderLessonsListItem = ({ item }) => {
     return (
@@ -25,13 +18,11 @@ class LessonsPage extends Component {
 
   render() {
     return (
-        <Card style={{ flex: 1 }}>
-          <FlatList
-            data={data}
-            renderItem={this.renderLessonsListItem}
-            keyExtractor={(library) => library.id.toString()}
-          />
-        </Card>
+      <FlatList
+        data={data}
+        renderItem={this.renderLessonsListItem}
+        keyExtractor={(library) => library.id.toString()}
+      />
      );
   }
 }
