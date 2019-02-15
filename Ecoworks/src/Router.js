@@ -12,12 +12,18 @@ import {
 
 const RouterComponent = () => (
   <Router>
-    <Scene key="root" hideNavBar>
+    <Scene
+      key="root"
+      hideNavBar
+      navigationBarStyle={{ backgroundColor: '#B1D56C' }}
+      titleStyle={{ color: 'white' }}
+      headerTintColor='white'
+    >
 
     <Scene
           key="tabbar"
           tabs
-          tabBarStyle={{ backgroundColor: '#FFFFFF' }}
+          tabBarStyle={{ backgroundColor: '#B1D56C' }}
           showLabel={false}
     >
 
@@ -31,13 +37,13 @@ const RouterComponent = () => (
           <Scene
             key="lessonPage1"
             component={LessonPage1}
-            title="Lesson 1: Energy Smart"
+            title="Energy Smart"
           />
 
           <Scene
             key="lessonPage4"
             component={LessonPage4}
-            title="Lesson 1: Energy Smart"
+            title="House Systems"
           />
 
       </Scene>
