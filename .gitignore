@@ -88,3 +88,8 @@ package-lock.json
 # ReactCommon subdir shouldn't have Xcode project
 /ReactCommon/**/*.xcodeproj
 RNTester/build
+# src in Expo project
+# should always be the same as in 
+# vanilla RN, ecoworks-expo-start script will create 
+# it if it does not already exist
+Ecoworks-expo/src
