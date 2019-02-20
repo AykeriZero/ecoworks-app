@@ -1,9 +1,11 @@
 import React from 'react';
 import { Scene, Router } from 'react-native-router-flux';
 
-import HomePage from './components/homePage';
+import HomePage from './components/HomePage';
 import getIcon from './components/TabIcon';
 import LessonsList from './components/LessonsPage';
+
+import LessonData from './components/LessonsPage/Lessons';
 
 import {
   LessonPage1,
@@ -37,13 +39,13 @@ const RouterComponent = () => (
           <Scene
             key="lessonPage1"
             component={LessonPage1}
-            title="Energy Smart"
+            title={LessonData[0].title}
           />
 
           <Scene
             key="lessonPage4"
             component={LessonPage4}
-            title="House Systems"
+            title={LessonData[3].title}
           />
 
       </Scene>
