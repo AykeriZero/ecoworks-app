@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { ScrollView, Image, Text, View, StyleSheet } from 'react-native';
 import { Header, Checkbox } from './common';
 import LessonIcon from './lessonIcon';
+import TodoList from './TodoList';
 
 
 
@@ -43,6 +44,7 @@ class HomePage extends React.Component {
                     <View style={styles.blackLine}></View>
                 </View>
                 <View>
+                    <TodoList />
                     <Text style={styles.textStyle}> Tasks </Text>
                     {
                         // TODO: DON'T USE CHECKBOX, USE SWITCH
