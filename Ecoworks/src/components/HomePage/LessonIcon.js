@@ -12,8 +12,17 @@ class LessonIcon extends React.Component {
       case 1:
         Actions.lessonPage1();
         break;
+      case 2:
+        Actions.lessonPage2();
+        break;
+      case 3:
+        Actions.lessonPage3();
+        break;
       case 4:
         Actions.lessonPage4();
+        break;
+      case 5:
+        Actions.lessonPage5();
         break;
       default:
         Actions.lessonPage1();

@@ -4,7 +4,7 @@ import { ScrollView, Text, Image } from 'react-native';
 import { Card, CardSection, TitleFont } from '../../common';
 import data from './Lesson4.json';
 
-import getImage2 from '../Pictures';
+import getImage from '../../../pictures';
 
 class LessonPage4 extends Component {
 
@@ -32,7 +32,7 @@ class LessonPage4 extends Component {
                 <CardSection>
                 <Image
                 style={styles.imageStyle}
-                source={getImage2(data.Furnace_img)}
+                source={getImage(data.Furnace_img)}
                 resizeMode={'contain'}
                 />
                 </CardSection>

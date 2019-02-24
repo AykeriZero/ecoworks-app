@@ -5,20 +5,13 @@ import { Card, CardSection, TitleFont } from '../../common';
 import data from './Lesson5.json';
 
 //const Furnace_img = require('./Furnace.png');
-import getImage from '../Pictures';
+import getImage from '../../../pictures';
 
 class LessonPage5 extends Component {
 
     render() {
         return (
-                <ScrollView>
-
-                <Card>
-                <CardSection style={styles.titleCardStyle}>
-                <TitleFont>Lesson {this.props.lesson.id}:
-                {this.props.lesson.title}</TitleFont>
-                </CardSection>
-                </Card>
+          <ScrollView>
 
                 <Card>
                 <CardSection>
@@ -47,8 +40,6 @@ class LessonPage5 extends Component {
                 </Card>
 
 
-
-
                 <Card>
                 <CardSection>
                 <TitleFont>{data.description.title3}</TitleFont>
@@ -59,8 +50,8 @@ class LessonPage5 extends Component {
                 </Card>
 
 
-                </ScrollView>
-                );
+        </ScrollView>
+      );
     }
 }
 
@@ -76,4 +67,4 @@ width: null
 };
 
 
-export default LessonPage5;
+export { LessonPage5 };

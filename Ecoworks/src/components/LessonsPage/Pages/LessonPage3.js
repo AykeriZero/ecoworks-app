@@ -3,7 +3,7 @@ import { ScrollView, Text, Image } from 'react-native';
 
 import { Card, CardSection, TitleFont } from '../../common';
 
-import getImage3 from '../Pictures';
+import getImage from '../../../pictures';
 import data from './Lesson3.json';
 
 
@@ -12,12 +12,6 @@ class LessonPage3 extends Component {
   render() {
     return (
       <ScrollView>
-
-      <Card>
-        <CardSection style={styles.titleCardStyle}>
-          <TitleFont>Lesson {this.props.lesson.id}: {this.props.lesson.title}</TitleFont>
-        </CardSection>
-      </Card>
 
       <Card>
         <CardSection>
@@ -38,12 +32,11 @@ class LessonPage3 extends Component {
         <CardSection>
           <Image
             style={styles.imageStyle}
-            source={getImage3(data.airLeak_image)}
+            source={getImage(data.airLeak_image)}
             resizeMode={'contain'}
           />
           </CardSection>
       </Card>
-
 
 
       <Card>
@@ -72,4 +65,4 @@ const styles = {
   }
 };
 
-export default LessonPage3;
+export { LessonPage3 };

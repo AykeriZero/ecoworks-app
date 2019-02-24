@@ -3,7 +3,7 @@ import { ScrollView, Text, Image } from 'react-native';
 
 import { Card, CardSection, TitleFont } from '../../common';
 
-import getImage from '../Pictures';
+import getImage from '../../../pictures';
 import data from './Lesson2.json';
 
 class LessonPage2 extends Component {
@@ -11,12 +11,6 @@ class LessonPage2 extends Component {
   render() {
     return (
       <ScrollView>
-
-      <Card>
-        <CardSection style={styles.titleCardStyle}>
-          <TitleFont>Lesson {this.props.lesson.id}: {this.props.lesson.title}</TitleFont>
-        </CardSection>
-      </Card>
 
       <Card>
         <CardSection>
@@ -37,7 +31,6 @@ class LessonPage2 extends Component {
       </Card>
 
 
-
       <Card>
         <CardSection>
           <Text>{data.description.body2}</Text>
@@ -50,8 +43,6 @@ class LessonPage2 extends Component {
           />
         </CardSection>
       </Card>
-
-
 
       </ScrollView>
     );
@@ -70,4 +61,4 @@ const styles = {
   }
 };
 
-export default LessonPage2;
+export { LessonPage2 };
