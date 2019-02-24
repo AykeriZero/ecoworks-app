@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { ScrollView, Text, Image } from 'react-native';
 
 import { Card, CardSection, TitleFont } from '../../common';
+
+import getImage3 from '../Pictures';
 import data from './Lesson3.json';
 
 
@@ -26,21 +28,23 @@ class LessonPage3 extends Component {
         </CardSection>
       </Card>
 
-        <Card>
+      <Card>
         <CardSection>
           <TitleFont>{data.description.seal_leak.title}</TitleFont>
         </CardSection>
         <CardSection>
           <Text>{data.description.seal_leak.fixes}</Text>
-          <CardSection>
+        </CardSection>
+        <CardSection>
           <Image
-          style={styles.imageStyle}
-          source={getImage(data.airLeak_image)}
-          resizeMode={'contain'}
+            style={styles.imageStyle}
+            source={getImage3(data.airLeak_image)}
+            resizeMode={'contain'}
           />
           </CardSection>
-        </CardSection>
       </Card>
+
+
 
       <Card>
         <CardSection>
