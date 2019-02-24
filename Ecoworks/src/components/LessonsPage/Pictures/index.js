@@ -6,6 +6,8 @@ const img5 = require('./5cover.jpeg');
 const img6 = require('./airLeak.png'); //3 inside
 const img7 = require('./furnace_graphic.jpeg'); //4 inside
 const img8 = require('./Toilet.jpeg'); //5 inside
+const img9 = require('./money.png'); //2 inside #1
+const img10 = require('./triangle.png'); //2 inside #2
 
 function getImage(image) {
   switch (image) {
@@ -25,6 +27,10 @@ function getImage(image) {
       return img7;
     case 8:
       return img8;
+    case 9:
+      return img9;
+    case 10:
+      return img10;
     default:
       return img1;
   }
