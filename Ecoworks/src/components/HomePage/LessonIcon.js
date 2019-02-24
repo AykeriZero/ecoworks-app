@@ -1,12 +1,32 @@
 import React from 'react';
-import { Text, Image } from 'react-native';
+import { Text, Image, View, TouchableWithoutFeedback } from 'react-native';
+import { Actions } from 'react-native-router-flux';
+
 import { Card, CardSection } from '../common';
 import getImage from '../../pictures';
 
 class LessonIcon extends React.Component {
 
+  onIconPress() {
+    switch (this.props.item.id) {
+      case 1:
+        Actions.lessonPage1();
+        break;
+      case 4:
+        Actions.lessonPage4();
+        break;
+      default:
+        Actions.lessonPage1();
+    }
+  }
+
     render() {
         return (
+          <TouchableWithoutFeedback onPress={() => this.onIconPress()}>
+          {/* TouchableWithoutFeedback has a bug which does not allow it to
+              wrap custom compononts */}
+          <View>
+
           <Card>
 
           <CardSection>
@@ -23,6 +43,9 @@ class LessonIcon extends React.Component {
           </CardSection>
 
           </Card>
+
+          </View>
+          </TouchableWithoutFeedback>
         );
     }
 }

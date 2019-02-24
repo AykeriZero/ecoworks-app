@@ -1,12 +1,8 @@
 import React from 'react';
 
 import {
-    ScrollView,
-    Image,
     Text,
     View,
-    StyleSheet,
-    TouchableOpacity,
     FlatList
 } from 'react-native';
 
@@ -30,39 +26,38 @@ class HomePage extends React.Component {
     }
 
     render() {
-        return (
-          <View>
+      return (
+        <View>
+        <Card>
+          <CardSection>
+              <Text style={styles.textStyle}> Lessons </Text>
+          </CardSection>
 
-          <Card>
-            <CardSection>
-                <Text style={styles.textStyle}> Lessons </Text>
-            </CardSection>
+          <CardSection>
+              <FlatList
+                  horizontal
+                  showsHorizontalScrollIndicator={false}
+                  style={{ flex: 1 }}
+                  data={LessonData}
+                  renderItem={this.renderLessonsListItem}
+                  keyExtractor={(library) => library.id.toString()}
+              />
 
-            <CardSection>
-                <FlatList
-                    horizontal
-                    showsHorizontalScrollIndicator={false}
-                    style={{ flex: 1 }}
-                    data={LessonData}
-                    renderItem={this.renderLessonsListItem}
-                    keyExtractor={(library) => library.id.toString()}
-                />
+          </CardSection>
+        </Card>
 
-            </CardSection>
-          </Card>
+        <Card>
+          <CardSection>
+              <Text style={styles.textStyle}> Tasks </Text>
+              {
+                  // TODO: DON'T USE CHECKBOX, USE SWITCH
+              }
+          </CardSection>
+        </Card>
 
-          <Card>
-            <CardSection>
-                <Text style={styles.textStyle}> Tasks </Text>
-                {
-                    // TODO: DON'T USE CHECKBOX, USE SWITCH
-                }
-            </CardSection>
-          </Card>
-
-          </View>
-        );
-    }
+        </View>
+      );
+  }
 }
 
 //style of header
