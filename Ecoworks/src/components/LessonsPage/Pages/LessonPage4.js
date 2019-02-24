@@ -4,7 +4,7 @@ import { ScrollView, Text, Image } from 'react-native';
 import { Card, CardSection, TitleFont } from '../../common';
 import data from './Lesson4.json';
 
-//const Furnace_img = require('./Furnace.png');
+import getImage from '../../../pictures';
 
 class LessonPage4 extends Component {
 
@@ -29,6 +29,13 @@ class LessonPage4 extends Component {
             <CardSection>
                 <Text>{data.description.body5}{data.description.body6}{data.description.body7}</Text>
             </CardSection>
+                <CardSection>
+                <Image
+                style={styles.imageStyle}
+                source={getImage(data.Furnace_img)}
+                resizeMode={'contain'}
+                />
+                </CardSection>
             </Card>
 
         <Card>
@@ -36,7 +43,7 @@ class LessonPage4 extends Component {
                 <TitleFont>{data.description.title3}</TitleFont>
             </CardSection>
             <CardSection>
-                <Text>{data.description.body8}{data.description.body9}</Text>
+                <Text>{data.description.body8}{data.description.body9}{data.description.body10}{data.description.body11}{data.description.body12}{data.description.body13}{data.description.body14}{data.description.body15}</Text>
             </CardSection>
         </Card>
 
