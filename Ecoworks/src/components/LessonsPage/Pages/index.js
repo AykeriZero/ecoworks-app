@@ -4,6 +4,7 @@
 import React, { Component } from 'react';
 
 import LessonPage1 from './LessonPage1';
+import LessonPage2 from './LessonPage2';
 import LessonPage3 from './LessonPage3';
 import LessonPage4 from './LessonPage4';
 import LessonPage5 from './LessonPage5';
@@ -16,7 +17,7 @@ class LessonPage extends Component {
       case 1:
         return <LessonPage1 lesson={this.props.lesson} />;
       case 2:
-        return <LessonPage1 lesson={this.props.lesson} />;
+        return <LessonPage2 lesson={this.props.lesson} />;
       case 3:
         return <LessonPage3 lesson={this.props.lesson} />;
       case 4:
