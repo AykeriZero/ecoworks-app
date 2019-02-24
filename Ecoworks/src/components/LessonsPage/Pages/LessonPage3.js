@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { ScrollView, Text } from 'react-native';
+import { ScrollView, Text, Image } from 'react-native';
 
 import { Card, CardSection, TitleFont } from '../../common';
 import data from './Lesson3.json';
 
 
 class LessonPage3 extends Component {
-  
+
   render() {
     return (
       <ScrollView>
@@ -32,6 +32,13 @@ class LessonPage3 extends Component {
         </CardSection>
         <CardSection>
           <Text>{data.description.seal_leak.fixes}</Text>
+          <CardSection>
+          <Image
+          style={styles.imageStyle}
+          source={getImage(data.airLeak_image)}
+          resizeMode={'contain'}
+          />
+          </CardSection>
         </CardSection>
       </Card>
 

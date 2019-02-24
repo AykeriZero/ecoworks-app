@@ -50,7 +50,7 @@ class LessonPage4 extends Component {
                 <TitleFont>{data.description.title3}</TitleFont>
             </CardSection>
             <CardSection>
-                <Text>{data.description.body8}{data.description.body9}</Text>
+                <Text>{data.description.body8}{data.description.body9}{data.description.body10}{data.description.body11}{data.description.body12}{data.description.body13}{data.description.body14}{data.description.body15}</Text>
             </CardSection>
         </Card>
 
