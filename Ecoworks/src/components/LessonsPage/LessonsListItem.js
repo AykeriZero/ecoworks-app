@@ -22,7 +22,7 @@ class LessonListItem extends Component {
 
   render() {
     return (
-      <TouchableWithoutFeedback onPress={this.onRowPress.bind(this)}>
+      <TouchableWithoutFeedback onPress={() => this.onRowPress()}>
         <View>
           <Card>
 
