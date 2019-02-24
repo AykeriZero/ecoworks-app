@@ -5,20 +5,21 @@ import { Card, CardSection, TitleFont } from '../../common';
 import data from './Lesson5.json';
 
 //const Furnace_img = require('./Furnace.png');
+import getImage from '../Pictures';
 
 class LessonPage5 extends Component {
-    
+
     render() {
         return (
                 <ScrollView>
-                
+
                 <Card>
                 <CardSection style={styles.titleCardStyle}>
                 <TitleFont>Lesson {this.props.lesson.id}:
                 {this.props.lesson.title}</TitleFont>
                 </CardSection>
                 </Card>
-                
+
                 <Card>
                 <CardSection>
                 <TitleFont>{data.description.title}</TitleFont>
@@ -27,8 +28,8 @@ class LessonPage5 extends Component {
                 <Text>{data.description.body1}{data.description.body2}{data.description.body3}{data.description.body4}</Text>
                 </CardSection>
                 </Card>
-                
-                
+
+
                 <Card>
                 <CardSection>
                 <TitleFont>{data.description.title2}</TitleFont>
@@ -36,8 +37,18 @@ class LessonPage5 extends Component {
                 <CardSection>
                 <Text>{data.description.body5}{data.description.body6}{data.description.body7}{data.description.body8}{data.description.body9}{data.description.body10}</Text>
                 </CardSection>
+                <CardSection>
+                  <Image
+                    style={styles.imageStyle}
+                    source={getImage(data.Toilet_img)}
+                    resizeMode={'contain'}
+                  />
+                  </CardSection>
                 </Card>
-                
+
+
+
+
                 <Card>
                 <CardSection>
                 <TitleFont>{data.description.title3}</TitleFont>
@@ -46,8 +57,8 @@ class LessonPage5 extends Component {
                 <Text>{data.description.body11}{data.description.body12}{data.description.body13}{data.description.body14}</Text>
                 </CardSection>
                 </Card>
-                
-                
+
+
                 </ScrollView>
                 );
     }
