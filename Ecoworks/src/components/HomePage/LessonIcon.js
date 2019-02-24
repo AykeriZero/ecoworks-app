@@ -36,7 +36,7 @@ class LessonIcon extends React.Component {
             />
           </CardSection>
 
-          <CardSection>
+          <CardSection style={{ justifyContent: 'center' }}>
             <Text style={styles.textStyle}>
               { this.props.item.title }
             </Text>
