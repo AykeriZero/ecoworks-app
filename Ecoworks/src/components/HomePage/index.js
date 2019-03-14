@@ -17,13 +17,20 @@ class HomePage extends React.Component {
         // Initialize mutable state
         super(props);
         this.state = { checked0: false, checked1: false, checked2: false };
-    }
+        this.handleSubmit = this.handleSubmit.bind(this);
+      }
 
     renderLessonsListItem = ({ item }) => {
       return (
         <LessonIcon item={item} />
       );
     }
+
+    handleSubmit() {
+      if (this.state.text !== '') {
+        const action = TaskAdd(store.getState().taskList.arr, this.state.text);
+        store.dispatch(action);
+      }
 
     render() {
       return (
@@ -48,10 +55,18 @@ class HomePage extends React.Component {
 
         <Card>
           <CardSection>
-              <Text style={styles.textStyle}> Tasks </Text>
-              {
-                  // TODO: DON'T USE CHECKBOX, USE SWITCH
-              }
+          <TodoList />
+                    <TextInput
+                     style={{height: 40, borderColor: 'gray', borderWidth: 1}}
+                     onChangeText={(text) => this.setState({text})}
+                     value={this.state.text}
+                    />
+                    <TouchableOpacity
+                    onPress={this.handleSubmit}
+                    style={styles.buttonStyle}
+                    >
+                    <Text> Submit </Text>
+                    </TouchableOpacity>
           </CardSection>
         </Card>
 
@@ -86,6 +101,16 @@ const styles = {
     borderBottomColor: 'black',
     borderBottomWidth: 5,
     margin: 10
+  },
+  buttonStyle: {
+    flex: 1,
+    alignSelf: 'stretch',
+    backgroundColor: '#fff',
+    borderRadius: 5,
+    borderWidth: 10,
+    borderColor: '#007aff',
+    marginLeft: 5,
+    marginRight: 5
   }
 };
 
