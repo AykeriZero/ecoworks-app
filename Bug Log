@@ -1,0 +1,5 @@
+1. rightText property of react-native-check-box not displaying?
+
+FIX: adding the same text below it made the rightText render........
+
+
