@@ -3,12 +3,17 @@ import React from 'react';
 import {
     Text,
     View,
-    FlatList
+    FlatList,
+    TouchableOpacity,
+    TextInput
 } from 'react-native';
 
 import { CardSection, Card } from '../common';
 import LessonIcon from './LessonIcon';
 import LessonData from '../LessonsPage/Lessons';
+import { TaskAdd } from '../../actions/TaskAction';
+import TodoList from '../TodoList';
+import store from '../../store';
 
 class HomePage extends React.Component {
     /* Display home page */
@@ -19,6 +24,13 @@ class HomePage extends React.Component {
         this.state = { checked0: false, checked1: false, checked2: false };
         this.handleSubmit = this.handleSubmit.bind(this);
       }
+    handleSubmit() {
+      if (this.state.text !== '') {
+        const action = TaskAdd(store.getState().taskList.arr, this.state.text);
+        store.dispatch(action);
+      }
+    }
+  
 
     renderLessonsListItem = ({ item }) => {
       return (
@@ -26,11 +38,6 @@ class HomePage extends React.Component {
       );
     }
 
-    handleSubmit() {
-      if (this.state.text !== '') {
-        const action = TaskAdd(store.getState().taskList.arr, this.state.text);
-        store.dispatch(action);
-      }
 
     render() {
       return (
@@ -57,8 +64,8 @@ class HomePage extends React.Component {
           <CardSection>
           <TodoList />
                     <TextInput
-                     style={{height: 40, borderColor: 'gray', borderWidth: 1}}
-                     onChangeText={(text) => this.setState({text})}
+                     style={{ height: 40, borderColor: 'gray', borderWidth: 1 }}
+                     onChangeText={(text) => this.setState({ text })}
                      value={this.state.text}
                     />
                     <TouchableOpacity
