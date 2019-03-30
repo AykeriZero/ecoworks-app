@@ -3,11 +3,17 @@ import { ScrollView, Text, Image } from 'react-native';
 
 import { Card, CardSection, TitleFont } from '../../common';
 import getImage from '../../../pictures';
-import data from './Lesson1.json';
+
+import englishData from './en/en_Lesson1.json';
+import spanishData from './sp/sp_Lesson1.json';
 
 class LessonPage1 extends Component {
 
   render() {
+      let data = englishData; // default to english
+      if (true) {
+          data = spanishData;
+      }
     return (
       <ScrollView>
 
