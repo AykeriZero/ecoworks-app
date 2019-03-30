@@ -5,6 +5,9 @@ const homeIcon = require('./homeIcon.png');
 const homeIconUnfocused = require('./homeIconUnfocused.png');
 const lessonsIcon = require('./lessonsIcon.png');
 const lessonsIconUnfocused = require('./lessonsIconUnfocused.png');
+const settingsIcon = require('./settingsIcon.png');
+const settingsIconUnfocused = require('./settingsIconUnfocused.png');
+
 
 const styles = {
   iconStyle: {
@@ -41,6 +44,11 @@ const getIcon = (page) => {
     case 'lessons':
       return (({ focused }) => {
         return getImages(lessonsIcon, lessonsIconUnfocused, focused);
+      });
+
+    case 'settings':
+      return (({ focused }) => {
+        return getImages(settingsIcon, settingsIconUnfocused, focused);
       });
 
     default:
