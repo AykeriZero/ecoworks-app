@@ -5,6 +5,7 @@ import HomePage from './components/HomePage';
 import getIcon from './components/TabIcon';
 import { getLessonScenes } from './routes';
 import LessonsList from './components/LessonsPage';
+import SettingsPage from './components/SettingsPage';
 
 const RouterComponent = () => (
   <Router>
@@ -32,6 +33,11 @@ const RouterComponent = () => (
         <Scene key="lessonsList" component={LessonsList} title="Lessons" />
         {getLessonScenes()}
       </Scene>
+
+      <Scene key="settings" icon={getIcon('settings')}>
+        <Scene key="settingsPage" component={SettingsPage} title="Settings" />
+      </Scene>
+
 
     </Scene>
 
