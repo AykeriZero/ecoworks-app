@@ -1,21 +1,28 @@
 import React from 'react';
 import ToggleSwitch from 'toggle-switch-react-native';
 
-// import {
-//     Text
-// } from 'react-native';
+import {
+    Text,
+    View
+} from 'react-native';
 
 class SettingsPage extends React.Component {
+  state = { isSwitchOn: true,
+            language: 'english' }
   render() {
-    return (<ToggleSwitch
-        isOn
-        onColor='green'
-        offColor='red'
-        label='English'
-        labelStyle={{ color: 'black', fontWeight: '900' }}
-        size='large'
-        onToggle={(isOn) => console.log('changed to : ', isOn)}
-    />);
+    return (
+      <View>
+        <Text>Do you want to switch to Spanish?</Text>
+        <ToggleSwitch
+          isOn={this.state.isSwitchOn}
+          onColor='green'
+          offColor='red'
+          label={this.state.language}
+          labelStyle={{ color: 'black', fontWeight: '900' }}
+          size='large'
+          onToggle={(isOn) => this.setState({ isSwitchOn: isOn, language: 'spanish' })}
+        />
+      </View>);
   }
 }
 
