@@ -9,3 +9,8 @@ username/email : jmye@umich.edu
 
 Password : bluelabdiscovery
 
+## SUMMER WORK
+
+Finish up to section 13 of the Complete React Native Course.
+
+
