@@ -7,20 +7,25 @@ import {
 } from 'react-native';
 
 class SettingsPage extends React.Component {
-  state = { isSwitchOn: true,
-            language: 'english' }
+  state = { language: 'english' }
+
   render() {
     return (
       <View>
         <Text>Do you want to switch to Spanish?</Text>
         <ToggleSwitch
-          isOn={this.state.isSwitchOn}
+          isOn={this.state.language === 'english'}
           onColor='green'
           offColor='red'
           label={this.state.language}
           labelStyle={{ color: 'black', fontWeight: '900' }}
           size='large'
-          onToggle={(isOn) => this.setState({ isSwitchOn: isOn, language: 'spanish' })}
+          onToggle={() => this.setState((prevstate) => {
+          if (prevstate.language === 'english') {
+            return { language: 'spanish' };
+          }
+          return { language: 'english' };
+          })}
         />
       </View>);
   }
