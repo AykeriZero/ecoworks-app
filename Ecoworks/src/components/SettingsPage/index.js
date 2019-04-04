@@ -9,6 +9,7 @@ import {
 class SettingsPage extends React.Component {
   state = { language: 'english' }
 
+  
   render() {
     return (
       <View>
