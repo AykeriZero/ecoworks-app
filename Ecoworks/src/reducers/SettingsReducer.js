@@ -1,10 +1,10 @@
 import {
-  TAB_NAVIGATOR_UPDATE
+  SETTINGS_LANGUAGE_UPDATE
 } from '../actions/types';
 
 // the default page should be home
 const INITIAL_STATE = {
-  page: 'home'
+  language: 'english'
 };
 
 export default (state = INITIAL_STATE, action) => {
@@ -14,9 +14,9 @@ export default (state = INITIAL_STATE, action) => {
   //             { ...state, page: action.payload } because page is the only
   //             object in state
   switch (action.type) {
-    case TAB_NAVIGATOR_UPDATE:
+    case SETTINGS_LANGUAGE_UPDATE:
       return {
-        page: action.payload
+        language: action.payload
       };
     default:
       return state;
