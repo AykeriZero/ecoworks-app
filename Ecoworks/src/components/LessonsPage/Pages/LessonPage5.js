@@ -71,5 +71,7 @@ width: null
 }
 };
 
-
-export { LessonPage5 };
+const mapStateToPros = (state) => {
+  return {settings: state.settings};
+}
+export default connect( mapStateToPros, {})(LessonPage5);
