@@ -12,7 +12,7 @@ const settingsIconUnfocused = require('./settingsIconUnfocused.png');
 const styles = {
   iconStyle: {
     width: '30%',
-    height: '80%'
+    height: '70%'
   }
 };
 

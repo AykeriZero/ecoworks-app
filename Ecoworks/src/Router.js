@@ -26,12 +26,18 @@ const RouterComponent = () => (
 
       <Scene key="home" icon={getIcon('home')}>
         <Scene key="homePage" component={HomePage} title="Home Page" />
+
+        {/* Add Lesson Scenes to the home page so the back button returns to home */}
         {getLessonScenes()}
       </Scene>
 
       <Scene key="lessons" icon={getIcon('lessons')}>
-        <Scene key="lessonsList" component={LessonsList} title="Lessons" />
+        <Scene key="lessonsList" component={LessonsList} title="Eco Workbook" />
         {getLessonScenes()}
+      </Scene>
+
+      <Scene key="bills" icon={getIcon('bills')}>
+        <Scene key="billsLesson" component={LessonsList} title="Bills" />
       </Scene>
 
       <Scene key="settings" icon={getIcon('settings')}>
