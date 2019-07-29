@@ -2,6 +2,7 @@ import React from 'react';
 import { Scene, Router } from 'react-native-router-flux';
 
 import HomePage from './components/HomePage';
+import BillsPage from './components/BillsPage';
 import getIcon from './components/TabIcon';
 import { getLessonScenes } from './routes';
 import LessonsList from './components/LessonsPage';
@@ -37,7 +38,7 @@ const RouterComponent = () => (
       </Scene>
 
       <Scene key="bills" icon={getIcon('bills')}>
-        <Scene key="billsLesson" component={LessonsList} title="Bills" />
+        <Scene key="billsLesson" component={BillsPage} title="Bills" />
       </Scene>
 
       <Scene key="settings" icon={getIcon('settings')}>
