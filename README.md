@@ -32,3 +32,8 @@ Unknown argument type '__attribute__' in method -[RCTAppState getCurrentAppState
 - react-native 0.57.4 breaks with xcode11
 - Fix in 0.59.9
 - Issue mentioned in https://github.com/facebook/react-native/pull/25146 0.57.4 fix
+
+error Could not find iPhone X simulator
+- Issue with xcode >= 11, react-native-cli
+- Mentioned in https://github.com/react-native-community/cli/issues/418
+- Able to boot from Ecoworks.xcodeproj
