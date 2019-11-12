@@ -4,7 +4,7 @@ import { ScrollView, Text, Image } from 'react-native';
 import { Card, CardSection, TitleFont } from '../../common';
 
 import getImage from '../../../pictures';
-import data from './Lesson2.json';
+import data from './en/en_Lesson2.json';
 
 class LessonPage2 extends Component {
 

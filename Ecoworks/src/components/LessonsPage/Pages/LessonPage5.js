@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { ScrollView, Text, Image } from 'react-native';
 
 import { Card, CardSection, TitleFont } from '../../common';
-import data from './Lesson5.json';
+import data from './en/en_Lesson5.json';
 
 //const Furnace_img = require('./Furnace.png');
 import getImage from '../../../pictures';

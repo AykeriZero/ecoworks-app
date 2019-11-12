@@ -8,7 +8,10 @@ import {
   LessonPage2,
   LessonPage3,
   LessonPage4,
-  LessonPage5
+  LessonPage5,
+  LessonPage6,
+  LessonPage7,
+  LessonPage8
 } from '../components/LessonsPage/Pages';
 
 // returns a list of lesson scenes
@@ -41,6 +44,11 @@ const getLessonScenes = () => (
             key="lessonPage5"
             component={LessonPage5}
             title={LessonData[4].title}
+          />,
+          <Scene
+            key="lessonPage6"
+            component={LessonPage6}
+            title={LessonData[5].title}
           />
   ]
 );
