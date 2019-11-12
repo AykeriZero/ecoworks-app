@@ -15,6 +15,16 @@ class LessonPage6 extends Component {
         <CardSection>
         <TitleFont>{data.description.title}</TitleFont>
         </CardSection>
+        <CardSection>
+        <Text>{data.description.body1}{data.description.body2}{data.description.body3}{data.description.body4}</Text>
+        </CardSection>
+        <CardSection>
+        <Image
+        style={styles.imageStyle}
+        source={getImage(data.drafty_window)}
+        resizeMode={'contain'}
+        />
+        </CardSection>
         </Card>
 
         <Card>
@@ -24,6 +34,13 @@ class LessonPage6 extends Component {
         <CardSection>
         <Text>{data.description.body5}{data.description.body6}{data.description.body7}</Text>
         </CardSection>
+        <CardSection>
+        <Image
+        style={styles.imageStyle}
+        source={getImage(data.drafty_door)}
+        resizeMode={'contain'}
+        />
+        </CardSection>
         </Card>
 
         <Card>
@@ -31,7 +48,14 @@ class LessonPage6 extends Component {
         <TitleFont>{data.description.title3}</TitleFont>
         </CardSection>
         <CardSection>
-        <Text>{data.description.body8}{data.description.body8}</Text>
+        <Text>{data.description.body8}{data.description.body9}</Text>
+        </CardSection>
+        <CardSection>
+        <Image
+        style={styles.imageStyle}
+        source={getImage(data.electricity_saving)}
+        resizeMode={'contain'}
+        />
         </CardSection>
         </Card>
 
@@ -40,7 +64,14 @@ class LessonPage6 extends Component {
         <TitleFont>{data.description.title4}</TitleFont>
         </CardSection>
         <CardSection>
-        <Text>{data.description.body10}{data.description.body11}</Text>
+        <Text>{data.description.body16}{data.description.body17}</Text>
+        </CardSection>
+        <CardSection>
+        <Image
+        style={styles.imageStyle}
+        source={getImage(data.water_saving)}
+        resizeMode={'contain'}
+        />
         </CardSection>
         </Card>
 
@@ -50,6 +81,13 @@ class LessonPage6 extends Component {
         </CardSection>
         <CardSection>
         <Text>{data.description.body19}{data.description.body20}{data.description.body21}{data.description.body22}</Text>
+        </CardSection>
+        <CardSection>
+        <Image
+        style={styles.imageStyle}
+        source={getImage(data.more_energy_saving_materials)}
+        resizeMode={'contain'}
+        />
         </CardSection>
         </Card>
       </ScrollView>
