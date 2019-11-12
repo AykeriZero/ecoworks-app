@@ -1,0 +1,15 @@
+{
+    "description": {
+      "title": "*SPANISH*Find and Fix Air Leaks in House Shell",
+      "reasons": ["∙*SPANISH* Sealing leaks stops reduces drafts and makes your family more comfortable!\n", "∙ *SPANISH*Sealing high and low saves the most money. High – Seal air leaking passageways into your attic. Low – seal around your rim joist. Rim joists are the wood above your foundation wall."],
+      "seal_leak":{
+        "title": "*SPANISH*Sealing Air Leaks",
+        "fixes":["∙*SPANISH* Leftover plastic bags can be pushed into larger gaps for a quick, free fix\n", "- *SPANISH*Use door sweeps to cover gaps at the bottom of doors\n", "∙*SPANISH* Caulk can be used to seal air leaks around windows, doors, baseboards and other gaps\n", "∙ *SPANISH*After gaps are sealed, install window kits"]
+      },
+      "test_leak":{
+          "title": "*SPANISH*Test for Air Leaks",
+          "tests": [["∙ *SPANISH*Daylight Test ", "*SPANISH*Check for light coming through cracks around doors, window frames, rim joists, and fireplace dampers\n"], ["∙ *SPANISH*Wet Hand Test ", "Wet the palm of your hand and move it in front of suspected air leaks\n"], ["∙ *SPANISH*Chimney Damper ", "*SPANISH*Make sure the chimney damper is closed to prevent additional heat loss\n"], ["∙*SPANISH* Look High/Look Low ", "Hot air rises. In the winter, the hot air is trying to escape out of the top and cold air is being sucked in from the bottom"]]
+      }
+    },
+    "airLeak_image": 6
+  }
