@@ -98,4 +98,4 @@ width: null
 const mapStateToPros = (state) => {
   return {settings: state.settings};
 }
-export default connect( mapStateToPros, {})(LessonPage8);
+export { LessonPage8 };

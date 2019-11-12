@@ -4,3 +4,4 @@ export * from './LessonPage3';
 export * from './LessonPage4';
 export * from './LessonPage5';
 export * from './LessonPage6';
+export * from './LessonPage8';

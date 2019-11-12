@@ -50,10 +50,11 @@ const getLessonScenes = () => (
             component={LessonPage6}
             title={LessonData[5].title}
           />,
+
           <Scene
             key="lessonPage8"
             component={LessonPage8}
-            title={LessonData[8].title}
+            title={LessonData[7].title}
           />
   ]
 );
