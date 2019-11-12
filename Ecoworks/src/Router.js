@@ -2,7 +2,7 @@ import React from 'react';
 import { Scene, Router } from 'react-native-router-flux';
 
 import HomePage from './components/HomePage';
-import BillsPage from './components/BillsPage';
+import ResourcesPage from './components/ResourcesPage';
 import getIcon from './components/TabIcon';
 import { getLessonScenes } from './routes';
 import LessonsList from './components/LessonsPage';
@@ -37,8 +37,8 @@ const RouterComponent = () => (
         {getLessonScenes()}
       </Scene>
 
-      <Scene key="bills" icon={getIcon('bills')}>
-        <Scene key="billsLesson" component={BillsPage} title="Bills" />
+      <Scene key="resources" icon={getIcon('resources')}>
+        <Scene key="resourcesPage" component={ResourcesPage} title="Resources" />
       </Scene>
 
       <Scene key="settings" icon={getIcon('settings')}>

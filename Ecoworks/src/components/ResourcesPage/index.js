@@ -7,7 +7,7 @@ import {
 
 import { CardSection, Card, TitleFont } from '../common';
 
-class BillsPage extends React.Component {
+class ResourcesPage extends React.Component {
     /* Display the main bills page */
 
     render() {
@@ -34,4 +34,4 @@ class BillsPage extends React.Component {
   }
 }
 
-export default BillsPage;
+export default ResourcesPage;
