@@ -1,0 +1,38 @@
+{
+    "description": {
+        "title": " **SPANISH **Drafty Window Materials",
+        "body1": " **SPANISH **1. Rope Caulk: Seal gaps around windows temporarily(reusable)\n",
+        "body2": " **SPANISH **2. Caulk: Seal small gaps(e.g. around door and window frames, wall joints, etc.) \n",
+        "body3": " **SPANISH **3. Caulk Gun: The device used to apply caulk \n",
+        "body4": " **SPANISH **4. Window Kit: Temporarily insulate windows to block drafts. Use caulk to seal window before installing window kit. Tyz-All Plastic Interior Storms(www.cleanenerygoutlet.org) and Reusable Storm Window Kit (www.amconservation.com)",
+
+        "title2": " **SPANISH **Drafty Door Materials",
+        "body5": " **SPANISH **5. V-seal: Weatherstripping placed around the door frame to block drafts\n",
+        "body6": "**SPANISH **6. Door Sweep: Blocks drafts at the bottom of doors\n",
+        "body7": "**SPANISH **7. Foam Weatherstripping: Placed around the door frame to block drafts\n",
+
+        "title3": "**SPANISH **Electricity Saving",
+        "body8": "**SPANISH **8. CFL Bulb: Energy and money saving bulb \n",
+        "body9": "**SPANISH **9. LED Bulb: The ultimate energy and money saving light bulb\n ",
+
+        "title4": "**SPANISH **Water Saving",
+        "body16": "**SPANISH **10. High Efficiency Shower Head: Water and money saving shower head \n",
+        "body17": "**SPANISH **11. Faucet Aerators: Saves water and energy by reducing flow rate and the amount of energy needed to heat water \n",
+
+
+        "title5": "**SPANISH **More Energy Saving Materials",
+        "body19": "**SPANISH **12. Spray Foam: Fills in large gaps in walls etc. \n",
+        "body20": "**SPANISH **13. Rigid Foam Insulation/Plywood: Used to seal large air leaks new messages \n",
+        "body21": "**SPANISH **14. Switch & Outlet Sealer: Insulation placed behind light switch and socket plates\n",
+        "body22": "**SPANISH **15. Plastic Grocery Bags: Stuff inside of gaps to insulate"
+
+
+    },
+    //images
+    "drafty_window": 11,
+    "drafty_door": 12,
+    "electricity_saving": 13,
+    "water saving": 14,
+    "more energy saving materials": 15
+
+}
