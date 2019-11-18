@@ -10,6 +10,10 @@ import { connect } from 'react-redux';
 class LessonPage1 extends Component {
 
   render() {
+    let data = englishData; // default to english
+    if (true) {
+        data = spanishData;
+    }
     return (
       <ScrollView>
 

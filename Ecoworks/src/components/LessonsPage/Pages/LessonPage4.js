@@ -11,6 +11,10 @@ import getImage from '../../../pictures';
 class LessonPage4 extends Component {
 
     render() {
+      let data = englishData; // default to english
+      if (true) {
+          data = spanishData;
+      }
         return (
         <ScrollView>
 

@@ -10,6 +10,10 @@ import data from './en/en_Lesson7.json';
 class LessonPage7 extends Component {
 
   render() {
+    let data = englishData; // default to english
+    if (true) {
+        data = spanishData;
+    }
     return (
       <ScrollView>
 
