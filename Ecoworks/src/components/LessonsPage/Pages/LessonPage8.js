@@ -97,7 +97,8 @@ width: null
 }
 };
 
-const mapStateToPros = (state) => {
-  return {settings: state.settings};
-}
-export { LessonPage8 };
+const mapStateToProps = (state) => {
+  return { settings: state.settings };
+};
+
+export default connect(mapStateToProps, {})(LessonPage8);
