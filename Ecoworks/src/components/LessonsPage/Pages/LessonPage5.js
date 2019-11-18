@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { ScrollView, Text, Image } from 'react-native';
 
+import { connect } from 'react-redux';
+
 import { Card, CardSection, TitleFont } from '../../common';
 import data from './en/en_Lesson5.json';
 
@@ -67,4 +69,9 @@ width: null
 };
 
 
-export { LessonPage5 };
+// export { LessonPage5 };
+const mapStateToProps = (state) => {
+  return { settings: state.settings };
+};
+
+export default connect(mapStateToProps, {})(LessonPage8);s

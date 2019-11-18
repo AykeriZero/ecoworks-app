@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { ScrollView, Text, Image } from 'react-native';
 import { connect } from 'react-redux';
 
+import { connect } from 'react-redux';
+
 import { Card, CardSection, TitleFont } from '../../common';
 //const Furnace_img = require('./Furnace.png');
 import getImage from '../../../pictures';
@@ -77,3 +79,4 @@ const mapStateToPros = (state) => {
 };
 
 export default connect(mapStateToPros, {})(LessonPage5);
+s

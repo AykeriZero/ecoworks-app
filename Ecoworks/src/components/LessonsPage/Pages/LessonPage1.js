@@ -5,6 +5,8 @@ import { Card, CardSection, TitleFont } from '../../common';
 import getImage from '../../../pictures';
 import data from './en/en_Lesson1.json';
 
+import { connect } from 'react-redux';
+
 class LessonPage1 extends Component {
 
   render() {
@@ -47,4 +49,9 @@ const styles = {
   }
 };
 
-export { LessonPage1 };
+// export { LessonPage1 };
+const mapStateToProps = (state) => {
+  return { settings: state.settings };
+};
+
+export default connect(mapStateToProps, {})(LessonPage8);

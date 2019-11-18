@@ -3,6 +3,8 @@ import { ScrollView, Text, Image } from 'react-native';
 
 import { Card, CardSection, TitleFont } from '../../common';
 
+import { connect } from 'react-redux';
+
 import getImage from '../../../pictures';
 import data from './en/en_Lesson2.json';
 
@@ -61,4 +63,9 @@ const styles = {
   }
 };
 
-export { LessonPage2 };
+// export { LessonPage2 };
+const mapStateToProps = (state) => {
+  return { settings: state.settings };
+};
+
+export default connect(mapStateToProps, {})(LessonPage8);
