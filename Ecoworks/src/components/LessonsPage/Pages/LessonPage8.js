@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { ScrollView, Text, Image } from 'react-native';
 
+import { connect } from 'react-redux';
+
 import { Card, CardSection, TitleFont } from '../../common';
-//const Furnace_img = require('./Furnace.png');
 import getImage from '../../../pictures';
 
 import englishData from './en/en_Lesson8.json';
@@ -12,9 +13,10 @@ class LessonPage8 extends Component {
 
     render() {
         let data = englishData; // default to english
-        if (true) {
+        if (false) {
             data = spanishData;
         }
+
         return (
           <ScrollView>
 
@@ -71,7 +73,7 @@ class LessonPage8 extends Component {
                 <CardSection>
                   <Image
                     style={styles.imageStyle}
-                    source={getImage(data.lights.jpg)}
+                    source={getImage(data.Light_img)}
                     resizeMode={'contain'}
                   />
                   </CardSection>
