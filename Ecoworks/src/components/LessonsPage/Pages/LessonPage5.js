@@ -74,4 +74,4 @@ const mapStateToProps = (state) => {
   return { settings: state.settings };
 };
 
-export default connect(mapStateToProps, {})(LessonPage8);s
+export default connect(mapStateToProps, {})(LessonPage5);
