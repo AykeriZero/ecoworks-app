@@ -6,7 +6,9 @@ import { Card, CardSection, TitleFont } from '../../common';
 import { connect } from 'react-redux';
 
 import getImage from '../../../pictures';
-import data from './en/en_Lesson3.json';
+// import data from './en/en_Lesson3.json';
+import englishData from './en/en_Lesson3.json';
+import spanishData from './sp/sp_Lesson3.json';
 
 
 class LessonPage3 extends Component {

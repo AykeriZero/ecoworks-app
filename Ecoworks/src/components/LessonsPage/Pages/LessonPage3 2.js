@@ -3,20 +3,19 @@ import { ScrollView, Text, Image } from 'react-native';
 
 import { Card, CardSection, TitleFont } from '../../common';
 import getImage from '../../../pictures';
-// import data from './en/en_Lesson1.json';
-
-import englishData from './en/en_Lesson1.json';
-import spanishData from './sp/sp_Lesson1.json';
 
 import { connect } from 'react-redux';
 
-class LessonPage1 extends Component {
+import englishData from './en/en_Lesson3.json';
+import spanishData from './sp/sp_Lesson3.json';
+
+class LessonPage3 extends Component {
 
   render() {
-    let data = englishData; // default to english
-    if (true) {
-        data = spanishData;
-    }
+      let data = englishData; // default to english
+      if (true) {
+          data = spanishData;
+      }
     return (
       <ScrollView>
 
@@ -25,17 +24,33 @@ class LessonPage1 extends Component {
           <TitleFont>{data.description.title}</TitleFont>
         </CardSection>
         <CardSection>
-          <Text>{data.description.body}</Text>
+          <Text>{data.description.reasons}</Text>
         </CardSection>
       </Card>
 
       <Card>
         <CardSection>
+          <TitleFont>{data.description.seal_leak.title}</TitleFont>
+        </CardSection>
+        <CardSection>
+          <Text>{data.description.seal_leak.fixes}</Text>
+        </CardSection>
+        <CardSection>
           <Image
             style={styles.imageStyle}
-            source={getImage(data.chess_image)}
+            source={getImage(data.airLeak_image)}
             resizeMode={'contain'}
           />
+          </CardSection>
+      </Card>
+
+
+      <Card>
+        <CardSection>
+          <TitleFont>{data.description.test_leak.title}</TitleFont>
+        </CardSection>
+        <CardSection>
+          <Text>{data.description.test_leak.tests}</Text>
         </CardSection>
       </Card>
 
@@ -56,9 +71,9 @@ const styles = {
   }
 };
 
-// export { LessonPage1 };
+// export { LessonPage3 };
 const mapStateToProps = (state) => {
   return { settings: state.settings };
 };
 
-export default connect(mapStateToProps, {})(LessonPage1);
+export default connect(mapStateToProps, {})(LessonPage8);

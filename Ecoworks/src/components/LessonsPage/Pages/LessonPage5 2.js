@@ -1,24 +1,23 @@
 import React, { Component } from 'react';
 import { ScrollView, Text, Image } from 'react-native';
+import { connect } from 'react-redux';
 
 import { connect } from 'react-redux';
 
 import { Card, CardSection, TitleFont } from '../../common';
-// import data from './en/en_Lesson5.json';
+//const Furnace_img = require('./Furnace.png');
+import getImage from '../../../pictures';
 
 import englishData from './en/en_Lesson5.json';
 import spanishData from './sp/sp_Lesson5.json';
 
-//const Furnace_img = require('./Furnace.png');
-import getImage from '../../../pictures';
-
 class LessonPage5 extends Component {
 
     render() {
-      let data = englishData; // default to english
-      if (true) {
-          data = spanishData;
-      }
+        let data = englishData; // default to english
+        if (true) {
+            data = spanishData;
+        }
         return (
           <ScrollView>
 
@@ -75,10 +74,9 @@ width: null
 }
 };
 
-
-// export { LessonPage5 };
-const mapStateToProps = (state) => {
+const mapStateToPros = (state) => {
   return { settings: state.settings };
 };
 
-export default connect(mapStateToProps, {})(LessonPage5);
+export default connect(mapStateToPros, {})(LessonPage5);
+s

@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import { ScrollView, Text, Image } from 'react-native';
 
 import { Card, CardSection, TitleFont } from '../../common';
-import data from './en/en_Lesson4.json';
+// import data from './en/en_Lesson4.json';
+import englishData from './en/en_Lesson4.json';
+import spanishData from './sp/sp_Lesson4.json';
 
 import { connect } from 'react-redux';
 
