@@ -13,8 +13,12 @@ class LessonPage7 extends Component {
 
   render() {
     let data = englishData; // default to english
-    if (true) {
-        data = spanishData;
+    switch(this.props.settings.language)
+    {
+      case "spanish":
+          data = spanishData;
+      default:
+        data = englishData;
     }
     return (
       <ScrollView>
