@@ -4,13 +4,20 @@ import { ScrollView, Text, Image } from 'react-native';
 import { connect } from 'react-redux';
 
 import { Card, CardSection, TitleFont } from '../../common';
-import data from './en/en_Lesson6.json';
+// import data from './en/en_Lesson6.json';
+
+import englishData from './en/en_Lesson6.json';
+import spanishData from './sp/sp_Lesson6.json';
 
 //const Furnace_img = require('./Furnace.png');
 import getImage from '../../../pictures';
 
 class LessonPage6 extends Component {
   render() {
+    let data = englishData; // default to english
+    if (true) {
+        data = spanishData;
+    }
     return (
       <ScrollView>
         <Card>

@@ -14,7 +14,7 @@ class LessonPage8 extends Component {
     render() {
         console.log(this.props);
         let data = englishData; // default to english
-        if (false) {
+        if (true) {
             data = spanishData;
         }
 
