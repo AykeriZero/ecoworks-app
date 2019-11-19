@@ -2,7 +2,7 @@ import {
   SETTINGS_LANGUAGE_UPDATE
 } from './types';
 
-export const settingsLessonUpdate = (language) => {
+export const settingsLanguageUpdate = (language) => {
   return {
     type: SETTINGS_LANGUAGE_UPDATE,
     payload: language

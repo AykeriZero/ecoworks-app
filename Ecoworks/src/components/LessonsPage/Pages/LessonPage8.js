@@ -12,11 +12,13 @@ import spanishData from './sp/sp_Lesson8.json';
 class LessonPage8 extends Component {
 
     render() {
+    console.log(this.props.settings);
       let data = englishData; // default to english
-      switch(this.props.settings.language)
-      {
+
+      switch(this.props.settings.language) {
         case "spanish":
             data = spanishData;
+            break;
         default:
           data = englishData;
       }
