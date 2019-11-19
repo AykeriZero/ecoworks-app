@@ -19,6 +19,7 @@ class LessonPage2 extends Component {
     {
       case "spanish":
           data = spanishData;
+          break;
       default:
         data = englishData;
     }
