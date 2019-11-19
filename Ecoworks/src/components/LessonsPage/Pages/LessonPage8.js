@@ -12,6 +12,7 @@ import spanishData from './sp/sp_Lesson8.json';
 class LessonPage8 extends Component {
 
     render() {
+        console.log(this.props);
         let data = englishData; // default to english
         if (false) {
             data = spanishData;

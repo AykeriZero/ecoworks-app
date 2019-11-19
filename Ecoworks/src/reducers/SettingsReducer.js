@@ -16,6 +16,7 @@ export default (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case SETTINGS_LANGUAGE_UPDATE:
       return {
+        ...state,
         language: action.payload
       };
     default:
