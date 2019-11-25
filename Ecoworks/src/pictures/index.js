@@ -17,6 +17,7 @@ const img15 = require('./Brown_Tools.png');
 const img16 = require('./lights.jpeg');
 const img17 = require('./lowcostsoln.png');
 const img18 = require('./caulk.png');
+const img19 = require('./electricitybill.png');
 
 
 function getImage(image) {
@@ -57,6 +58,8 @@ function getImage(image) {
       return img17;
     case 18:
       return img18;
+    case 19:
+      return img19;
     default:
       return pictureMissing;
   }
