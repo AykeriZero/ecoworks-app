@@ -36,6 +36,23 @@ class LessonPage7 extends Component {
         </CardSection>
       </Card>
 
+      <Card>
+      <CardSection>
+        <Image
+          style={styles.imageStyle}
+          source={getImage(data.bill1)}
+          resizeMode={'contain'}
+        />
+        </CardSection>
+        <CardSection>
+        <Image
+          style={styles.imageStyle}
+          source={getImage(data.bill2)}
+          resizeMode={'contain'}
+        />
+        </CardSection>
+      </Card>
+
 
       </ScrollView>
     );

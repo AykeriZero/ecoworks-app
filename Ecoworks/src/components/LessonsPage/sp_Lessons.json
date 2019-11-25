@@ -24,4 +24,19 @@
     "title": "Sistemas de Agua",
     "img": 5
   },
+  {
+    "id": 6,
+    "title": "Materiales de climatización",
+    "img": 5
+  },
+  {
+    "id": 7,
+    "title": "Facturas e impuestos",
+    "img": 5
+  },
+  {
+    "id": 8,
+    "title": "Soluciones sin costo y de bajo costo",
+    "img": 17
+  }
 ]
