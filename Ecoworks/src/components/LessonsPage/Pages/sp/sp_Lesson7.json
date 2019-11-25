@@ -1,0 +1,15 @@
+{
+    "description": {
+        "title": "Vocabulario",
+        "title1": "CARGOS ELÉCTRICOS\n",
+        "body1": "KWH (Kilovatios por Hora): Medida de electricidad. Numero de Vatios x numero de horas\n",
+        "body2": "Power Supply Charges (Cargos de Suminstro de Energía): Lo que cuesta generar electricidad \n",
+        "body3": "Distribution (Distribución): El precio del mantenimiento de los cables y para llevar la electricidad al cliente \n",
+        "body4": "Service Charges (Cargos de Servicio): Cargos administrativos",
+        "title2": "CARGOS DE GAS\n",
+        "body5": "CCF (Century Cubic Feet): Medida de gas\n",
+        "body6": "Customer Charge (Cargo al cliente): Cargo administrativo\n",
+        "body7": "Gas Distribution Charge: Precio de distribución\n",
+        "body8": "Gas Cost Recovery (GCR): El precio del gas\n"
+    },
+}
