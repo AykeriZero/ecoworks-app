@@ -9,6 +9,7 @@ import {
 import { CardSection, Card } from '../common';
 import LessonIcon from './LessonIcon';
 import LessonData from '../LessonsPage/Lessons';
+import ActionList from '../LessonsPage/ActionList';
 
 class HomePage extends React.Component {
     /* Display home page */
@@ -48,12 +49,9 @@ class HomePage extends React.Component {
 
         <Card>
           <CardSection>
-              <Text style={styles.textStyle}> Tasks </Text>
-              {
-                  // TODO: DON'T USE CHECKBOX, USE SWITCH
-              }
           </CardSection>
         </Card>
+        <ActionList lesson="Home"></ActionList>
 
         </View>
       );

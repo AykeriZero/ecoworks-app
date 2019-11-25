@@ -4,3 +4,4 @@
 //       error messages.
 
 export const TAB_NAVIGATOR_UPDATE = 'tab_navigator_update';
+export const TASK_ACTION = 'task_action_update';
