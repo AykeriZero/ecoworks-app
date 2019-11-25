@@ -1,0 +1,16 @@
+{
+    "Lesson1": {
+       "tasks": [
+           {"id": 0, "name": "Check window1"},
+           {"id": 1, "name": "Check window2"},
+           {"id": 2, "name": "Check window3"}
+       ] 
+    },
+    "Lesson2": {
+        "tasks": [
+            {"id": 3, "name": "Check window4"},
+            {"id": 4, "name": "Check window5"},
+            {"id": 5, "name": "Check window6"}
+        ] 
+     }
+}
