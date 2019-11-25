@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
 import {
     Text,
@@ -8,7 +9,9 @@ import {
 
 import { CardSection, Card } from '../common';
 import LessonIcon from './LessonIcon';
-import LessonData from '../LessonsPage/Lessons';
+//import LessonData from '../LessonsPage/Lessons';
+import englishData from '../LessonsPage/Lessons';
+import spanishData from '../LessonsPage/sp_Lessons';
 
 class HomePage extends React.Component {
     /* Display home page */
@@ -26,6 +29,15 @@ class HomePage extends React.Component {
     }
 
     render() {
+      let LessonData = englishData; // default to english
+      switch(this.props.settings.language)
+      {
+        case "spanish":
+            LessonData = spanishData;
+            break;
+        default:
+          LessonData = englishData;
+      }
       return (
         <View>
         <Card>
@@ -88,6 +100,8 @@ const styles = {
     margin: 10
   }
 };
+const mapStateToProps = (state) => {
+  return { settings: state.settings };
+};
 
-
-export default HomePage;
+export default connect(mapStateToProps, {})(HomePage);
