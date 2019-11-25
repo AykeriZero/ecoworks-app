@@ -2,7 +2,7 @@ import React from 'react';
 
 import {
     Text,
-    View,
+    ScrollView,
     FlatList
 } from 'react-native';
 
@@ -28,7 +28,7 @@ class HomePage extends React.Component {
 
     render() {
       return (
-        <View>
+        <ScrollView>
         <Card>
           <CardSection>
               <Text style={styles.textStyle}> Lessons </Text>
@@ -49,11 +49,11 @@ class HomePage extends React.Component {
 
         <Card>
           <CardSection>
+        <ActionList lesson="Home"></ActionList>
           </CardSection>
         </Card>
-        <ActionList lesson="Home"></ActionList>
 
-        </View>
+        </ScrollView>
       );
   }
 }

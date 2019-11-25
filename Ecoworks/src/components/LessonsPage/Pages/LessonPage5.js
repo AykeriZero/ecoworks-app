@@ -6,6 +6,8 @@ import data from './Lesson5.json';
 
 //const Furnace_img = require('./Furnace.png');
 import getImage from '../../../pictures';
+import ActionList from '../ActionList';
+
 
 class LessonPage5 extends Component {
 
@@ -48,7 +50,15 @@ class LessonPage5 extends Component {
                 <Text>{data.description.body11}{data.description.body12}{data.description.body13}{data.description.body14}</Text>
                 </CardSection>
                 </Card>
-
+                <Card>
+                <CardSection>
+                  <Text> Add to your Action List: </Text>
+                </CardSection>
+                <CardSection> 
+                  <ActionList lesson="Lesson4"></ActionList>
+                </CardSection>
+                
+              </Card>
 
         </ScrollView>
       );

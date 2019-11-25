@@ -5,6 +5,7 @@ import { Card, CardSection, TitleFont } from '../../common';
 
 import getImage from '../../../pictures';
 import data from './Lesson2.json';
+import ActionList from '../ActionList';
 
 class LessonPage2 extends Component {
 
@@ -43,7 +44,7 @@ class LessonPage2 extends Component {
           />
         </CardSection>
       </Card>
-
+      <ActionList lesson="Lesson2"></ActionList>
       </ScrollView>
     );
   }

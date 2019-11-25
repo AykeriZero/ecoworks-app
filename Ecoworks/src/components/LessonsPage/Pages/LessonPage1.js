@@ -33,7 +33,7 @@ class LessonPage1 extends Component {
       </Card>
       <Card>
         <CardSection>
-          <Text> Actions to Take: </Text>
+          <Text> Add to your Action List: </Text>
         </CardSection>
         <CardSection> 
           <ActionList lesson="Lesson1"></ActionList>
