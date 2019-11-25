@@ -15,6 +15,7 @@ const img13 = require('./Red_Tools.png');
 const img14 = require('./Green_Tools.png');
 const img15 = require('./Brown_Tools.png');
 const img16 = require('./lights.jpeg');
+const img17 = require('./lowcostsoln.png');
 
 
 function getImage(image) {
@@ -51,6 +52,8 @@ function getImage(image) {
       return img15;
     case 16:
       return img16;
+    case 17:
+      return img17;
     default:
       return pictureMissing;
   }
