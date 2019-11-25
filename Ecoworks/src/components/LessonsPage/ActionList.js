@@ -28,10 +28,14 @@ class ActionList extends React.Component {
             console.log(this.props);
             console.log(this.props.actionItems.actionItems.length);
             if (this.props.actionItems.actionItems.length === 0) {
-                let list = await AsyncStorage.getItem('@actionList');
-                console.log(list)
-                list = JSON.parse(list);
-                this.props.TaskAction(list);
+                try {
+                    let list = await AsyncStorage.getItem('@actionList');
+                    list = JSON.parse(list);
+                    this.props.TaskAction(list);
+                } catch (error) {
+                    await AsyncStorage.setItem('@actionList', '[]');
+                    this.props.TaskAction([]);
+                }
             }
         }
     }
