@@ -38,7 +38,7 @@ class LessonPage8 extends Component {
                 <TitleFont>{data.description.title2}</TitleFont>
                 </CardSection>
                 <CardSection>
-                <Text>{data.description.body1}{data.description.body2}{data.description.body3}{data.description.body4}</Text>
+                <Text>{data.description.title1}{data.description.body2}{data.description.body3}{data.description.body4}</Text>
                 </CardSection>
                 </Card>
 

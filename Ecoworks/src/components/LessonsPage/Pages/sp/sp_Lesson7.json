@@ -1,15 +1,15 @@
 {
     "description": {
-        "title": "**SPANISH **Terms",
-        "title1": "**SPANISH **Electricity Charges\n",
-        "body1": "**SPANISH **1. KWH: The way electricity is measured, Power Used x Time Used\n",
-        "body2": "**SPANISH **2. Power Supply Charges: The cost to generate electricitu7 \n",
-        "body3": "**SPANISH **3. Distribution: The cost to maintain power lines and to deliver electricty to customer\n",
-        "body4": "**SPANISH **4. Service Charges: Monthly service charge for administrative costs",
-        "title2": "**SPANISH **Gas Charges\n",
-        "body5": "**SPANISH **1. CCF: 100 cubic feet - a way to measure gas\n",
-        "body6": "**SPANISH **2. Customer Charge: Monthly service charge for administrative costs\n",
-        "body7": "**SPANISH **3. Gas Distribution Charge: The cost to deliver gas to the customer\n",
-        "body8": "**SPANISH **4. Gas Cost Recovery(GCR): The actual cost of gas\n"
+        "title": "Vocabulario",
+        "title1": "CARGOS ELÉCTRICOS\n",
+        "body1": "KWH (Kilovatios por Hora): Medida de electricidad. Numero de Vatios x numero de horas\n",
+        "body2": "Power Supply Charges (Cargos de Suminstro de Energía): Lo que cuesta generar electricidad \n",
+        "body3": "Distribution (Distribución): El precio del mantenimiento de los cables y para llevar la electricidad al cliente \n",
+        "body4": "Service Charges (Cargos de Servicio): Cargos administrativos",
+        "title2": "CARGOS DE GAS\n",
+        "body5": "CCF (Century Cubic Feet): Medida de gas\n",
+        "body6": "Customer Charge (Cargo al cliente): Cargo administrativo\n",
+        "body7": "Gas Distribution Charge: Precio de distribución\n",
+        "body8": "Gas Cost Recovery (GCR): El precio del gas\n"
     },
 }
