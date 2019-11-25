@@ -1,30 +1,29 @@
 {
     "description": {
-        "title": " **SPANISH **Drafty Window Materials",
-        "body1": " **SPANISH **1. Rope Caulk: Seal gaps around windows temporarily(reusable)\n",
-        "body2": " **SPANISH **2. Caulk: Seal small gaps(e.g. around door and window frames, wall joints, etc.) \n",
-        "body3": " **SPANISH **3. Caulk Gun: The device used to apply caulk \n",
-        "body4": " **SPANISH **4. Window Kit: Temporarily insulate windows to block drafts. Use caulk to seal window before installing window kit. Tyz-All Plastic Interior Storms(www.cleanenerygoutlet.org) and Reusable Storm Window Kit (www.amconservation.com)",
+        "title": "Materiales Para Ventanas",
+        "body1": "1. Rope Caulk: Esta plastilina se mete en huecos y es temporaria (Reusable)\n",
+        "body2": "2. Caulk: El silicón se aplica en huecos que no piense abrir otra vez (Permanente) \n",
+        "body3": "3. Caulk \"Gun\": Esto se usa para aplicar silicón \n",
+        "body4": "4. Use los materiales anteriores antes de cubrir la ventana con plástico, que se puede comprar por el internet",
 
-        "title2": " **SPANISH **Drafty Door Materials",
-        "body5": " **SPANISH **5. V-seal: Weatherstripping placed around the door frame to block drafts\n",
-        "body6": "**SPANISH **6. Door Sweep: Blocks drafts at the bottom of doors\n",
-        "body7": "**SPANISH **7. Foam Weatherstripping: Placed around the door frame to block drafts\n",
+        "title2": "Materiales Para Puertas",
+        "body5": "5. V-seal: Este plástico adhesivo se pone alrededor del marco de la puerta \n",
+        "body6": "6. Door Sweep: Este plástico adhesivo se pone alrededor del marco de la puerta \n",
+        "body7": "7. Foam Weatherstripping: Esta espuma adhesiva se pone alrededor del marco de la puerta \n",
 
-        "title3": "**SPANISH **Electricity Saving",
-        "body8": "**SPANISH **8. CFL Bulb: Energy and money saving bulb \n",
-        "body9": "**SPANISH **9. LED Bulb: The ultimate energy and money saving light bulb\n ",
+        "title3": "PARA CONSERVAR ELECTRICIDAD",
+        "body8": "8. Foco FCL: Conserva energía y ahorra dinero \n",
+        "body9": "9. Foco LED: Conserva energía y ahorra dinero (y no se calienta tanto porque es muy eficiente) \n ",
 
-        "title4": "**SPANISH **Water Saving",
-        "body16": "**SPANISH **10. High Efficiency Shower Head: Water and money saving shower head \n",
-        "body17": "**SPANISH **11. Faucet Aerators: Saves water and energy by reducing flow rate and the amount of energy needed to heat water \n",
+        "title4": "PARA CONSERVAR AGUA",
+        "body16": "10. Regaderas Eficientes: Conserva agua y ahorra dinero \n",
+        "body17": "11. Aireadores: Reduce el flujo de agua y ahorra energía porque al usar menos agua caliente, se usa menos energía \n",
 
-
-        "title5": "**SPANISH **More Energy Saving Materials",
-        "body19": "**SPANISH **12. Spray Foam: Fills in large gaps in walls etc. \n",
-        "body20": "**SPANISH **13. Rigid Foam Insulation/Plywood: Used to seal large air leaks new messages \n",
-        "body21": "**SPANISH **14. Switch & Outlet Sealer: Insulation placed behind light switch and socket plates\n",
-        "body22": "**SPANISH **15. Plastic Grocery Bags: Stuff inside of gaps to insulate"
+        "title5": "OTROS MATERIALES",
+        "body19": "12. Espupa en Spray: Rellena adentro de las paredes etc. \n",
+        "body20": "13. Espuma Dura/Madera: Cubre hoyos en la pared \n",
+        "body21": "14. Insulante de Enchufes/Switch: Quite la cobertura del enchufe (o switch), instale, y atornille la cobertura otra vez \n",
+        "body22": "15. Bolsas de plástico: ¡No las tire! Use para rellenar huecos grandes "
 
 
     },

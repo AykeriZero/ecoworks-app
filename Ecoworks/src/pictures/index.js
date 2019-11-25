@@ -1,9 +1,9 @@
-const lesson1Chess = require('./lesson1Chess.png');
+const lesson1Chess = require('./energysmart.png');
 const pictureMissing = require('./pictureMissing.png');
-const img2 = require('./2cover.jpeg');
-const img3 = require('./3cover.jpeg');
-const img4 = require('./4cover.jpeg');
-const img5 = require('./5cover.jpeg');
+const img2 = require('./energydown.png');
+const img3 = require('./airleakshouse.png');
+const img4 = require('./housesystems.png');
+const img5 = require('./watersystems.png');
 const img6 = require('./airLeak.png'); //3 inside
 const img7 = require('./furnace_graphic.jpeg'); //4 inside
 const img8 = require('./Toilet.jpeg'); //5 inside
@@ -15,6 +15,7 @@ const img13 = require('./Red_Tools.png');
 const img14 = require('./Green_Tools.png');
 const img15 = require('./Brown_Tools.png');
 const img16 = require('./lights.jpeg');
+const img17 = require('./lowcostsoln.png');
 
 
 function getImage(image) {
@@ -51,6 +52,8 @@ function getImage(image) {
       return img15;
     case 16:
       return img16;
+    case 17:
+      return img17;
     default:
       return pictureMissing;
   }
