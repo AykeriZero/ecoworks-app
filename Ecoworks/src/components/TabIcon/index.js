@@ -1,19 +1,19 @@
 import React from 'react';
 import { Image } from 'react-native';
 
-const homeIcon = require('./homeIcon.png');
-const homeIconUnfocused = require('./homeIconUnfocused.png');
-const lessonsIcon = require('./lessonsIcon.png');
-const lessonsIconUnfocused = require('./lessonsIconUnfocused.png');
-const settingsIcon = require('./settingsIcon.png');
-const settingsIconUnfocused = require('./settingsIconUnfocused.png');
-const resourcesIcon = require('./resourcesIcon.png');
-const resourcesIconUnfocused = require('./resourcesIconUnfocused.png');
+const homeIcon = require('./highlighted-house.png');
+const homeIconUnfocused = require('./house.png');
+const lessonsIcon = require('./highlighted-lessons.png');
+const lessonsIconUnfocused = require('./lessons.png');
+const settingsIcon = require('./highlighted-settings.png');
+const settingsIconUnfocused = require('./settings.png');
+const resourcesIcon = require('./highlighted-resources.png');
+const resourcesIconUnfocused = require('./resources.png');
 
 
 const styles = {
   iconStyle: {
-    width: '30%',
+    width: '45%',
     height: '70%'
   }
 };
