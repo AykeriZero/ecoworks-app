@@ -8,6 +8,8 @@ import getImage from '../../../pictures';
 
 import englishData from './en/en_Lesson7.json';
 import spanishData from './sp/sp_Lesson7.json';
+import ActionList from '../ActionList';
+
 
 class LessonPage7 extends Component {
 
@@ -52,7 +54,15 @@ class LessonPage7 extends Component {
         />
         </CardSection>
       </Card>
-
+      <Card>
+        <CardSection>
+          <Text> Add to your Action List: </Text>
+        </CardSection>
+        <CardSection> 
+          <ActionList lesson="Lesson7"></ActionList>
+        </CardSection>
+        
+      </Card>
 
       </ScrollView>
     );

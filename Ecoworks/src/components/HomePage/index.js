@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import {
     Text,
-    View,
+    ScrollView,
     FlatList
 } from 'react-native';
 
@@ -12,6 +12,7 @@ import LessonIcon from './LessonIcon';
 //import LessonData from '../LessonsPage/Lessons';
 import englishData from '../LessonsPage/Lessons';
 import spanishData from '../LessonsPage/sp_Lessons';
+import ActionList from '../LessonsPage/ActionList';
 
 class HomePage extends React.Component {
     /* Display home page */
@@ -39,7 +40,7 @@ class HomePage extends React.Component {
           LessonData = englishData;
       }
       return (
-        <View>
+        <ScrollView>
         <Card>
           <CardSection>
               <Text style={styles.textStyle}> Lessons </Text>
@@ -60,14 +61,11 @@ class HomePage extends React.Component {
 
         <Card>
           <CardSection>
-              <Text style={styles.textStyle}> Tasks </Text>
-              {
-                  // TODO: DON'T USE CHECKBOX, USE SWITCH
-              }
+        <ActionList lesson="Home"></ActionList>
           </CardSection>
         </Card>
 
-        </View>
+        </ScrollView>
       );
   }
 }
