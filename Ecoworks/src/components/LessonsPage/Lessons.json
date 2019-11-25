@@ -24,4 +24,19 @@
     "title": "Water Systems",
     "img": 5
   },
+  {
+    "id": 6,
+    "title": "Weatherization Materials",
+    "img": 5
+  },
+  {
+    "id": 7,
+    "title": "Bills and Taxes",
+    "img": 5
+  },
+  {
+    "id": 8,
+    "title": "No Cost and Low Cost Solutions",
+    "img": 5
+  }
 ]

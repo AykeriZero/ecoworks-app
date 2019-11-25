@@ -9,6 +9,13 @@ const img7 = require('./furnace_graphic.jpeg'); //4 inside
 const img8 = require('./Toilet.jpeg'); //5 inside
 const img9 = require('./money.png'); //2 inside #1
 const img10 = require('./triangle.png'); //2 inside #2
+const img11 = require('./BlueTools.png');
+const img12 = require('./Pink_Tools.png');
+const img13 = require('./Red_Tools.png');
+const img14 = require('./Green_Tools.png');
+const img15 = require('./Brown_Tools.png');
+const img16 = require('./lights.jpeg');
+
 
 function getImage(image) {
   switch (image) {
@@ -32,6 +39,18 @@ function getImage(image) {
       return img10;
     case 'lesson1Chess':
       return lesson1Chess;
+    case 11:
+      return img11;
+    case 12:
+      return img12;
+    case 13:
+      return img13;
+    case 14:
+      return img14;
+    case 15:
+      return img15;
+    case 16:
+      return img16;
     default:
       return pictureMissing;
   }

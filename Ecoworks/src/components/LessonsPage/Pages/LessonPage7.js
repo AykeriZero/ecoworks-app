@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 import { ScrollView, Text, Image } from 'react-native';
 
-import { Card, CardSection, TitleFont } from '../../common';
-import getImage from '../../../pictures';
-// import data from './en/en_Lesson1.json';
-
-import englishData from './en/en_Lesson1.json';
-import spanishData from './sp/sp_Lesson1.json';
-
 import { connect } from 'react-redux';
 
-class LessonPage1 extends Component {
+import { Card, CardSection, TitleFont } from '../../common';
+import getImage from '../../../pictures';
+
+import englishData from './en/en_Lesson7.json';
+import spanishData from './sp/sp_Lesson7.json';
+
+class LessonPage7 extends Component {
 
   render() {
     let data = englishData; // default to english
@@ -22,9 +21,6 @@ class LessonPage1 extends Component {
       default:
         data = englishData;
     }
-    // if (true) {
-    //     data = spanishData;
-    // }
     return (
       <ScrollView>
 
@@ -33,19 +29,13 @@ class LessonPage1 extends Component {
           <TitleFont>{data.description.title}</TitleFont>
         </CardSection>
         <CardSection>
-          <Text>{data.description.body}</Text>
+          <Text>{data.description.title1}{data.description.body1}{data.description.body2}{data.description.body3}{data.description.body4}</Text>
+        </CardSection>
+        <CardSection>
+          <Text>{data.description.title2}{data.description.body5}{data.description.body6}{data.description.body7}{data.description.body8}</Text>
         </CardSection>
       </Card>
 
-      <Card>
-        <CardSection>
-          <Image
-            style={styles.imageStyle}
-            source={getImage(data.chess_image)}
-            resizeMode={'contain'}
-          />
-        </CardSection>
-      </Card>
 
       </ScrollView>
     );
@@ -64,9 +54,10 @@ const styles = {
   }
 };
 
-// export { LessonPage1 };
+// export { LessonPage7 };
+
 const mapStateToProps = (state) => {
   return { settings: state.settings };
 };
 
-export default connect(mapStateToProps, {})(LessonPage1);
+export default connect(mapStateToProps, {})(LessonPage7);

@@ -3,12 +3,27 @@ import { ScrollView, Text, Image } from 'react-native';
 
 import { Card, CardSection, TitleFont } from '../../common';
 
+import { connect } from 'react-redux';
+
 import getImage from '../../../pictures';
-import data from './Lesson2.json';
+// import data from './en/en_Lesson2.json';
+
+import englishData from './en/en_Lesson2.json';
+import spanishData from './sp/sp_Lesson2.json';
 
 class LessonPage2 extends Component {
 
   render() {
+    let data = englishData; // default to english
+    switch(this.props.settings.language)
+    {
+      case "spanish":
+          data = spanishData;
+          break;
+      default:
+        data = englishData;
+    }
+
     return (
       <ScrollView>
 
@@ -61,4 +76,9 @@ const styles = {
   }
 };
 
-export { LessonPage2 };
+// export { LessonPage2 };
+const mapStateToProps = (state) => {
+  return { settings: state.settings };
+};
+
+export default connect(mapStateToProps, {})(LessonPage2);
