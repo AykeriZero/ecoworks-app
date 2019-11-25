@@ -2,6 +2,7 @@
 import React from 'react';
 import { View, Button } from 'react-native';
 import data from './actionItems.json'
+import AsyncStorage from '@react-native-community/async-storage';
 
 
 class ActionList extends React.Component {
@@ -17,13 +18,17 @@ class ActionList extends React.Component {
     }
 
     addToList(id) {
-
+            try {
+               AsyncStorage.setItem('@actionList', '[]')
+            } catch (e) {
+              // saving error
+            }
     }
 
     renderButtons() {
         return this.state.actionItems.map((item) => {
             return (
-                <Button key={item.id} title={item.name} onPress={() => addToList(item.id)}></Button>
+                <Button key={item.id} title={item.name} onPress={() => this.addToList(item.id)}></Button>
             );
         });
     }

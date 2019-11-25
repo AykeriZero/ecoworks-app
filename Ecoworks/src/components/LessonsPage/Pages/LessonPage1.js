@@ -4,7 +4,7 @@ import { ScrollView, Text, Image } from 'react-native';
 import { Card, CardSection, TitleFont, Button } from '../../common';
 import getImage from '../../../pictures';
 import data from './Lesson1.json';
-
+import ActionList from '../ActionList';
 
 
 class LessonPage1 extends Component {
@@ -35,16 +35,8 @@ class LessonPage1 extends Component {
         <CardSection>
           <Text> Actions to Take: </Text>
         </CardSection>
-
- //       actionItems.map( function(item)) {
- //         <Button 
- //           text = {item.name}
- //           onpress={() => foo(item.id)}/>
-//
-  //      });
-
         <CardSection> 
-          <Button> Yes</Button> 
+          <ActionList lesson="Lesson1"></ActionList>
         </CardSection>
         
       </Card>
