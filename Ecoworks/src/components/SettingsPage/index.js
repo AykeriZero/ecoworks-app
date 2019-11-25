@@ -12,9 +12,6 @@ import { settingsLanguageUpdate } from '../../actions';
 
 class SettingsPage extends React.Component {
 
-  state = { isSwitchOn: true,
-            language: 'english' }
-
   render() {
     return (
       <View>
