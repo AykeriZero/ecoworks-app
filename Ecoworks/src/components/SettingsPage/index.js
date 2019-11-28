@@ -1,60 +1,43 @@
 import React from 'react';
-
 import { connect } from 'react-redux';
+import { View, Picker } from 'react-native';
 
-import {
-    Text,
-    Picker,
-    View,
-    TouchableWithoutFeedback
-} from 'react-native';
-
-import { Card, CardSection } from '../common';
 import { settingsLanguageUpdate } from '../../actions';
-
-const ChangeSettingButton = ({ onPress, current_setting }) => (
-  <TouchableWithoutFeedback>
-  </TouchableWithoutFeedback>
-);
+import SettingsSection from './SettingsSection';
 
 class SettingsPage extends React.Component {
+  getHumanText(key) {
+    switch (key) {
+      case 'english':
+        return 'English';
+      case 'spanish':
+        return 'Spanish';
+      default:
+        return 'Error';
+    }
+  }
 
   render() {
     return (
       <View>
-      <Card style={styles.settingStyle}>
+        <SettingsSection
+          sectionText={'Language'}
+          sectionOption={this.getHumanText(this.props.settings.language)}
+        />
 
-      <CardSection style={{ alignItems: 'stretch', flex: 1 }}>
-        <Text>Language</Text>
+        <SettingsSection
+          sectionText={'Example Setting 1'}
+          sectionOption={'Example Option'}
+        />
 
-        {/*
-        <Picker
-          selectedValue={this.props.settings.language}
-          style={{ height: 50, width: 100 }}
-          onValueChange={(itemValue) =>
-              this.props.settingsLanguageUpdate(itemValue)
-            }
-        >
-            <Picker.Item label="English" value="english" />
-            <Picker.Item label="Spanish" value="spanish" />
-        </Picker>
-        */}
-        </CardSection>
-
-        <CardSection>
-          <Text>{this.props.settings.language}</Text>
-        </CardSection>
-      </Card>
-
-      </View>);
+        <SettingsSection
+          sectionText={'Example Setting 2'}
+          sectionOption={'Example Option'}
+        />
+      </View>
+    );
   }
 }
-
-const styles = {
-  settingStyle: {
-    flexDirection: 'row'
-  }
-};
 
 const mapStateToProps = (state) => {
   return { settings: state.settings };
