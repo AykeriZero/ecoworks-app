@@ -8,6 +8,8 @@ import getImage from '../../../pictures';
 
 import englishData from './en/en_Lesson7.json';
 import spanishData from './sp/sp_Lesson7.json';
+import ActionList from '../ActionList';
+
 
 class LessonPage7 extends Component {
 
@@ -36,6 +38,31 @@ class LessonPage7 extends Component {
         </CardSection>
       </Card>
 
+      <Card>
+      <CardSection>
+        <Image
+          style={styles.imageStyle}
+          source={getImage(data.bill1)}
+          resizeMode={'contain'}
+        />
+        </CardSection>
+        <CardSection>
+        <Image
+          style={styles.imageStyle}
+          source={getImage(data.bill2)}
+          resizeMode={'contain'}
+        />
+        </CardSection>
+      </Card>
+      <Card>
+        <CardSection>
+          <Text> Add to your Action List: </Text>
+        </CardSection>
+        <CardSection> 
+          <ActionList lesson="Lesson7"></ActionList>
+        </CardSection>
+        
+      </Card>
 
       </ScrollView>
     );

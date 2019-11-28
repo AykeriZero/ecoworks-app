@@ -4,7 +4,10 @@ import { FlatList } from 'react-native';
 import { connect } from 'react-redux';
 import { tabNavigatorUpdate } from '../../actions';
 
-import data from './Lessons.json';
+//import data from './Lessons.json';
+
+import englishData from './Lessons.json';
+import spanishData from './sp_Lessons.json';
 
 import LessonsListItem from './LessonsListItem';
 
@@ -17,6 +20,15 @@ class LessonsPage extends Component {
   }
 
   render() {
+    let data = englishData; // default to english
+    switch(this.props.settings.language)
+    {
+      case "spanish":
+          data = spanishData;
+          break;
+      default:
+        data = englishData;
+    }
     return (
       <FlatList
         data={data}
@@ -27,8 +39,8 @@ class LessonsPage extends Component {
   }
 }
 
-const mapStateToProps = () => {
-  return {};
+const mapStateToProps = (state) => {
+  return { settings: state.settings };
 };
 
 export default connect(mapStateToProps, { tabNavigatorUpdate })(LessonsPage);

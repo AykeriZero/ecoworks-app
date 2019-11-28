@@ -5,3 +5,4 @@
 
 export const TAB_NAVIGATOR_UPDATE = 'tab_navigator_update';
 export const SETTINGS_LANGUAGE_UPDATE = 'settings_language_update';
+export const TASK_ACTION = 'task_action_update';

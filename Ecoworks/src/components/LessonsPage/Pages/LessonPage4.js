@@ -9,6 +9,8 @@ import spanishData from './sp/sp_Lesson4.json';
 import { connect } from 'react-redux';
 
 import getImage from '../../../pictures';
+import ActionList from '../ActionList';
+
 
 class LessonPage4 extends Component {
 
@@ -60,6 +62,15 @@ class LessonPage4 extends Component {
             </CardSection>
         </Card>
 
+        <Card>
+        <CardSection>
+          <Text> Add to your Action List: </Text>
+        </CardSection>
+        <CardSection> 
+          <ActionList lesson="Lesson4"></ActionList>
+        </CardSection>
+        
+      </Card>
 
         </ScrollView>
                 );

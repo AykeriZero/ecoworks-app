@@ -16,7 +16,10 @@ const img14 = require('./Green_Tools.png');
 const img15 = require('./Brown_Tools.png');
 const img16 = require('./lights.jpeg');
 const img17 = require('./lowcostsoln.png');
-
+const img18 = require('./caulk.png');
+const img19 = require('./electricitybill.png');
+const img20 = require('./bill1.png');
+const img21 = require('./bill2.png');
 
 function getImage(image) {
   switch (image) {
@@ -54,6 +57,14 @@ function getImage(image) {
       return img16;
     case 17:
       return img17;
+    case 18:
+      return img18;
+    case 19:
+      return img19;
+    case 20:
+      return img20;
+    case 21:
+      return img21;
     default:
       return pictureMissing;
   }

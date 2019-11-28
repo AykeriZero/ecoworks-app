@@ -11,6 +11,8 @@ import spanishData from './sp/sp_Lesson6.json';
 
 //const Furnace_img = require('./Furnace.png');
 import getImage from '../../../pictures';
+import ActionList from '../ActionList';
+
 
 class LessonPage6 extends Component {
   render() {
@@ -104,6 +106,16 @@ class LessonPage6 extends Component {
         />
         </CardSection>
         </Card>
+
+        <Card>
+        <CardSection>
+          <Text> Add to your Action List: </Text>
+        </CardSection>
+        <CardSection> 
+          <ActionList lesson="Lesson6"></ActionList>
+        </CardSection>
+        
+      </Card>
       </ScrollView>
     );
   }

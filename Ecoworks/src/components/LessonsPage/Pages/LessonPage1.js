@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import { ScrollView, Text, Image } from 'react-native';
 
-import { Card, CardSection, TitleFont } from '../../common';
+import { Card, CardSection, TitleFont, Button } from '../../common';
 import getImage from '../../../pictures';
 // import data from './en/en_Lesson1.json';
 
 import englishData from './en/en_Lesson1.json';
 import spanishData from './sp/sp_Lesson1.json';
-
 import { connect } from 'react-redux';
+import ActionList from '../ActionList';
+
 
 class LessonPage1 extends Component {
 
@@ -46,6 +47,17 @@ class LessonPage1 extends Component {
           />
         </CardSection>
       </Card>
+      <Card>
+        <CardSection>
+          <Text> Add to your Action List: </Text>
+        </CardSection>
+        <CardSection> 
+          <ActionList lesson="Lesson1"></ActionList>
+        </CardSection>
+        
+      </Card>
+
+
 
       </ScrollView>
     );
