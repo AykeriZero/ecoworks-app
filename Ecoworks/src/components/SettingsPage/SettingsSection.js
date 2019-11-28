@@ -3,6 +3,7 @@ import {
     Text,
     View,
     TouchableOpacity,
+    TouchableWithoutFeedback,
     Modal
 } from 'react-native';
 import { Card, CardSection } from '../common';
@@ -27,8 +28,21 @@ class SettingsSection extends React.Component {
           </CardSection>
 
           <Modal
+            animationType={'slide'}
+            transparent
             visible={this.state.showModal}
-          >{children}</Modal>
+          >
+          <TouchableWithoutFeedback
+            onPress={() => this.setState({ showModal: false })}
+            style={{ flex: 1 }}
+          >
+          <View style={styles.ModalSection}>
+            <CardSection style={{ justifyContent: 'center', flexDirection: 'row' }}>
+              {children}
+            </CardSection>
+          </View>
+          </TouchableWithoutFeedback>
+          </Modal>
       </Card>
       </TouchableOpacity>
 
@@ -56,6 +70,12 @@ const styles = {
     justifyContent: 'center',
     flex: 0,
     padding: 15
+  },
+  ModalSection: {
+    backgroundColor: 'rgba(0, 0, 0, 0.75)',
+    position: 'relative',
+    flex: 1,
+    justifyContent: 'center'
   }
 };
 
