@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, Image, View, TouchableWithoutFeedback } from 'react-native';
+import { Text, Image, View, TouchableOpacity } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 
 import { Card, CardSection } from '../common';
@@ -40,7 +40,7 @@ class LessonIcon extends React.Component {
 
     render() {
         return (
-          <TouchableWithoutFeedback onPress={() => this.onIconPress()}>
+          <TouchableOpacity onPress={() => this.onIconPress()}>
           {/* TouchableWithoutFeedback has a bug which does not allow it to
               wrap custom compononts */}
           <View>
@@ -63,7 +63,7 @@ class LessonIcon extends React.Component {
           </Card>
 
           </View>
-          </TouchableWithoutFeedback>
+          </TouchableOpacity>
         );
     }
 }
