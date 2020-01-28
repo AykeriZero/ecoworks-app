@@ -87,7 +87,8 @@ const styles = {
   },
   textStyle: {
     fontSize: 30,
-    color: 'black'
+    color: 'black',
+    fontFamily: "Archer-Medium"
   },
   scrollStyle: {
     margin: 20,

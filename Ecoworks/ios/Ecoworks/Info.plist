@@ -25,7 +25,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -40,13 +40,10 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
 	<key>NSAppTransportSecurity</key>
-	<!--See http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/ -->
 	<dict>
-    <key>NSAllowsArbitraryLoads</key>
-    <true/>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
 		<key>NSExceptionDomains</key>
 		<dict>
 			<key>localhost</key>
@@ -56,5 +53,41 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Archer-Bold-Pro.otf</string>
+		<string>Archer-BoldItal-Pro.otf</string>
+		<string>Archer-Book-Pro.otf</string>
+		<string>Archer-BookItal-Pro.otf</string>
+		<string>Archer-Hairline-Pro.otf</string>
+		<string>Archer-HairlineItal-Pro.otf</string>
+		<string>Archer-Light-Pro.otf</string>
+		<string>Archer-LightItal-Pro.otf</string>
+		<string>Archer-Medium-Pro.otf</string>
+		<string>Archer-MediumItal-Pro.otf</string>
+		<string>Archer-SembdItal-Pro.otf</string>
+		<string>Archer-Semibold-Pro.otf</string>
+		<string>Archer-Thin-Pro.otf</string>
+		<string>Archer-ThinItal-Pro.otf</string>
+		<string>Archer-XLight-Pro.otf</string>
+		<string>Archer-XLightItal-Pro.otf</string>
+		<string>ArcherPro-Bold_0.otf</string>
+		<string>ArcherPro-BoldIta.otf</string>
+		<string>ArcherPro-Book_0.otf</string>
+		<string>ArcherPro-BookIta_0.otf</string>
+		<string>ArcherPro-Hairline.otf</string>
+		<string>ArcherPro-HairlineIta.otf</string>
+		<string>ArcherPro-Light_0.otf</string>
+		<string>ArcherPro-LightIta.otf</string>
+		<string>ArcherPro-Medium.otf</string>
+		<string>ArcherPro-MediumIta.otf</string>
+		<string>ArcherPro-Semibold.otf</string>
+		<string>ArcherPro-SemiboldIta.otf</string>
+		<string>ArcherPro-Thin.otf</string>
+		<string>ArcherPro-ThinIta.otf</string>
+		<string>ArcherPro-XLight.otf</string>
+		<string>ArcherPro-XLightIta.otf</string>
+		<string>Archer-Medium.otf</string>
+	</array>
 </dict>
 </plist>
