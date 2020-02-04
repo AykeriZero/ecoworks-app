@@ -96,7 +96,7 @@ class LessonPage6 extends Component {
         <TitleFont>{data.description.title5}</TitleFont>
         </CardSection>
         <CardSection>
-        <Text>{data.description.body19}{data.description.body20}{data.description.body21}{data.description.body22}</Text>
+    <Text>{data.description.body19}{data.description.body20}{data.description.body21}{data.description.body22}{data.description.body23}</Text>
         </CardSection>
         <CardSection>
         <Image
