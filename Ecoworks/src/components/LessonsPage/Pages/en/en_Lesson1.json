@@ -1,7 +1,8 @@
 {
   "description": {
     "title": "What is Energy Smart?",
-    "body": "This class provides low or no cost solutions for clients to take control of their utility expenses by reducing energy and water usage. It also provides budgeting tips that will help clients take control of their finances and begin saving for their future."
+    "body": "This class provides low or no cost solutions for clients to take control of their utility expenses by reducing energy and water usage. It also provides budgeting tips that will help clients take control of their finances and begin saving for their future.",
+    "body2": "These energy tips will help in five main facets of daily life: Comfort, Health, Energy, Savings and Safety. An easy acronym to remember is CHESS. In the next lesson, we will learn about the savings from having an energy efficient home."
   },
-  "chess_image": "lesson1Chess"
+  "chess_image": "chess_image"
 }
