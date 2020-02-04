@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image, Text, TouchableWithoutFeedback, View } from 'react-native';
+import { Image, Text, TouchableOpacity, View } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 
 import { Card, CardSection } from '../common';
@@ -40,7 +40,7 @@ class LessonListItem extends Component {
 
   render() {
     return (
-      <TouchableWithoutFeedback onPress={() => this.onRowPress()}>
+      <TouchableOpacity onPress={() => this.onRowPress()}>
         <View>
           <Card>
 
@@ -60,7 +60,7 @@ class LessonListItem extends Component {
 
           </Card>
         </View>
-      </TouchableWithoutFeedback>
+      </TouchableOpacity>
 
     );
   }
