@@ -29,10 +29,10 @@ class LessonPage6 extends Component {
       <ScrollView>
         <Card>
         <CardSection>
-        <TitleFont>{data.description.title}</TitleFont>
+        <TitleFont style = {styles.textStyle} >{data.description.title}</TitleFont>
         </CardSection>
         <CardSection>
-        <Text>{data.description.body1}{data.description.body2}{data.description.body3}{data.description.body4}</Text>
+        <Text style = {styles.textStyle}>{data.description.body1}{data.description.body2}{data.description.body3}{data.description.body4}</Text>
         </CardSection>
         <CardSection>
         <Image
@@ -45,10 +45,10 @@ class LessonPage6 extends Component {
 
         <Card>
         <CardSection>
-        <TitleFont>{data.description.title2}</TitleFont>
+        <TitleFont style = {styles.textStyle}>{data.description.title2}</TitleFont>
         </CardSection>
         <CardSection>
-        <Text>{data.description.body5}{data.description.body6}{data.description.body7}</Text>
+        <Text style = {styles.textStyle}>{data.description.body5}{data.description.body6}{data.description.body7}</Text>
         </CardSection>
         <CardSection>
         <Image
@@ -61,10 +61,10 @@ class LessonPage6 extends Component {
 
         <Card>
         <CardSection>
-        <TitleFont>{data.description.title3}</TitleFont>
+        <TitleFont style = {styles.textStyle}>{data.description.title3}</TitleFont>
         </CardSection>
         <CardSection>
-        <Text>{data.description.body8}{data.description.body9}</Text>
+        <Text style = {styles.textStyle}>{data.description.body8}{data.description.body9}</Text>
         </CardSection>
         <CardSection>
         <Image
@@ -77,10 +77,10 @@ class LessonPage6 extends Component {
 
         <Card>
         <CardSection>
-        <TitleFont>{data.description.title4}</TitleFont>
+        <TitleFont style = {styles.textStyle}>{data.description.title4}</TitleFont>
         </CardSection>
         <CardSection>
-        <Text>{data.description.body16}{data.description.body17}</Text>
+        <Text style = {styles.textStyle}>{data.description.body16}{data.description.body17}</Text>
         </CardSection>
         <CardSection>
         <Image
@@ -93,10 +93,10 @@ class LessonPage6 extends Component {
 
         <Card>
         <CardSection>
-        <TitleFont>{data.description.title5}</TitleFont>
+        <TitleFont style = {styles.textStyle}>{data.description.title5}</TitleFont>
         </CardSection>
         <CardSection>
-        <Text>{data.description.body19}{data.description.body20}{data.description.body21}{data.description.body22}</Text>
+        <Text style = {styles.textStyle}>{data.description.body19}{data.description.body20}{data.description.body21}{data.description.body22}</Text>
         </CardSection>
         <CardSection>
         <Image
@@ -109,7 +109,7 @@ class LessonPage6 extends Component {
 
         <Card>
         <CardSection>
-          <Text> Add to your Action List: </Text>
+          <Text style = {styles.textStyle}> Add to your Action List: </Text>
         </CardSection>
         <CardSection> 
           <ActionList lesson="Lesson6"></ActionList>
@@ -131,6 +131,9 @@ imageStyle: {
 height: 300,
 flex: 1,
 width: null
+},
+textStyle: {
+    fontFamily: 'Archer-Medium'
 }
 };
 

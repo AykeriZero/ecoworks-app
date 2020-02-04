@@ -31,7 +31,7 @@ class LessonPage1 extends Component {
 
       <Card>
         <CardSection>
-          <TitleFont>{data.description.title}</TitleFont>
+          <TitleFont style = {styles.textStyle} >{data.description.title}</TitleFont>
         </CardSection>
         <CardSection>
           <Text style = {styles.textStyle}>{data.description.body}</Text>
