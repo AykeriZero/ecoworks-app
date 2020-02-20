@@ -1,12 +1,14 @@
 import React from 'react';
-import { Text, TouchableOpacity } from 'react-native';
+import { Text, TouchableOpacity, Image } from 'react-native';
 
-const Button = ({ onPress, children }) => (
+const Button = ({ customStyle, disabled, onPress, buttonLabel, category, children }) => (
     <TouchableOpacity
       onPress={onPress}
-      style={styles.buttonStyle}
+      style={customStyle || styles.buttonStyle}
+      disabled={disabled || false}
     >
-      <Text style={styles.buttonTextStyle}>{ children }</Text>
+      {children}
+      <Text style={styles.buttonTextStyle}>{ buttonLabel }</Text>
     </TouchableOpacity>
 );
 
@@ -20,7 +22,8 @@ const styles = {
     borderWidth: 1,
     borderColor: '#007aff',
     marginLeft: 5,
-    marginRight: 5
+    marginRight: 5,
+    
   },
 
   buttonTextStyle: {

@@ -1,19 +1,18 @@
 // Todo list
 import React from 'react';
-import { View } from 'react-native';
+import { View, Image } from 'react-native';
 import data from './actionItems.json'
 import AsyncStorage from '@react-native-community/async-storage';
 import {TaskAction} from '../../actions';
 import {connect} from 'react-redux';
 import { Button } from '../common/Button';
-
 class ActionList extends React.Component {
     constructor(props) {
         super(props);
         let key  = this.props.lesson;
         if (key !== "Home") {
-            let actionItems = data[key].tasks;
-            this.state = {actionItems: actionItems};
+            let lessonActionList = data[key].tasks;
+            this.state = {lessonActionList: lessonActionList};
         }
         else {
             this.state = {actionItems: []};
@@ -23,10 +22,7 @@ class ActionList extends React.Component {
     }
 
     async componentDidMount() {
-        console.log(TaskAction);
         if (this.props.lesson === "Home") {
-            console.log(this.props);
-            console.log(this.props.actionItems.actionItems.length);
             if (this.props.actionItems.actionItems.length === 0) {
                 try {
                     let list = await AsyncStorage.getItem('@actionList');
@@ -44,9 +40,8 @@ class ActionList extends React.Component {
         try {
             let change = 1;
             let list = this.props.actionItems.actionItems;
-            // prevArr = JSON.parse(prevArr);
             list.map(function(item) {
-                if (element.id ===  item.id) {
+                if (element.id === item.id) {
                     change = 0;
                 }
             })
@@ -63,7 +58,7 @@ class ActionList extends React.Component {
             await AsyncStorage.setItem('@actionList', '[]');
           // saving error
         }
-}
+    }
 
     async removeFromList(id) {
         let list = this.props.actionItems.actionItems;
@@ -79,20 +74,78 @@ class ActionList extends React.Component {
     }
 
 
+    buttonExistInActionList(id) {
+            let exists = false;
+            let list = this.props.actionItems.actionItems;
+            list.map(function(item) {
+                if (item.id === id) {
+                    exists = true;
+                }
+            })
+            return exists;
+    }
+
     renderButtons() {
-        console.log(this.props.actionItems.actionItems);
+
+        let styles = 
+        {
+            "Health": "#335BFF",   //Blue
+            "Comfort": "#F50808",    //Red
+            "Energy": "#41F508",    //Green
+            "Savings": "#F58908",   //Orange
+            "Safety": "#CE08F5"     //Purple
+        }
 
         if (this.props.lesson === "Home") {
             return this.props.actionItems.actionItems.map((item) => {
+                let buttonColor = styles[item.category];
+                let buttonStyle = {
+                    flex: 1,
+                    alignSelf: 'stretch',
+                    backgroundColor: buttonColor,
+                    borderRadius: 5,
+                    borderWidth: 1,
+                    borderColor: '#007aff',
+                    marginLeft: 5,
+                    marginRight: 5,
+                    
+                  };
+                  let imageStyle = {
+                      width: 500,
+                      height: 500
+                  }
                 return (
-                    <Button key={item.id} onPress={() => this.removeFromList(item.id)}>{item.name}</Button>
+                    <Button key={item.id} customStyle={buttonStyle} onPress={() => this.removeFromList(item.id)} buttonLabel={item.name}>
+                        
+                    </Button>
                 );
             });
         }
         else {
-            return this.state.actionItems.map((item) => {
+            return this.state.lessonActionList.map((item) => {
+                let buttonColor = styles[item.category];
+                let disabled = false;
+                if (this.buttonExistInActionList(item.id)) {
+                    buttonColor = '#DEDEDE';
+                    disabled = true;
+                }
+                let buttonStyle = {
+                    flex: 1,
+                    alignSelf: 'stretch',
+                    backgroundColor: buttonColor,
+                    borderRadius: 5,
+                    borderWidth: 1,
+                    borderColor: '#007aff',
+                    marginLeft: 5,
+                    marginRight: 5,
+                    
+                };
+
                 return (
-                    <Button key={item.id} onPress={() => this.addToList(item)}> {item.name} </Button>
+                    <Image
+                    style={{width: 50, height: 50}}
+                    source={{uri: 'https://facebook.github.io/react/logo-og.png'}}
+                  />
                 );
             });
         }
@@ -101,12 +154,12 @@ class ActionList extends React.Component {
 
     render() {
         return (
-            <View>
+            <View style={{"flex": 1}}>
                 {
                     this.renderButtons()
                 }
             </View>
-
+            
         );
     }
 }

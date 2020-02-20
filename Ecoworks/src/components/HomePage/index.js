@@ -43,25 +43,28 @@ class HomePage extends React.Component {
         <ScrollView>
         <Card>
           <CardSection>
-              <Text style={styles.textStyle}> Lessons </Text>
+            <Text style={styles.textStyle}> Lessons </Text>
           </CardSection>
 
           <CardSection>
-              <FlatList
-                  horizontal
-                  showsHorizontalScrollIndicator={false}
-                  style={{ flex: 1 }}
-                  data={LessonData}
-                  renderItem={this.renderLessonsListItem}
-                  keyExtractor={(library) => library.id.toString()}
-              />
+            <FlatList
+              horizontal
+              showsHorizontalScrollIndicator={false}
+              style={{ flex: 1 }}
+              data={LessonData}
+              renderItem={this.renderLessonsListItem}
+              keyExtractor={(library) => library.id.toString()}
+            />
 
           </CardSection>
         </Card>
 
         <Card>
           <CardSection>
-        <ActionList lesson="Home"></ActionList>
+            <Text style={styles.textStyle}> Your Action Plan </Text>
+          </CardSection>
+          <CardSection>
+            <ActionList lesson="Home"/>
           </CardSection>
         </Card>
 

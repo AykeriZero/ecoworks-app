@@ -10,6 +10,8 @@ import spanishData from './sp/sp_Lesson1.json';
 import { connect } from 'react-redux';
 import ActionList from '../ActionList';
 
+import Video from 'react-native-video';
+
 
 class LessonPage1 extends Component {
 
@@ -35,6 +37,15 @@ class LessonPage1 extends Component {
         </CardSection>
         <CardSection>
           <Text>{data.description.body}</Text>
+        </CardSection>
+        <CardSection>
+        <Video source={{uri: "https://www.youtube.com/watch?v=oHg5SJYRHA0"}}   // Can be a URL or a local file.
+            ref={(ref) => {
+              this.player = ref
+            }}                                      // Store reference
+          onBuffer={this.onBuffer}                // Callback when remote video is buffering
+          onError={this.videoError}               // Callback when video cannot be loaded
+          style={styles.backgroundVideo} />
         </CardSection>
       </Card>
 
@@ -69,6 +80,15 @@ const styles = {
   titleCardStyle: {
     justifyContent: 'center'
   },
+
+  backgroundVideo: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: 0,
+  },
+
   imageStyle: {
     height: 300,
     flex: 1,

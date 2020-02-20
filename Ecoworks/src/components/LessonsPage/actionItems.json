@@ -1,7 +1,7 @@
 {
     "Lesson1": {
        "tasks": [
-           {"id": 0, "name": "Schedule time for EcoWorks workshop"}
+           {"id": 0, "name": "Schedule time for EcoWorks workshopeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", "category": "Comfort"}
        ] 
     },
     "Lesson2": {
@@ -10,34 +10,34 @@
      },
      "Lesson3": {
          "tasks": [
-            {"id": 1, "name": "Perform daylight test for air leaks"},
-            {"id": 2, "name": "Check chimney damper"},
-            {"id": 3, "name": "Check for air leaks by checking for hot air rising"},
-            {"id": 4, "name": "Seal air leaking passageways"}
+            {"id": 1, "name": "Perform daylight test for air leaks", "category": "Health"},
+            {"id": 2, "name": "Check chimney damper", "category": "Energy"},
+            {"id": 3, "name": "Check for air leaks by checking for hot air rising", "category": "Savings"},
+            {"id": 4, "name": "Seal air leaking passageways", "category": "Safety"}
          ]
      },
      "Lesson4": {
         "tasks": [
-           {"id": 5, "name": "Clean windows air conditioner unit coils"},
-           {"id": 6, "name": "Upgrade lighting to CFLs and LEDs in high usage areas"},
-           {"id": 7, "name": "Contact energy efficient assistance program"}
+           {"id": 5, "name": "Clean windows air conditioner unit coils", "category": "Comfort"},
+           {"id": 6, "name": "Upgrade lighting to CFLs and LEDs in high usage areas", "category": "Comfort"},
+           {"id": 7, "name": "Contact energy efficient assistance program", "category": "Comfort"}
         ]
     },
     "Lesson5": {
         "tasks": [
-           {"id": 8, "name": "Check house for air leaks by checking water meter"}
+           {"id": 8, "name": "Check house for air leaks by checking water meter", "category": "Comfort"}
         ]
     },
     "Lesson6": {
         "tasks": [
-           {"id": 9, "name": "Buy new weatherization materials"}
+           {"id": 9, "name": "Buy new weatherization materials", "category": "Comfort"}
         ]
     },
     "Lesson7": {
         "tasks": [
-           {"id": 10, "name": "Pay gas bill"},
-           {"id": 11, "name": "Pay electricity bill"},
-           {"id": 12, "name": "Go over charges"}
+           {"id": 10, "name": "Pay gas bill", "category": "Comfort"},
+           {"id": 11, "name": "Pay electricity bill", "category": "Comfort"},
+           {"id": 12, "name": "Go over charges", "category": "Comfort"}
         ]
     },
     "Lesson8": {
