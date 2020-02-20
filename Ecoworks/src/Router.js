@@ -27,14 +27,14 @@ const RouterComponent = () => (
     >
 
       <Scene key="home" icon={getIcon('home')} titleStyle = {{fontFamily: 'Archer-Medium'}}>
-        <Scene key="homePage" component={HomePage}  title="Home Page" titleStyle = {{fontFamily: 'Archer-Medium'}}/>
+        <Scene key="homePage" component={HomePage}  title="Home Page" titleStyle = {{fontFamily: 'Archer-Medium'}} backTitle = " "/>
 
         {/* Add Lesson Scenes to the home page so the back button returns to home */}
         {getLessonScenes()}
       </Scene>
 
       <Scene key="lessons" icon={getIcon('lessons')}>
-        <Scene key="lessonsList" component={LessonsList} title="Eco Workbook" />
+        <Scene key="lessonsList" component={LessonsList} title="Eco Workbook" backTitle = " "/>
         {getLessonScenes()}
       </Scene>
 
