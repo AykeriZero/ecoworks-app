@@ -32,8 +32,7 @@ const styles = {
   labelStyle: {
     fontSize: 18,
     paddingLeft: 20,
-    flex: 1,
-    fontFamily: 'Archer-Medium'
+    flex: 1
   },
   containerStyle: {
     height: 40,

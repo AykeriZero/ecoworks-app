@@ -31,8 +31,8 @@ class SettingsPage extends React.Component {
                 this.props.settingsLanguageUpdate(itemValue)
               }
           >
-              <Picker.Item style = {styles.textStyle} label="English" value="english" />
-              <Picker.Item style = {styles.textStyle} label="Spanish" value="spanish" />
+              <Picker.Item label="English" value="english" />
+              <Picker.Item label="Spanish" value="spanish" />
             </Picker>
         </SettingsSection>
 
@@ -54,11 +54,7 @@ class SettingsPage extends React.Component {
     );
   }
 }
-const styles = {
-textStyle: {
-  fontFamily: 'Archer-Medium'
-}
-};
+
 const mapStateToProps = (state) => {
   return { settings: state.settings };
 };

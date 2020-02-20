@@ -14,7 +14,7 @@ const RouterComponent = () => (
       key="root"
       hideNavBar
       navigationBarStyle={{ backgroundColor: '#B1D56C' }}
-      titleStyle={{ color: 'white' }, {fontFamily: 'Archer-Medium'}}
+      titleStyle={{ color: 'white' }}
       headerTintColor='white'
     >
 
@@ -23,18 +23,17 @@ const RouterComponent = () => (
           tabs
           tabBarStyle={{ backgroundColor: '#B1D56C' }}
           showLabel={false}
-          titleStyle = {{fontFamily: 'Archer-Medium'}}
     >
 
-      <Scene key="home" icon={getIcon('home')} titleStyle = {{fontFamily: 'Archer-Medium'}}>
-        <Scene key="homePage" component={HomePage}  title="Home Page" titleStyle = {{fontFamily: 'Archer-Medium'}} backTitle = " "/>
+      <Scene key="home" icon={getIcon('home')}>
+        <Scene key="homePage" component={HomePage} title="Home Page" />
 
         {/* Add Lesson Scenes to the home page so the back button returns to home */}
         {getLessonScenes()}
       </Scene>
 
       <Scene key="lessons" icon={getIcon('lessons')}>
-        <Scene key="lessonsList" component={LessonsList} title="Eco Workbook" backTitle = " "/>
+        <Scene key="lessonsList" component={LessonsList} title="Eco Workbook" />
         {getLessonScenes()}
       </Scene>
 
@@ -52,7 +51,5 @@ const RouterComponent = () => (
     </Scene>
   </Router>
 );
-const styles = {
-textStyle: 'Archer-Medium'
-};
+
 export default RouterComponent;

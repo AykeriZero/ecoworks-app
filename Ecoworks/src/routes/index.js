@@ -21,61 +21,49 @@ const getLessonScenes = () => (
             key="lessonPage1"
             component={LessonPage1}
             title={LessonData[0].title}
-            style = {styles.textStyles}
           />,
 
           <Scene
             key="lessonPage2"
             component={LessonPage2}
             title={LessonData[1].title}
-            style = {styles.textStyles}
           />,
 
           <Scene
             key="lessonPage3"
             component={LessonPage3}
             title={LessonData[2].title}
-            style = {styles.textStyles}
           />,
           <Scene
             key="lessonPage4"
             component={LessonPage4}
             title={LessonData[3].title}
-            style = {styles.textStyles}
           />,
 
           <Scene
             key="lessonPage5"
             component={LessonPage5}
             title={LessonData[4].title}
-            style = {styles.textStyles}
           />,
 
           <Scene
             key="lessonPage6"
             component={LessonPage6}
             title={LessonData[5].title}
-            style = {styles.textStyles}
           />,
 
           <Scene
             key="lessonPage7"
             component={LessonPage7}
             title={LessonData[6].title}
-            style = {styles.textStyles}
           />,
 
           <Scene
             key="lessonPage8"
             component={LessonPage8}
             title={LessonData[7].title}
-            style = {styles.textStyles}
           />
   ]
 );
-const styles = {
-textStyles: {
-  fontFamily: 'Archer-Medium'
-}
-};
+
 export { getLessonScenes };

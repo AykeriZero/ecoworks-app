@@ -31,20 +31,20 @@ class LessonPage5 extends Component {
 
                 <Card>
                 <CardSection>
-                <TitleFont style = {styles.textStyle}>{data.description.title}</TitleFont>
+                <TitleFont>{data.description.title}</TitleFont>
                 </CardSection>
                 <CardSection>
-                <Text style = {styles.textStyle}>{data.description.body1}{data.description.body2}{data.description.body3}{data.description.body4}</Text>
+                <Text>{data.description.body1}{data.description.body2}{data.description.body3}{data.description.body4}</Text>
                 </CardSection>
                 </Card>
 
 
                 <Card>
                 <CardSection>
-                <TitleFont style = {styles.textStyle}>{data.description.title2}</TitleFont>
+                <TitleFont>{data.description.title2}</TitleFont>
                 </CardSection>
                 <CardSection>
-                <Text style = {styles.textStyle}>{data.description.body5}{data.description.body6}{data.description.body7}{data.description.body8}{data.description.body9}{data.description.body10}</Text>
+                <Text>{data.description.body5}{data.description.body6}{data.description.body7}{data.description.body8}{data.description.body9}{data.description.body10}</Text>
                 </CardSection>
                 <CardSection>
                   <Image
@@ -58,15 +58,15 @@ class LessonPage5 extends Component {
 
                 <Card>
                 <CardSection>
-                <TitleFont style = {styles.textStyle}>{data.description.title3}</TitleFont>
+                <TitleFont>{data.description.title3}</TitleFont>
                 </CardSection>
                 <CardSection>
-                <Text style = {styles.textStyle}>{data.description.body11}{data.description.body12}{data.description.body13}{data.description.body14}</Text>
+                <Text>{data.description.body11}{data.description.body12}{data.description.body13}{data.description.body14}</Text>
                 </CardSection>
                 </Card>
                 <Card>
                 <CardSection>
-                  <Text style = {styles.textStyle}> Add to your Action List: </Text>
+                  <Text> Add to your Action List: </Text>
                 </CardSection>
                 <CardSection> 
                   <ActionList lesson="Lesson5"></ActionList>
@@ -87,9 +87,6 @@ imageStyle: {
 height: 300,
 flex: 1,
 width: null
-},
-textStyle: {
-  fontFamily: 'Archer-Medium'
 }
 };
 

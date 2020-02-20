@@ -31,10 +31,10 @@ class LessonPage1 extends Component {
 
       <Card>
         <CardSection>
-          <TitleFont style = {styles.textStyle} >{data.description.title}</TitleFont>
+          <TitleFont>{data.description.title}</TitleFont>
         </CardSection>
         <CardSection>
-          <Text style = {styles.textStyle}>{data.description.body}</Text>
+          <Text>{data.description.body}</Text>
         </CardSection>
       </Card>
 
@@ -49,7 +49,7 @@ class LessonPage1 extends Component {
       </Card>
       <Card>
         <CardSection>
-          <Text style = {styles.textStyle}> Add to your Action List: </Text>
+          <Text> Add to your Action List: </Text>
         </CardSection>
         <CardSection> 
           <ActionList lesson="Lesson1"></ActionList>
@@ -68,9 +68,6 @@ class LessonPage1 extends Component {
 const styles = {
   titleCardStyle: {
     justifyContent: 'center'
-  },
-  textStyle: {
-    fontFamily: 'Archer-Medium'
   },
   imageStyle: {
     height: 300,
