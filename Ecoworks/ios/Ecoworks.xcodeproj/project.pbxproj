@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -39,6 +38,39 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		9B2C346CDBC74514ACB84253 /* libRNCAsyncStorage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A2340EC77F4509A4822366 /* libRNCAsyncStorage.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		3E7EB8207BEF4206AC8E8BB6 /* Archer-Bold-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 818A2F1058AF402E93794D1B /* Archer-Bold-Pro.otf */; };
+		D3AEB7D87D2C4266A9AE3E15 /* Archer-BoldItal-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555E6A87BB79470A963CA082 /* Archer-BoldItal-Pro.otf */; };
+		E89C24C4C7BB45529F6879A6 /* Archer-Book-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0639FDC92DE40E0943F9036 /* Archer-Book-Pro.otf */; };
+		BAB13D11D9FF446389B28854 /* Archer-BookItal-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = F23655782B2249C883F2A20A /* Archer-BookItal-Pro.otf */; };
+		C1BF9021666941B28E12885D /* Archer-Hairline-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = D468B355F3C0497B9295768C /* Archer-Hairline-Pro.otf */; };
+		531679479A0E4568A621D45B /* Archer-HairlineItal-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = AA9C01FA55664C69966583A6 /* Archer-HairlineItal-Pro.otf */; };
+		AC18AF18A35942F59B048BFA /* Archer-Light-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = F410AD6B7E8F45149E1B5E77 /* Archer-Light-Pro.otf */; };
+		F5AA3C597F14463B87577FE4 /* Archer-LightItal-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = B499AA2B186B4D48A9CA38DF /* Archer-LightItal-Pro.otf */; };
+		F70787FC56B14F9FA08119C1 /* Archer-Medium-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = AB895E6B4D8A4203A737B317 /* Archer-Medium-Pro.otf */; };
+		A3E13324F61F4E87AEDD8A9B /* Archer-MediumItal-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5045E9730DD143D1B7938303 /* Archer-MediumItal-Pro.otf */; };
+		B666AD6457164C41BB665FF6 /* Archer-SembdItal-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = A9B2F2BF57564796BD52F4C7 /* Archer-SembdItal-Pro.otf */; };
+		C4C7034F08B243749B19DE96 /* Archer-Semibold-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = A77BB552A9E04BD59765990E /* Archer-Semibold-Pro.otf */; };
+		8A7321593F1D428C8ECBA039 /* Archer-Thin-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = C7E6E515FB4F405CBA5BA061 /* Archer-Thin-Pro.otf */; };
+		511ACE4BD3F4492EAF7AEEBF /* Archer-ThinItal-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6761E04817B74CB6BA0F27EF /* Archer-ThinItal-Pro.otf */; };
+		0735DEE91D5643B79BF83AD6 /* Archer-XLight-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6E27E22180214E3A90BC63F5 /* Archer-XLight-Pro.otf */; };
+		1CC0CE4DB48F4697A3EAD860 /* Archer-XLightItal-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = EEA309EA56DF4AD5BDC5710C /* Archer-XLightItal-Pro.otf */; };
+		CB18301F8BDF4F909081AF51 /* ArcherPro-Bold_0.otf in Resources */ = {isa = PBXBuildFile; fileRef = 020B09D309B14A26A1A94ABE /* ArcherPro-Bold_0.otf */; };
+		ACF2ADE6BD1C4674A7B1762B /* ArcherPro-BoldIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60AA0A1F60ED4AA088803169 /* ArcherPro-BoldIta.otf */; };
+		608B73AB21564B4D8F4B7BDB /* ArcherPro-Book_0.otf in Resources */ = {isa = PBXBuildFile; fileRef = 060F2FDCFC65444CA77C4174 /* ArcherPro-Book_0.otf */; };
+		E8FA56BCECA04BDB9BC3D6BF /* ArcherPro-BookIta_0.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59FB5F4BA21C4603B57FF63C /* ArcherPro-BookIta_0.otf */; };
+		1623FF5FFB064C72BDC6CE34 /* ArcherPro-Hairline.otf in Resources */ = {isa = PBXBuildFile; fileRef = 53293C03FF564AA9991FFE89 /* ArcherPro-Hairline.otf */; };
+		011CBA614CCA4CDCB599BEE0 /* ArcherPro-HairlineIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8FAFCAFEE546472696F183BF /* ArcherPro-HairlineIta.otf */; };
+		5723914AD5B94724ABCC9508 /* ArcherPro-Light_0.otf in Resources */ = {isa = PBXBuildFile; fileRef = E449BC0449D2473EBBAC4272 /* ArcherPro-Light_0.otf */; };
+		2740331FD0154F0FBEDC19CF /* ArcherPro-LightIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = FED921CB20204A98B2629EC4 /* ArcherPro-LightIta.otf */; };
+		F6438C296D4D4E8D9F5C793F /* ArcherPro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9A860885F4A4FA3857607D6 /* ArcherPro-Medium.otf */; };
+		1398FFF0DACD4895BCE74EC0 /* ArcherPro-MediumIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = B61B36C6A2164E2F8B28702A /* ArcherPro-MediumIta.otf */; };
+		618EA62AE6F5446389C41AAB /* ArcherPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1820BA173C624C5490428A01 /* ArcherPro-Semibold.otf */; };
+		59154F8ADEC147CAA5BC4FA0 /* ArcherPro-SemiboldIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E21B205A254486298955911 /* ArcherPro-SemiboldIta.otf */; };
+		08CBF9EA0FAB49F2826C057B /* ArcherPro-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 63372DB3EC79477B8840EF18 /* ArcherPro-Thin.otf */; };
+		A7BADAB91EC045BBBC19A734 /* ArcherPro-ThinIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B68F1D5E821422896A9630D /* ArcherPro-ThinIta.otf */; };
+		09C2498D18984F168558317A /* ArcherPro-XLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A4600B3E9654EDBBAC4D1D4 /* ArcherPro-XLight.otf */; };
+		450A99B480834F37B8273659 /* ArcherPro-XLightIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = F9B979375A70431D86F069CC /* ArcherPro-XLightIta.otf */; };
+		4538E847765D43E38E1B9DB1 /* Archer-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C9C5086B161C42B08666CB44 /* Archer-Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -353,6 +385,39 @@
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		E3A2340EC77F4509A4822366 /* libRNCAsyncStorage.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCAsyncStorage.a; sourceTree = "<group>"; };
+		818A2F1058AF402E93794D1B /* Archer-Bold-Pro.otf */ = {isa = PBXFileReference; name = "Archer-Bold-Pro.otf"; path = "../assets/fonts/Archer-Bold-Pro.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		555E6A87BB79470A963CA082 /* Archer-BoldItal-Pro.otf */ = {isa = PBXFileReference; name = "Archer-BoldItal-Pro.otf"; path = "../assets/fonts/Archer-BoldItal-Pro.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D0639FDC92DE40E0943F9036 /* Archer-Book-Pro.otf */ = {isa = PBXFileReference; name = "Archer-Book-Pro.otf"; path = "../assets/fonts/Archer-Book-Pro.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F23655782B2249C883F2A20A /* Archer-BookItal-Pro.otf */ = {isa = PBXFileReference; name = "Archer-BookItal-Pro.otf"; path = "../assets/fonts/Archer-BookItal-Pro.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D468B355F3C0497B9295768C /* Archer-Hairline-Pro.otf */ = {isa = PBXFileReference; name = "Archer-Hairline-Pro.otf"; path = "../assets/fonts/Archer-Hairline-Pro.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AA9C01FA55664C69966583A6 /* Archer-HairlineItal-Pro.otf */ = {isa = PBXFileReference; name = "Archer-HairlineItal-Pro.otf"; path = "../assets/fonts/Archer-HairlineItal-Pro.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F410AD6B7E8F45149E1B5E77 /* Archer-Light-Pro.otf */ = {isa = PBXFileReference; name = "Archer-Light-Pro.otf"; path = "../assets/fonts/Archer-Light-Pro.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B499AA2B186B4D48A9CA38DF /* Archer-LightItal-Pro.otf */ = {isa = PBXFileReference; name = "Archer-LightItal-Pro.otf"; path = "../assets/fonts/Archer-LightItal-Pro.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AB895E6B4D8A4203A737B317 /* Archer-Medium-Pro.otf */ = {isa = PBXFileReference; name = "Archer-Medium-Pro.otf"; path = "../assets/fonts/Archer-Medium-Pro.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5045E9730DD143D1B7938303 /* Archer-MediumItal-Pro.otf */ = {isa = PBXFileReference; name = "Archer-MediumItal-Pro.otf"; path = "../assets/fonts/Archer-MediumItal-Pro.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A9B2F2BF57564796BD52F4C7 /* Archer-SembdItal-Pro.otf */ = {isa = PBXFileReference; name = "Archer-SembdItal-Pro.otf"; path = "../assets/fonts/Archer-SembdItal-Pro.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A77BB552A9E04BD59765990E /* Archer-Semibold-Pro.otf */ = {isa = PBXFileReference; name = "Archer-Semibold-Pro.otf"; path = "../assets/fonts/Archer-Semibold-Pro.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C7E6E515FB4F405CBA5BA061 /* Archer-Thin-Pro.otf */ = {isa = PBXFileReference; name = "Archer-Thin-Pro.otf"; path = "../assets/fonts/Archer-Thin-Pro.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6761E04817B74CB6BA0F27EF /* Archer-ThinItal-Pro.otf */ = {isa = PBXFileReference; name = "Archer-ThinItal-Pro.otf"; path = "../assets/fonts/Archer-ThinItal-Pro.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6E27E22180214E3A90BC63F5 /* Archer-XLight-Pro.otf */ = {isa = PBXFileReference; name = "Archer-XLight-Pro.otf"; path = "../assets/fonts/Archer-XLight-Pro.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EEA309EA56DF4AD5BDC5710C /* Archer-XLightItal-Pro.otf */ = {isa = PBXFileReference; name = "Archer-XLightItal-Pro.otf"; path = "../assets/fonts/Archer-XLightItal-Pro.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		020B09D309B14A26A1A94ABE /* ArcherPro-Bold_0.otf */ = {isa = PBXFileReference; name = "ArcherPro-Bold_0.otf"; path = "../assets/fonts/ArcherPro-Bold_0.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		60AA0A1F60ED4AA088803169 /* ArcherPro-BoldIta.otf */ = {isa = PBXFileReference; name = "ArcherPro-BoldIta.otf"; path = "../assets/fonts/ArcherPro-BoldIta.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		060F2FDCFC65444CA77C4174 /* ArcherPro-Book_0.otf */ = {isa = PBXFileReference; name = "ArcherPro-Book_0.otf"; path = "../assets/fonts/ArcherPro-Book_0.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		59FB5F4BA21C4603B57FF63C /* ArcherPro-BookIta_0.otf */ = {isa = PBXFileReference; name = "ArcherPro-BookIta_0.otf"; path = "../assets/fonts/ArcherPro-BookIta_0.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		53293C03FF564AA9991FFE89 /* ArcherPro-Hairline.otf */ = {isa = PBXFileReference; name = "ArcherPro-Hairline.otf"; path = "../assets/fonts/ArcherPro-Hairline.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8FAFCAFEE546472696F183BF /* ArcherPro-HairlineIta.otf */ = {isa = PBXFileReference; name = "ArcherPro-HairlineIta.otf"; path = "../assets/fonts/ArcherPro-HairlineIta.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E449BC0449D2473EBBAC4272 /* ArcherPro-Light_0.otf */ = {isa = PBXFileReference; name = "ArcherPro-Light_0.otf"; path = "../assets/fonts/ArcherPro-Light_0.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FED921CB20204A98B2629EC4 /* ArcherPro-LightIta.otf */ = {isa = PBXFileReference; name = "ArcherPro-LightIta.otf"; path = "../assets/fonts/ArcherPro-LightIta.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D9A860885F4A4FA3857607D6 /* ArcherPro-Medium.otf */ = {isa = PBXFileReference; name = "ArcherPro-Medium.otf"; path = "../assets/fonts/ArcherPro-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B61B36C6A2164E2F8B28702A /* ArcherPro-MediumIta.otf */ = {isa = PBXFileReference; name = "ArcherPro-MediumIta.otf"; path = "../assets/fonts/ArcherPro-MediumIta.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1820BA173C624C5490428A01 /* ArcherPro-Semibold.otf */ = {isa = PBXFileReference; name = "ArcherPro-Semibold.otf"; path = "../assets/fonts/ArcherPro-Semibold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3E21B205A254486298955911 /* ArcherPro-SemiboldIta.otf */ = {isa = PBXFileReference; name = "ArcherPro-SemiboldIta.otf"; path = "../assets/fonts/ArcherPro-SemiboldIta.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		63372DB3EC79477B8840EF18 /* ArcherPro-Thin.otf */ = {isa = PBXFileReference; name = "ArcherPro-Thin.otf"; path = "../assets/fonts/ArcherPro-Thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9B68F1D5E821422896A9630D /* ArcherPro-ThinIta.otf */ = {isa = PBXFileReference; name = "ArcherPro-ThinIta.otf"; path = "../assets/fonts/ArcherPro-ThinIta.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3A4600B3E9654EDBBAC4D1D4 /* ArcherPro-XLight.otf */ = {isa = PBXFileReference; name = "ArcherPro-XLight.otf"; path = "../assets/fonts/ArcherPro-XLight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F9B979375A70431D86F069CC /* ArcherPro-XLightIta.otf */ = {isa = PBXFileReference; name = "ArcherPro-XLightIta.otf"; path = "../assets/fonts/ArcherPro-XLightIta.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C9C5086B161C42B08666CB44 /* Archer-Medium.otf */ = {isa = PBXFileReference; name = "Archer-Medium.otf"; path = "../assets/fonts/Archer-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -631,6 +696,47 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		1653A2B1678B422C945408F9 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				818A2F1058AF402E93794D1B /* Archer-Bold-Pro.otf */,
+				555E6A87BB79470A963CA082 /* Archer-BoldItal-Pro.otf */,
+				D0639FDC92DE40E0943F9036 /* Archer-Book-Pro.otf */,
+				F23655782B2249C883F2A20A /* Archer-BookItal-Pro.otf */,
+				D468B355F3C0497B9295768C /* Archer-Hairline-Pro.otf */,
+				AA9C01FA55664C69966583A6 /* Archer-HairlineItal-Pro.otf */,
+				F410AD6B7E8F45149E1B5E77 /* Archer-Light-Pro.otf */,
+				B499AA2B186B4D48A9CA38DF /* Archer-LightItal-Pro.otf */,
+				AB895E6B4D8A4203A737B317 /* Archer-Medium-Pro.otf */,
+				5045E9730DD143D1B7938303 /* Archer-MediumItal-Pro.otf */,
+				A9B2F2BF57564796BD52F4C7 /* Archer-SembdItal-Pro.otf */,
+				A77BB552A9E04BD59765990E /* Archer-Semibold-Pro.otf */,
+				C7E6E515FB4F405CBA5BA061 /* Archer-Thin-Pro.otf */,
+				6761E04817B74CB6BA0F27EF /* Archer-ThinItal-Pro.otf */,
+				6E27E22180214E3A90BC63F5 /* Archer-XLight-Pro.otf */,
+				EEA309EA56DF4AD5BDC5710C /* Archer-XLightItal-Pro.otf */,
+				020B09D309B14A26A1A94ABE /* ArcherPro-Bold_0.otf */,
+				60AA0A1F60ED4AA088803169 /* ArcherPro-BoldIta.otf */,
+				060F2FDCFC65444CA77C4174 /* ArcherPro-Book_0.otf */,
+				59FB5F4BA21C4603B57FF63C /* ArcherPro-BookIta_0.otf */,
+				53293C03FF564AA9991FFE89 /* ArcherPro-Hairline.otf */,
+				8FAFCAFEE546472696F183BF /* ArcherPro-HairlineIta.otf */,
+				E449BC0449D2473EBBAC4272 /* ArcherPro-Light_0.otf */,
+				FED921CB20204A98B2629EC4 /* ArcherPro-LightIta.otf */,
+				D9A860885F4A4FA3857607D6 /* ArcherPro-Medium.otf */,
+				B61B36C6A2164E2F8B28702A /* ArcherPro-MediumIta.otf */,
+				1820BA173C624C5490428A01 /* ArcherPro-Semibold.otf */,
+				3E21B205A254486298955911 /* ArcherPro-SemiboldIta.otf */,
+				63372DB3EC79477B8840EF18 /* ArcherPro-Thin.otf */,
+				9B68F1D5E821422896A9630D /* ArcherPro-ThinIta.otf */,
+				3A4600B3E9654EDBBAC4D1D4 /* ArcherPro-XLight.otf */,
+				F9B979375A70431D86F069CC /* ArcherPro-XLightIta.otf */,
+				C9C5086B161C42B08666CB44 /* Archer-Medium.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -1090,6 +1196,39 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				3E7EB8207BEF4206AC8E8BB6 /* Archer-Bold-Pro.otf in Resources */,
+				D3AEB7D87D2C4266A9AE3E15 /* Archer-BoldItal-Pro.otf in Resources */,
+				E89C24C4C7BB45529F6879A6 /* Archer-Book-Pro.otf in Resources */,
+				BAB13D11D9FF446389B28854 /* Archer-BookItal-Pro.otf in Resources */,
+				C1BF9021666941B28E12885D /* Archer-Hairline-Pro.otf in Resources */,
+				531679479A0E4568A621D45B /* Archer-HairlineItal-Pro.otf in Resources */,
+				AC18AF18A35942F59B048BFA /* Archer-Light-Pro.otf in Resources */,
+				F5AA3C597F14463B87577FE4 /* Archer-LightItal-Pro.otf in Resources */,
+				F70787FC56B14F9FA08119C1 /* Archer-Medium-Pro.otf in Resources */,
+				A3E13324F61F4E87AEDD8A9B /* Archer-MediumItal-Pro.otf in Resources */,
+				B666AD6457164C41BB665FF6 /* Archer-SembdItal-Pro.otf in Resources */,
+				C4C7034F08B243749B19DE96 /* Archer-Semibold-Pro.otf in Resources */,
+				8A7321593F1D428C8ECBA039 /* Archer-Thin-Pro.otf in Resources */,
+				511ACE4BD3F4492EAF7AEEBF /* Archer-ThinItal-Pro.otf in Resources */,
+				0735DEE91D5643B79BF83AD6 /* Archer-XLight-Pro.otf in Resources */,
+				1CC0CE4DB48F4697A3EAD860 /* Archer-XLightItal-Pro.otf in Resources */,
+				CB18301F8BDF4F909081AF51 /* ArcherPro-Bold_0.otf in Resources */,
+				ACF2ADE6BD1C4674A7B1762B /* ArcherPro-BoldIta.otf in Resources */,
+				608B73AB21564B4D8F4B7BDB /* ArcherPro-Book_0.otf in Resources */,
+				E8FA56BCECA04BDB9BC3D6BF /* ArcherPro-BookIta_0.otf in Resources */,
+				1623FF5FFB064C72BDC6CE34 /* ArcherPro-Hairline.otf in Resources */,
+				011CBA614CCA4CDCB599BEE0 /* ArcherPro-HairlineIta.otf in Resources */,
+				5723914AD5B94724ABCC9508 /* ArcherPro-Light_0.otf in Resources */,
+				2740331FD0154F0FBEDC19CF /* ArcherPro-LightIta.otf in Resources */,
+				F6438C296D4D4E8D9F5C793F /* ArcherPro-Medium.otf in Resources */,
+				1398FFF0DACD4895BCE74EC0 /* ArcherPro-MediumIta.otf in Resources */,
+				618EA62AE6F5446389C41AAB /* ArcherPro-Semibold.otf in Resources */,
+				59154F8ADEC147CAA5BC4FA0 /* ArcherPro-SemiboldIta.otf in Resources */,
+				08CBF9EA0FAB49F2826C057B /* ArcherPro-Thin.otf in Resources */,
+				A7BADAB91EC045BBBC19A734 /* ArcherPro-ThinIta.otf in Resources */,
+				09C2498D18984F168558317A /* ArcherPro-XLight.otf in Resources */,
+				450A99B480834F37B8273659 /* ArcherPro-XLightIta.otf in Resources */,
+				4538E847765D43E38E1B9DB1 /* Archer-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

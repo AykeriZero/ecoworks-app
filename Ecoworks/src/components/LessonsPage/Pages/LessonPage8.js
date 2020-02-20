@@ -28,54 +28,54 @@ class LessonPage8 extends Component {
 
                 <Card>
                 <CardSection>
-                <TitleFont>{data.description.title}</TitleFont>
+                <TitleFont style = {styles.textStyle} >{data.description.title}</TitleFont>
                 </CardSection>
                 </Card>
 
 
                 <Card>
                 <CardSection>
-                <TitleFont>{data.description.title2}</TitleFont>
+                <TitleFont style = {styles.textStyle}>{data.description.title2}</TitleFont>
                 </CardSection>
                 <CardSection>
-                <Text>{data.description.title1}{data.description.body2}{data.description.body3}{data.description.body4}</Text>
+                <Text style = {styles.textStyle}>{data.description.title1}{data.description.body2}{data.description.body3}{data.description.body4}</Text>
                 </CardSection>
                 </Card>
 
 
                 <Card>
                 <CardSection>
-                <TitleFont>{data.description.title3}</TitleFont>
+                <TitleFont style = {styles.textStyle}>{data.description.title3}</TitleFont>
                 </CardSection>
                 <CardSection>
-                <Text>{data.description.body5}{data.description.body6}{data.description.body7}{data.description.body8}</Text>
-                </CardSection>
-                </Card>
-
-                <Card>
-                <CardSection>
-                <TitleFont>{data.description.title4}</TitleFont>
-                </CardSection>
-                <CardSection>
-                <Text>{data.description.body9}{data.description.body10}{data.description.body11}{data.description.body12}</Text>
+                <Text style = {styles.textStyle}>{data.description.body5}{data.description.body6}{data.description.body7}{data.description.body8}</Text>
                 </CardSection>
                 </Card>
 
                 <Card>
                 <CardSection>
-                <TitleFont>{data.description.title5}</TitleFont>
+                <TitleFont style = {styles.textStyle}>{data.description.title4}</TitleFont>
                 </CardSection>
                 <CardSection>
-                <Text>{data.description.body13}{data.description.body14}</Text>
+                <Text style = {styles.textStyle}>{data.description.body9}{data.description.body10}{data.description.body11}{data.description.body12}</Text>
                 </CardSection>
                 </Card>
 
                 <Card>
                 <CardSection>
-                <TitleFont>{data.description.title6}</TitleFont>
+                <TitleFont style = {styles.textStyle}>{data.description.title5}</TitleFont>
                 </CardSection>
                 <CardSection>
-                <Text>{data.description.body15}{data.description.body16}</Text>
+                <Text style = {styles.textStyle}>{data.description.body13}{data.description.body14}</Text>
+                </CardSection>
+                </Card>
+
+                <Card>
+                <CardSection>
+                <TitleFont style = {styles.textStyle}>{data.description.title6}</TitleFont>
+                </CardSection>
+                <CardSection>
+                <Text style = {styles.textStyle}>{data.description.body15}{data.description.body16}</Text>
                 <CardSection>
                   <Image
                     style={styles.imageStyle}
@@ -100,6 +100,9 @@ imageStyle: {
 height: 300,
 flex: 1,
 width: null
+},
+textStyle: {
+    fontFamily: 'Archer-Medium'
 }
 };
 

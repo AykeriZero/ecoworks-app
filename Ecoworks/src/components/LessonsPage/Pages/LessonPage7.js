@@ -28,13 +28,13 @@ class LessonPage7 extends Component {
 
       <Card>
         <CardSection>
-          <TitleFont>{data.description.title}</TitleFont>
+          <TitleFont style = {styles.textStyle}>{data.description.title}</TitleFont>
         </CardSection>
         <CardSection>
-          <Text>{data.description.title1}{data.description.body1}{data.description.body2}{data.description.body3}{data.description.body4}</Text>
+          <Text style = {styles.textStyle}>{data.description.title1}{data.description.body1}{data.description.body2}{data.description.body3}{data.description.body4}</Text>
         </CardSection>
         <CardSection>
-          <Text>{data.description.title2}{data.description.body5}{data.description.body6}{data.description.body7}{data.description.body8}</Text>
+          <Text style = {styles.textStyle}>{data.description.title2}{data.description.body5}{data.description.body6}{data.description.body7}{data.description.body8}</Text>
         </CardSection>
       </Card>
 
@@ -56,7 +56,7 @@ class LessonPage7 extends Component {
       </Card>
       <Card>
         <CardSection>
-          <Text> Add to your Action List: </Text>
+          <Text style = {styles.textStyle}> Add to your Action List: </Text>
         </CardSection>
         <CardSection> 
           <ActionList lesson="Lesson7"></ActionList>
@@ -78,6 +78,9 @@ const styles = {
     height: 300,
     flex: 1,
     width: null
+  },
+  textStyle: {
+    fontFamily: 'Archer-Medium'
   }
 };
 

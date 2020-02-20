@@ -23,26 +23,26 @@ class ResourcesPage extends React.Component {
           <Card>
 
             <CardSection>
-              <Text style={{fontWeight: "bold"}}>{this.agency}:</Text>
-              <Text> {item.agency} </Text>
+              <Text style = {styles.textStyle} >{this.agency}:</Text>
+              <Text style = {styles.textStyle2}> {item.agency} </Text>
             </CardSection>
 
             <CardSection>
-              <Text style={{fontWeight: "bold"}}>{this.phone}:</Text>
-              <Text> {item.phone} </Text>
+              <Text style = {styles.textStyle} >{this.phone}:</Text>
+              <Text style = {styles.textStyle2}  > {item.phone} </Text>
             </CardSection>
 
             <CardSection>
-              <Text style={{fontWeight: "bold"}}>{this.website}:</Text>
-              <Text> {item.website} </Text>
+              <Text style = {styles.textStyle} >{this.website}:</Text>
+              <Text style = {styles.textStyle2}> {item.website} </Text>
             </CardSection>
 
             <CardSection>
-              <Text style={{fontWeight: "bold"}}>{this.comment}:</Text>
-              <Text> {item.comments} </Text>
+              <Text style = {styles.textStyle} >{this.comment}:</Text>
+              <Text style = {styles.textStyle2}> {item.comments} </Text>
             </CardSection>
 
-            <Text>{'\n'}</Text>
+            <Text style = {styles.textStyle}>{'\n'}</Text>
 
           </Card>
       );
@@ -73,12 +73,13 @@ class ResourcesPage extends React.Component {
 
         <Card>
           <CardSection>
-              <TitleFont> {this.title} </TitleFont>
+              <TitleFont style = {styles.textStyle}> {this.title} </TitleFont>
           </CardSection>
 
         </Card>
 
         <FlatList
+          style = {styles.textStyle}
           data={data.resources}
           renderItem={this.Resource}
           keyExtractor={item => item.agency}
@@ -92,6 +93,14 @@ class ResourcesPage extends React.Component {
 const mapStateToProps = (state) => {
   return { settings: state.settings };
 };
-
+const styles = {
+textStyle: {
+  fontFamily: 'Archer-Medium',
+  fontWeight: 'bold'
+},
+textStyle2: {
+  fontFamily: 'Archer-Medium'
+}
+};
 // export default ResourcesPage;
 export default connect(mapStateToProps, {})(ResourcesPage);
