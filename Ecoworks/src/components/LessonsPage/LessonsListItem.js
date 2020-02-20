@@ -69,9 +69,7 @@ class LessonListItem extends Component {
 const styles = {
   titleStyle: {
     fontSize: 18,
-    paddingLeft: 15,
-    fontFamily: "Archer-Medium",
-    fontWeight: "bold"
+    paddingLeft: 15
   },
   imageStyle: {
     height: 300,

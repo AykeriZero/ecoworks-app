@@ -31,10 +31,10 @@ class LessonPage2 extends Component {
 
       <Card>
         <CardSection>
-          <TitleFont style = {styles.textStyle}>{data.description.title}</TitleFont>
+          <TitleFont>{data.description.title}</TitleFont>
         </CardSection>
         <CardSection>
-          <Text style = {styles.textStyle}>{data.description.body1}</Text>
+          <Text>{data.description.body1}</Text>
         </CardSection>
 
         <CardSection>
@@ -50,7 +50,7 @@ class LessonPage2 extends Component {
 
       <Card>
         <CardSection>
-          <Text style = {styles.textStyle}>{data.description.body2}</Text>
+          <Text>{data.description.body2}</Text>
         </CardSection>
         <CardSection>
           <Image
@@ -75,10 +75,7 @@ const styles = {
     height: 300,
     flex: 1,
     width: null
-  },
-  textStyle: {
-    fontFamily: 'Archer-Medium'
-  },
+  }
 };
 
 // export { LessonPage2 };

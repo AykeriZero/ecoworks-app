@@ -78,8 +78,7 @@ const styles = {
     fontSize: 13,
     color: 'black',
     alignItems: 'center',
-    fontWeight: 'bold',
-    fontFamily: 'Archer-Medium'
+    fontWeight: 'bold'
   },
   pictureStyle: {
     color: 'black',

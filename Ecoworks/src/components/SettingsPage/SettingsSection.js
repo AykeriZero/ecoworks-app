@@ -24,7 +24,7 @@ class SettingsSection extends React.Component {
           </CardSection>
 
           <CardSection style={styles.SectionValue}>
-            <Text style = {styles.textStyle}>{sectionOption}</Text>
+            <Text>{sectionOption}</Text>
           </CardSection>
 
           <Modal
@@ -57,8 +57,7 @@ const styles = {
   },
   settingTypeText: {
     fontWeight: 'bold',
-    fontSize: 20,
-    fontFamily: 'Archer-Medium'
+    fontSize: 20
   },
   SectionType: {
     flexDirection: 'column',
@@ -77,9 +76,6 @@ const styles = {
     position: 'relative',
     flex: 1,
     justifyContent: 'center'
-  },
-  textStyle: {
-    fontFamily: 'Archer-Medium'
   }
 };
 

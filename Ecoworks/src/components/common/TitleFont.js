@@ -7,9 +7,7 @@ const TitleFont = ({ children }) => (
 
 const styles = {
   fontStyle: {
-    fontSize: 20,
-    fontFamily: "Archer-Medium",
-    fontWeight: "bold"
+    fontSize: 20
   }
 };
 
