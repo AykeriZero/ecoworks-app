@@ -39,7 +39,7 @@ class LessonPage1 extends Component {
           <Text>{data.description.body}</Text>
         </CardSection>
         <CardSection>
-        <Video source={{uri: "https://www.youtube.com/watch?v=oHg5SJYRHA0"}}   // Can be a URL or a local file.
+        <Video source={{uri: "https://vimeo.com/129243574"}}   // Can be a URL or a local file.
             ref={(ref) => {
               this.player = ref
             }}                                      // Store reference

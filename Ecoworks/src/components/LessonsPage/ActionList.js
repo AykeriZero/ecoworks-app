@@ -102,10 +102,9 @@ class ActionList extends React.Component {
                 let buttonStyle = {
                     flex: 1,
                     alignSelf: 'stretch',
-                    backgroundColor: buttonColor,
                     borderRadius: 5,
                     borderWidth: 1,
-                    borderColor: '#007aff',
+                    borderColor: '#228B22',
                     marginLeft: 5,
                     marginRight: 5,
                     
@@ -113,10 +112,9 @@ class ActionList extends React.Component {
                   let imageStyle = {
                       width: 500,
                       height: 500
-                  }
+                  };
                 return (
-                    <Button key={item.id} customStyle={buttonStyle} onPress={() => this.removeFromList(item.id)} buttonLabel={item.name}>
-                        
+                    <Button key={item.id} category={item.category} customStyle={buttonStyle} onPress={() => this.removeFromList(item.id)} buttonLabel={item.name}>
                     </Button>
                 );
             });
@@ -132,20 +130,18 @@ class ActionList extends React.Component {
                 let buttonStyle = {
                     flex: 1,
                     alignSelf: 'stretch',
-                    backgroundColor: buttonColor,
                     borderRadius: 5,
                     borderWidth: 1,
-                    borderColor: '#007aff',
+                    borderColor: '#228B22',
                     marginLeft: 5,
                     marginRight: 5,
                     
                 };
 
                 return (
-                    <Image
-                    style={{width: 50, height: 50}}
-                    source={{uri: 'https://facebook.github.io/react/logo-og.png'}}
-                  />
+                    <Button key={item.id} disabled={disabled} category={item.category} customStyle={buttonStyle} onPress={() => this.addToList(item)} buttonLabel={item.name}>  
+
+                  </Button>
                 );
             });
         }
@@ -168,5 +164,4 @@ const mapStateToProps = (state) => {
     return {actionItems: state.actionItems}
 }
 
-
-    export default connect(mapStateToProps, {TaskAction})(ActionList);
+export default connect(mapStateToProps, {TaskAction})(ActionList);
