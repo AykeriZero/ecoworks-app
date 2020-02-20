@@ -13,8 +13,8 @@ const resourcesIconUnfocused = require('./resources.png');
 
 const styles = {
   iconStyle: {
-    width: '25%',
-    height: '50%'
+    width: '37%',
+    height: '80%'
   }
 };
 

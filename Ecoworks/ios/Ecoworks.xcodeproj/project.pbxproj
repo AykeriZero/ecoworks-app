@@ -340,7 +340,7 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
-		9EBE7F812390661600657218 /* PBXContainerItemProxy */ = {
+		9E87729523DFC72900307A07 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 57B1E6A491B547CE9A092E46 /* RNCAsyncStorage.xcodeproj */;
 			proxyType = 2;
@@ -654,8 +654,7 @@
 				00E356EF1AD99517003FC87E /* EcoworksTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				9EBE7F562390661500657218 /* Recovered References */,
-				1653A2B1678B422C945408F9 /* Resources */,
+				9E87726A23DFC72500307A07 /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -673,7 +672,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9EBE7F562390661500657218 /* Recovered References */ = {
+		9E87726A23DFC72500307A07 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
 				E3A2340EC77F4509A4822366 /* libRNCAsyncStorage.a */,
@@ -681,10 +680,10 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
-		9EBE7F7E2390661600657218 /* Products */ = {
+		9E87729223DFC72900307A07 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9EBE7F822390661600657218 /* libRNCAsyncStorage.a */,
+				9E87729623DFC72900307A07 /* libRNCAsyncStorage.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -900,7 +899,7 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
-					ProductGroup = 9EBE7F7E2390661600657218 /* Products */;
+					ProductGroup = 9E87729223DFC72900307A07 /* Products */;
 					ProjectRef = 57B1E6A491B547CE9A092E46 /* RNCAsyncStorage.xcodeproj */;
 				},
 			);
@@ -1167,11 +1166,11 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9EBE7F822390661600657218 /* libRNCAsyncStorage.a */ = {
+		9E87729623DFC72900307A07 /* libRNCAsyncStorage.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libRNCAsyncStorage.a;
-			remoteRef = 9EBE7F812390661600657218 /* PBXContainerItemProxy */;
+			remoteRef = 9E87729523DFC72900307A07 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */ = {

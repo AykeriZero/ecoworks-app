@@ -42,8 +42,8 @@ class HomePage extends React.Component {
       return (
         <ScrollView>
         <Card>
-          <CardSection>
-              <Text style={styles.textStyle}> Lessons </Text>
+          <CardSection style={{ justifyContent: 'center' }}>
+              <Text style={styles.textStyle}>EcoWorkbook</Text>
           </CardSection>
 
           <CardSection>
@@ -61,7 +61,7 @@ class HomePage extends React.Component {
 
         <Card>
           <CardSection>
-        <ActionList lesson="Home"></ActionList>
+        <ActionList lesson="Home" />
           </CardSection>
         </Card>
 

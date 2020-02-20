@@ -36,6 +36,9 @@ class LessonPage1 extends Component {
         <CardSection>
           <Text style = {styles.textStyle}>{data.description.body}</Text>
         </CardSection>
+        <CardSection>
+          <Text>{data.description.body2}</Text>
+        </CardSection>
       </Card>
 
       <Card>
@@ -54,7 +57,7 @@ class LessonPage1 extends Component {
         <CardSection> 
           <ActionList lesson="Lesson1"></ActionList>
         </CardSection>
-        
+
       </Card>
 
 

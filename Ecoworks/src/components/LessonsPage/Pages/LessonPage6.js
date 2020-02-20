@@ -96,7 +96,7 @@ class LessonPage6 extends Component {
         <TitleFont style = {styles.textStyle}>{data.description.title5}</TitleFont>
         </CardSection>
         <CardSection>
-        <Text style = {styles.textStyle}>{data.description.body19}{data.description.body20}{data.description.body21}{data.description.body22}</Text>
+    <Text>{data.description.body19}{data.description.body20}{data.description.body21}{data.description.body22}{data.description.body23}</Text>
         </CardSection>
         <CardSection>
         <Image
@@ -111,10 +111,10 @@ class LessonPage6 extends Component {
         <CardSection>
           <Text style = {styles.textStyle}> Add to your Action List: </Text>
         </CardSection>
-        <CardSection> 
+        <CardSection>
           <ActionList lesson="Lesson6"></ActionList>
         </CardSection>
-        
+
       </Card>
       </ScrollView>
     );

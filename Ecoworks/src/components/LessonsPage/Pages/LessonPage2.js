@@ -34,7 +34,10 @@ class LessonPage2 extends Component {
           <TitleFont style = {styles.textStyle}>{data.description.title}</TitleFont>
         </CardSection>
         <CardSection>
-          <Text style = {styles.textStyle}>{data.description.body1}</Text>
+          <Text>{data.description.body}</Text>
+        </CardSection>
+        <CardSection>
+          <Text>{data.description.body1}</Text>
         </CardSection>
 
         <CardSection>
