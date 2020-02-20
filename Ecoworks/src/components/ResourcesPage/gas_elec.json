@@ -1,0 +1,46 @@
+{
+    "resources": [
+        {
+            "agency": "United Way",
+            "phone": "2-1-1",
+            "website": "https://unitedwaysem.org/get-help",
+            "comments": "Connects people with information for energy bill assistance and home weatherization."
+        },
+        {
+            "agency": "Home Heating Credit",
+            "phone": "517-636-4486",
+            "website": "https://www.michigan.gov/mdhhs/0,5885,7-339-71547_5531-15420--,00.html",
+            "comments": "A tax credit for low income residents receiving public assistance or unemployment."
+        },
+        {
+            "agency": "Shut off Protection Plan (SPP)",
+            "phone": "800-477-4747",
+            "website": "www.dteenergy.com",
+            "comments": "Payment plan available to all residents regardless of income to prevent shutoff."
+        },
+        {
+            "agency": "Weatherization Assitance Program (Full home weatherization)",
+            "phone": "Detroit Residents - (313) 388-9799\nRest of Wayne Country - (734) 284-6999",
+            "website": "www.waynemetro.org",
+            "comments": "Home weatherization assistance available to those who meet household income guidelines. Contact local community action agencies."
+        },
+        {
+            "agency": "Consumers Energy Home Analysis",
+            "phone": "888-316-8014",
+            "website": "www.homeanalysis-consumersenergy.com",
+            "comments": "Free home installation of energy saving lights, showerheads, and other materials."
+        },
+        {
+            "agency": "EcoWorks",
+            "phone": "313-949-1560",
+            "website": "www.ecoworksdetroit.org",
+            "comments": "FREE home installation of new energy efficient refrigerator, LED lights, and pipe wrap."
+        },
+        {
+            "agency": "Michigan agency for Energy",
+            "phone": "800-292-9555",
+            "website": "www.michigan/gov.mspsc",
+            "comments": "Regulates local utility companies, if you have a complaint please contact MPSC."
+        }
+    ]
+}

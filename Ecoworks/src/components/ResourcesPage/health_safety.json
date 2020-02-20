@@ -1,0 +1,16 @@
+{
+    "resources": [
+        {
+            "agency": "DTE Medical Emergencies",
+            "phone": "800-477-4747",
+            "website": "www.dteenergy.com",
+            "comments": "If you or a member of your household has a proven medical emergency, you may be eligible for shut-off protection for up to 21 days."
+        },
+        {
+            "agency": "Shut off Protection Plan (SPP)",
+            "phone": "800-477-4747",
+            "website": "www.dteenergy.com",
+            "comments": "Payment plan available to all residents regardless of income to prevent shutoff."
+        }
+    ]
+}

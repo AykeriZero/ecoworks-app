@@ -1,0 +1,16 @@
+{
+    "resources": [
+        {
+            "agency": "Consumers Energy Home Analysis",
+            "phone": "888-316-8014",
+            "website": "www.homeanalysis-consumersenergy.com",
+            "comments": "Free home installation of energy saving lights, showerheads, and other materials."
+        },
+        {
+            "agency": "EcoWorks",
+            "phone": "313-949-1560",
+            "website": "www.ecoworksdetroit.org",
+            "comments": "FREE home installation of new energy efficient refrigerator, LED lights, and pipe wrap."
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "resources": [
+        {
+            "agency": "United Way",
+            "phone": "2-1-1",
+            "website": "https://unitedwaysem.org/get-help",
+            "comments": "Conecta a las personas con información para asistencia en la factura de energía y climatización del hogar."
+        },
+        {
+            "agency": "DHS State Emergency Relief",
+            "phone": "1-855-275-6424",
+            "website": "www.mi.gov/mibridges",
+            "comments": "Disponible todo el año para ayudar a los residentes que enfrentan un aviso de cierre."
+        },
+        {
+            "agency": "Home Heating Credit",
+            "phone": "517-636-4486",
+            "website": "https://www.michigan.gov/mdhhs/0,5885,7-339-71547_5531-15420--,00.html",
+            "comments": "Un crédito fiscal para residentes de bajos ingresos que reciben asistencia pública o desempleo."
+        },
+        {
+            "agency": "DTE Medical Emergencies",
+            "phone": "800-477-4747",
+            "website": "www.dteenergy.com",
+            "comments": "Si usted o un miembro de su hogar tiene una emergencia médica comprobada, puede ser elegible para la protección de cierre por hasta 21 días."
+        },
+        {
+            "agency": "Shut off Protection Plan (SPP)",
+            "phone": "800-477-4747",
+            "website": "www.dteenergy.com",
+            "comments": "Plan de pago disponible para todos los residentes independientemente de los ingresos para evitar el cierre."
+        },
+        {
+            "agency": "Weatherization Assitance Program (Full home weatherization)",
+            "phone": "Detroit Residents - (313) 388-9799\nRest of Wayne Country - (734) 284-6999",
+            "website": "www.waynemetro.org",
+            "comments": "Asistencia de climatización del hogar disponible para quienes cumplen con las pautas de ingresos del hogar. Póngase en contacto con agencias de acción comunitaria locales."
+        },
+        {
+            "agency": "Consumers Energy Home Analysis",
+            "phone": "888-316-8014",
+            "website": "www.homeanalysis-consumersenergy.com",
+            "comments": "Instalación gratuita en el hogar de luces de bajo consumo, cabezales de ducha y otros materiales."
+        },
+        {
+            "agency": "EcoWorks",
+            "phone": "313-949-1560",
+            "website": "www.ecoworksdetroit.org",
+            "comments": "Instalación GRATUITA en el hogar del nuevo refrigerador de bajo consumo, luces LED y envoltura de tubería."
+        },
+        {
+            "agency": "Michigan agency for Energy",
+            "phone": "800-292-9555",
+            "website": "www.michigan/gov.mspsc",
+            "comments": "Regula las empresas de servicios públicos locales, si tiene una queja, comuníquese con MPSC."
+        }
+    ]
+}
