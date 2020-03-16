@@ -52,7 +52,9 @@ const styles = {
     color: '#228B22',
     fontSize: 16,
     fontWeight: '600',
-    padding: 10
+    paddingTop: 10,
+    paddingBottom: 10,
+    fontFamily: 'Archer-Medium'
   }
 };
 

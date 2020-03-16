@@ -29,19 +29,19 @@ class LessonPage3 extends Component {
 
       <Card>
         <CardSection>
-          <TitleFont>{data.description.title}</TitleFont>
+          <TitleFont style = {styles.textStyle}>{data.description.title}</TitleFont>
         </CardSection>
         <CardSection>
-          <Text>{data.description.reasons}</Text>
+          <Text style = {styles.textStyle}>{data.description.reasons}</Text>
         </CardSection>
       </Card>
 
       <Card>
         <CardSection>
-          <TitleFont>{data.description.seal_leak.title}</TitleFont>
+          <TitleFont style = {styles.textStyle}>{data.description.seal_leak.title}</TitleFont>
         </CardSection>
         <CardSection>
-          <Text>{data.description.seal_leak.fixes}</Text>
+          <Text style = {styles.textStyle}>{data.description.seal_leak.fixes}</Text>
         </CardSection>
         <CardSection>
           <Image
@@ -55,16 +55,16 @@ class LessonPage3 extends Component {
 
       <Card>
         <CardSection>
-          <TitleFont>{data.description.test_leak.title}</TitleFont>
+          <TitleFont style = {styles.textStyle}>{data.description.test_leak.title}</TitleFont>
         </CardSection>
         <CardSection>
-          <Text>{data.description.test_leak.tests}</Text>
+          <Text style = {styles.textStyle}>{data.description.test_leak.tests}</Text>
         </CardSection>
       </Card>
 
       <Card>
         <CardSection>
-          <Text> Add to your Action List: </Text>
+          <Text style = {styles.textStyle}> Add to your Action List: </Text>
         </CardSection>
         <CardSection> 
           <ActionList lesson="Lesson3"></ActionList>
@@ -85,6 +85,9 @@ const styles = {
     height: 300,
     flex: 1,
     width: null
+  },
+  textStyle: {
+    fontFamily: 'Archer-Medium'
   }
 };
 

@@ -42,8 +42,8 @@ class HomePage extends React.Component {
       return (
         <ScrollView>
         <Card>
-          <CardSection>
-            <Text style={styles.textStyle}> Lessons </Text>
+          <CardSection style={{ justifyContent: 'center' }}>
+              <Text style={styles.textStyle}>EcoWorkbook</Text>
           </CardSection>
 
           <CardSection>
@@ -90,7 +90,8 @@ const styles = {
   },
   textStyle: {
     fontSize: 30,
-    color: 'black'
+    color: 'black',
+    fontFamily: "Archer-Medium"
   },
   scrollStyle: {
     margin: 20,
