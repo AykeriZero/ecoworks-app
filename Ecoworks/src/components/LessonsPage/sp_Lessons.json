@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "id": 1,
@@ -40,3 +41,47 @@
     "img": 17
   }
 ]
+=======
+[
+  {
+    "id": 1,
+    "title": "Energía Inteligente",
+    "img": "lesson1Chess"
+  },
+  {
+    "id": 2,
+    "title": "Reduciendo su Factura de Energía",
+    "img": 2
+  },
+  {
+    "id": 3,
+    "title": "Fugas de Aire",
+    "img": 3
+  },
+  {
+    "id": 4,
+    "title": "Sistemas de Casas",
+    "img": 4
+  },
+  {
+    "id": 5,
+    "title": "Sistemas de Agua",
+    "img": 5
+  },
+  {
+    "id": 6,
+    "title": "Materiales de climatización",
+    "img": 18
+  },
+  {
+    "id": 7,
+    "title": "Facturas e impuestos",
+    "img": 19
+  },
+  {
+    "id": 8,
+    "title": "Soluciones sin costo y de bajo costo",
+    "img": 17
+  }
+]
+>>>>>>> 42a28d90d3cb9a1be3aea05c17604f1367b7eaf2

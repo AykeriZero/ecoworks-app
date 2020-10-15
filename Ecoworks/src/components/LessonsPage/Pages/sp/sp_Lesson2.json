@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "description": {
     "title": "¿A dónde va tu dinero?",
@@ -8,3 +9,15 @@
   "dollars_and_cents": 9,
   "energy_equation": 10
 }
+=======
+{
+  "description": {
+    "title": "¿A dónde va tu dinero?",
+    "body": "En esta lección, aprenderemos sobre los ahorros del uso eficiente de la energía, de la primera A en CSAES.",
+    "body1": "Para reducir su factura de energía, es importante comprender de dónde provienen estos costos",
+    "body2": "Una factura de energía es el resultado de muchos factores diferentes."
+  },
+  "dollars_and_cents": 9,
+  "energy_equation": 10
+}
+>>>>>>> 42a28d90d3cb9a1be3aea05c17604f1367b7eaf2

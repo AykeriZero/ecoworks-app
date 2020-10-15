@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "description": {
         "title": "Maneras rápidas y sencillas para ahorrar dinero:",
@@ -23,3 +24,30 @@
     },
     "Furnace_img" : 7
 }
+=======
+{
+    "description": {
+        "title": "Maneras rápidas y sencillas para ahorrar dinero:",
+        "body1": "∙ El calor producido eléctricamente es muy caro. Considere antes de usar calentones individuales \n",
+        "body2": "∙ Limpie su aparato de aire acondicionado \n",
+        "body3": "∙ Cuando compre aparatos electrónicos nuevos, escoja modelos que usen energía eficientemente \n",
+        "body4": "∙ Cambie sus focos a CFL o LED, especialmente donde use mucha luz. Llame a su proveedor de electricidad para más información. ¡No olvides que CSAES incluye ahorros!",
+
+        "title2": "Beneficios de cambiar el filtro de su horno regularmente",
+         "body5": "∙ Reduzca la factura de energía: Disminuya sus costos de calefacción y refrigeración en un 5-15% -EPA \n",
+         "body6": "∙ Ahorre dinero: realice reparaciones costosas en su sistema de calefacción y enfriamiento \n",
+         "body7": "∙ Respira aire limpio: mejora la calidad del aire de tu hogar eliminando toxinas dañinas. ¡La salud y la seguridad son grandes partes de CSAES! \n",
+
+         "title3": "Programa de asistencia para la eficiencia energética",
+         "body8": "Reciba actualizaciones de energía GRATUITAS comunicándose con EcoWorks. ¡3 MANERAS FÁCILES DE APLICAR! \n",
+         "body9": "1. Correo electrónico: eea@ecoworksdetroit.org \n",
+         "body10": "2. Llamar: (313) 9491560 \n",
+         "body11": "3. Fax: (313) 894-1063 \n \n",
+         "body12": "Lista de servicios: \n",
+         "body13": "∙ Actualización GRATUITA para refrigeradores fabricados en el año 2000 o antes \n",
+         "body14": "∙ Bombilla LED de ahorro de energía GRATUITA \n",
+         "body15": "∙ Envoltura de tubería GRATIS \n"
+    },
+    "Furnace_img" : 7
+}
+>>>>>>> 42a28d90d3cb9a1be3aea05c17604f1367b7eaf2

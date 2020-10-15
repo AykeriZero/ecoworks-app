@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "description": {
         "title": "Gratis o Baratos-Cambios de Decisiones",
@@ -30,3 +31,37 @@
     },
     "Light_img": 16
 }
+=======
+{
+    "description": {
+        "title": "Gratis o Baratos-Cambios de Decisiones",
+
+        "title1": "¡Apágalo! \n",
+        "body2": "∙ Explora tus aparatos electrónicos para encontrar en dónde se apagan. \n",
+        "body3": "∙ Asegúrate que tu familia siempre apague todo cuando se vayan de un cuarto. \n",
+        "body4": "∙ Algunas cosas que usan mucha electricidad son: Tele • Consola de Videojuegos Radio • Luces",
+
+        "title3": "¡Ciérrale al Agua!",
+        "body5": "∙ Todos usamos agua varias veces al día. ¡Cierra el agua cuando no la estés usando!\n",
+        "body6": "∙ Cierra el agua mientras te lavas los dientes \n",
+        "body7": "∙ Cierra el agua mientras te enjabonas las manos \n",
+        "body8": "∙ Cierra el agua mientras estás lavando los trastes, y no la abras hasta enjuagarlos \n",
+
+        "title4": "¡Arrópate!",
+        "body9": " Por favor acuérdale a tu familia que mantengan una temperatura baja un su casa. En el invierno: \n",
+        "body10": "∙ Usa calcetas y pantuflas para que tus pies estén calientitos \n",
+        "body11": "∙ Usa muchas capas de ropa que te puedas quitar si te da calor o poner si te da frío\n",
+        "body12": "∙ Tápate con una cobija mientras ves tele o mientras lees un libro. ¡La comodidad en CSAES es esencial! \n",
+
+        "title5": "¡Investiga Tu Casa!",
+        "body13": "∙ Los Eco-Detectives de la más alta calidad son los que pueden encontrar todos los hoyos en sus casas por donde se sale el aire.\n",
+        "body14": "∙ Mueve tu mano alrededor de tus ventanas y puertas para comprobar que todas estén bien selladas.\n",
+
+        "title6": "¡Haz un Cambio!",
+        "body15": "Investiga cuantos focos se prenden en tu casa. Los focos LED no se calientan tanto y los focos CFL se ven como un espiral. Si no es ninguno de estos focos, ¡el foco es viejo y usa mucha electricidad! \n ",
+        "body16": "Pídele a tu familia que te ayuden a cambiar todos los focos viejos por focos LED o CFL. \n"
+
+    },
+    "Light_img": 16
+}
+>>>>>>> 42a28d90d3cb9a1be3aea05c17604f1367b7eaf2

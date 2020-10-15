@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "description": {
         "title": "Materiales Para Ventanas",
@@ -36,3 +37,43 @@
     "more energy saving materials": 15
 
 }
+=======
+{
+    "description": {
+        "title": "Materiales Para Ventanas",
+        "body1": "1. Rope Caulk: Esta plastilina se mete en huecos y es temporaria (Reusable)\n",
+        "body2": "2. Caulk: El silicón se aplica en huecos que no piense abrir otra vez (Permanente) \n",
+        "body3": "3. Caulk \"Gun\": Esto se usa para aplicar silicón \n",
+        "body4": "4. Use los materiales anteriores antes de cubrir la ventana con plástico, que se puede comprar por el internet",
+
+        "title2": "Materiales Para Puertas",
+        "body5": "5. V-seal: Este plástico adhesivo se pone alrededor del marco de la puerta \n",
+        "body6": "6. Door Sweep: Este plástico adhesivo se pone alrededor del marco de la puerta \n",
+        "body7": "7. Foam Weatherstripping: Esta espuma adhesiva se pone alrededor del marco de la puerta \n",
+
+        "title3": "PARA CONSERVAR ELECTRICIDAD",
+        "body8": "8. Foco FCL: Conserva energía y ahorra dinero \n",
+        "body9": "9. Foco LED: Conserva energía y ahorra dinero (y no se calienta tanto porque es muy eficiente) \n ",
+
+        "title4": "PARA CONSERVAR AGUA",
+        "body16": "10. Regaderas Eficientes: Conserva agua y ahorra dinero \n",
+        "body17": "11. Aireadores: Reduce el flujo de agua y ahorra energía porque al usar menos agua caliente, se usa menos energía \n",
+
+        "title5": "OTROS MATERIALES",
+        "body19": "12. Espupa en Spray: Rellena adentro de las paredes etc. \n",
+        "body20": "13. Espuma Dura/Madera: Cubre hoyos en la pared \n",
+        "body21": "14. Insulante de Enchufes/Switch: Quite la cobertura del enchufe (o switch), instale, y atornille la cobertura otra vez \n",
+        "body22": "15. Bolsas de plástico: ¡No las tire! Use para rellenar huecos grandes ",
+        "body23": "Todas las siguientes herramientas lo ayudan a ahorrar energía y dinero, como parte de la energía y los ahorros en CSAES"
+
+
+    },
+    //images
+    "drafty_window": 11,
+    "drafty_door": 12,
+    "electricity_saving": 13,
+    "water saving": 14,
+    "more energy saving materials": 15
+
+}
+>>>>>>> 42a28d90d3cb9a1be3aea05c17604f1367b7eaf2
